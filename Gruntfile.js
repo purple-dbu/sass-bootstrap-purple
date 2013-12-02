@@ -21,7 +21,6 @@ module.exports = function(grunt) {
 
     sass: {
       options: {
-        banner: '<%= banner %>',
         unixNewlines: true,
         loadPath: [
           'bower_components'
@@ -35,7 +34,9 @@ module.exports = function(grunt) {
           sourcemap: true
         },
         files: {
-          'dist/bootstrap-theme-purple.css': 'scss/theme-purple.scss'
+          'dist/bootstrap.css': 'bower_components/sass-bootstrap/lib/bootstrap.scss',
+          'dist/bootstrap-purple.css': 'scss/bootstrap-purple.scss',
+          'dist/bootstrap-purple-theme.css': 'scss/bootstrap-purple-theme.scss'
         }
       },
       production: {
@@ -44,7 +45,8 @@ module.exports = function(grunt) {
           banner: '<%= banner %>'
         },
         files: {
-          'dist/bootstrap-theme-purple.min.css': 'scss/theme-purple.scss'
+          'dist/bootstrap-purple.min.css': 'scss/bootstrap-purple.scss',
+          'dist/bootstrap-purple-theme.min.css': 'scss/bootstrap-purple-theme.scss'
         }
       }
     },

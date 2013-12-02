@@ -1,0 +1,6 @@
+{
+"version": 3,
+"mappings": ";;;;;;;AACA,OAAQ;EACN,UAAU,ECEQ,IAAI;EDDtB,UAAU,ECEW,IAAI",
+"sources": ["../scss/_header.scss","../scss/_variables.scss"],
+"file": "bootstrap-purple.css"
+}
