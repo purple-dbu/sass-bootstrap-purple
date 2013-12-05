@@ -1,18 +1,22 @@
 
+// Import Compass
+@import "compass/css3";
+
 // Override variables
 @import "variables";
 
 // Import bootstrap theme
 @import "sass-bootstrap/lib/theme";
 
-// =============================================================================
-// Workarounds
-// =============================================================================
+// Navbar
 
-// .form-control {
-//   border-radius: $input-border-radius;
-// }
+.navbar-default {
+  background: #fff;
+  padding-bottom: 1px;
+}
 
-// .btn {
-//   @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base);
-// }
+.navbar-collapse {
+  @include background-image(linear-gradient(#fff 50%, #e4e4e4));
+  padding-bottom: -1px;
+  box-shadow: none;
+}

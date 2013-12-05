@@ -9,10 +9,10 @@ module.exports = function(grunt) {
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
     banner: '/*!\n' +
-              ' * Purple theme for Twitter Bootstrap 3 (Sass) v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
-              ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
-              ' * Licensed under <%= _.pluck(pkg.licenses, "url").join(", ") %>\n' +
-              ' */\n\n',
+            ' * Purple theme for Twitter Bootstrap 3 (Sass) v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
+            ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+            ' * Licensed under <%= _.pluck(pkg.licenses, "url").join(", ") %>\n' +
+            ' */\n\n',
 
     // Task configuration.
     clean: {
@@ -24,7 +24,8 @@ module.exports = function(grunt) {
         unixNewlines: true,
         loadPath: [
           'bower_components'
-        ]
+        ],
+        compass: true
       },
       development: {
         options: {

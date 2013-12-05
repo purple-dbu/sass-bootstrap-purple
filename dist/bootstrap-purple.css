@@ -4553,7 +4553,7 @@ input[type="button"].btn-block {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 5px 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/mnt\/hgfs\/Documents\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000323}}
 .nav > li > a:hover, .nav > li > a:focus {
