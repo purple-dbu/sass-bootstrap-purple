@@ -2,8 +2,8 @@
  * Header
  */
 
-$header-margin-top: 20px !default;
-$header-margin-bottom: 20px !default;
+$header-margin-top: 20px;
+$header-margin-bottom: 20px;
 
 /**
  * Bootstrap variables
@@ -12,8 +12,10 @@ $header-margin-bottom: 20px !default;
 // Components
 // Based on 14px font-size and 1.428 line-height (~20px to start)
 
-$border-radius-base:             0 !default;
-$border-radius-large:            0 !default;
-$border-radius-small:            0 !default;
+$border-radius-base:  0;
+$border-radius-large: 0;
+$border-radius-small: 0;
 
-@import "sass-bootstrap/lib/variables";
+// Navbar
+
+$navbar-default-border: #cacaca;

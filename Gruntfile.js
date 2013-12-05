@@ -34,7 +34,6 @@ module.exports = function(grunt) {
           sourcemap: true
         },
         files: {
-          'dist/bootstrap.css': 'bower_components/sass-bootstrap/lib/bootstrap.scss',
           'dist/bootstrap-purple.css': 'scss/bootstrap-purple.scss',
           'dist/bootstrap-purple-theme.css': 'scss/bootstrap-purple-theme.scss'
         }
