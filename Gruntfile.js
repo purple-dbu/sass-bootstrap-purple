@@ -19,6 +19,22 @@ module.exports = function(grunt) {
       dist: ['dist']
     },
 
+    // The actual grunt server settings
+    connect: {
+      options: {
+        port: 9000,
+        // Change this to '0.0.0.0' to access the server from outside.
+        hostname: 'localhost',
+        livereload: 35729
+      },
+      livereload: {
+        options: {
+          open: true,
+          base: '.'
+        }
+      }
+    },
+
     sass: {
       options: {
         unixNewlines: true,
@@ -62,7 +78,14 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: 'scss/*.scss',
-        tasks: ['dist-css']
+        tasks: ['dist-sass']
+      },
+      livereload: {
+        options: {
+          livereload: '<%= connect.options.livereload %>'
+        },
+        files: 'scss/*.scss',
+        tasks: []
       }
     }
 
@@ -70,18 +93,26 @@ module.exports = function(grunt) {
 
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
+  // Development task
+  grunt.registerTask('serve', [
+    'dist',
+    'connect:livereload',
+    'watch'
+  ]);
+
   // CSS distribution task.
-  grunt.registerTask('dist-css', ['sass:development', 'sass:production']);
+  grunt.registerTask('dist-sass', ['sass:development', 'sass:production']);
 
   // Fonts distribution task.
   grunt.registerTask('dist-fonts', ['copy']);
 
   // Full distribution task.
-  grunt.registerTask('dist', ['clean', 'dist-css', 'dist-fonts']);
+  grunt.registerTask('dist', ['clean', 'dist-sass', 'dist-fonts']);
 
   // Default task.
   grunt.registerTask('default', ['dist']);
