@@ -1,3 +1,6 @@
+
+$icon-font-path: "../bower_components/sass-bootstrap/fonts/" !default;
+
 // Core variables and mixins
 @import "variables";
 @import "sass-bootstrap/lib/variables";
@@ -12,13 +15,13 @@
 @import "type";
 // @import "code";
 @import "sass-bootstrap/lib/grid";
-// @import "tables";
+@import "sass-bootstrap/lib/tables";
 // @import "forms";
 @import "buttons";
 
 // Components
 // @import "component-animations";
-// @import "glyphicons";
+@import "sass-bootstrap/lib/glyphicons";
 // @import "dropdowns";
 // @import "button-groups";
 // @import "input-groups";

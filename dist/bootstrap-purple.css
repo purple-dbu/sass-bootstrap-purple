@@ -1983,6 +1983,239 @@ h6 {
     margin-left: 100%;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\000036}}
+table {
+  max-width: 100%;
+  background-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000310}}
+th {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000317}}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000325}}
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000335}}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000344}}
+.table > caption + thead > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > th,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000351}}
+.table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000356}}
+.table .table {
+  background-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000369}}
+.table-condensed > thead > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > th,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > th,
+.table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000382}}
+.table-bordered {
+  border: 1px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000388}}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000395}}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003109}}
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003123}}
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: whitesmoke;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003135}}
+table col[class*="col-"] {
+  float: none;
+  display: table-column;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003142}}
+table td[class*="col-"],
+table th[class*="col-"] {
+  float: none;
+  display: table-cell;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003160}}
+.table > thead > tr > td.active,
+.table > thead > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th {
+  background-color: whitesmoke;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003438}}
+.table > thead > tr > td.success,
+.table > thead > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th,
+.table > tbody > tr > td.success,
+.table > tbody > tr > th.success,
+.table > tbody > tr.success > td,
+.table > tbody > tr.success > th,
+.table > tfoot > tr > td.success,
+.table > tfoot > tr > th.success,
+.table > tfoot > tr.success > td,
+.table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003449}}
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover, .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003438}}
+.table > thead > tr > td.danger,
+.table > thead > tr > th.danger, .table > thead > tr.danger > td, .table > thead > tr.danger > th,
+.table > tbody > tr > td.danger,
+.table > tbody > tr > th.danger,
+.table > tbody > tr.danger > td,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr > td.danger,
+.table > tfoot > tr > th.danger,
+.table > tfoot > tr.danger > td,
+.table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003449}}
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover, .table-hover > tbody > tr.danger:hover > td, .table-hover > tbody > tr.danger:hover > th {
+  background-color: #ebcccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003438}}
+.table > thead > tr > td.warning,
+.table > thead > tr > th.warning, .table > thead > tr.warning > td, .table > thead > tr.warning > th,
+.table > tbody > tr > td.warning,
+.table > tbody > tr > th.warning,
+.table > tbody > tr.warning > td,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr > td.warning,
+.table > tfoot > tr > th.warning,
+.table > tfoot > tr.warning > td,
+.table > tfoot > tr.warning > th {
+  background-color: #fcf8e3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003449}}
+.table-hover > tbody > tr > td.warning:hover,
+.table-hover > tbody > tr > th.warning:hover, .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr.warning:hover > th {
+  background-color: #faf2cc;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003183}}
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #dddddd;
+    -webkit-overflow-scrolling: touch;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003193}}
+  .table-responsive > .table {
+    margin-bottom: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003201}}
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003210}}
+  .table-responsive > .table-bordered {
+    border: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003218}}
+  .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003222}}
+  .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\00003235}}
+  .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000310}}
 .btn {
   display: inline-block;
@@ -2298,6 +2531,1028 @@ input[type="button"].btn-block {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_buttons\.scss}line{font-family:\000034}}
 .btn {
   font-size: 11.9px;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../bower_components/sass-bootstrap/fonts/glyphicons-halflings-regular.eot");
+  src: url("../bower_components/sass-bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../bower_components/sass-bootstrap/fonts/glyphicons-halflings-regular.woff") format("woff"), url("../bower_components/sass-bootstrap/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../bower_components/sass-bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000321}}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000332}}
+.glyphicon:empty {
+  width: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000338}}
+.glyphicon-asterisk:before {
+  content: "\2a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000339}}
+.glyphicon-plus:before {
+  content: "\2b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000340}}
+.glyphicon-euro:before {
+  content: "\20ac";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000341}}
+.glyphicon-minus:before {
+  content: "\2212";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000342}}
+.glyphicon-cloud:before {
+  content: "\2601";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000343}}
+.glyphicon-envelope:before {
+  content: "\2709";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000344}}
+.glyphicon-pencil:before {
+  content: "\270f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000345}}
+.glyphicon-glass:before {
+  content: "\e001";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000346}}
+.glyphicon-music:before {
+  content: "\e002";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000347}}
+.glyphicon-search:before {
+  content: "\e003";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000348}}
+.glyphicon-heart:before {
+  content: "\e005";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000349}}
+.glyphicon-star:before {
+  content: "\e006";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000350}}
+.glyphicon-star-empty:before {
+  content: "\e007";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000351}}
+.glyphicon-user:before {
+  content: "\e008";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000352}}
+.glyphicon-film:before {
+  content: "\e009";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000353}}
+.glyphicon-th-large:before {
+  content: "\e010";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000354}}
+.glyphicon-th:before {
+  content: "\e011";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000355}}
+.glyphicon-th-list:before {
+  content: "\e012";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000356}}
+.glyphicon-ok:before {
+  content: "\e013";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000357}}
+.glyphicon-remove:before {
+  content: "\e014";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000358}}
+.glyphicon-zoom-in:before {
+  content: "\e015";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000359}}
+.glyphicon-zoom-out:before {
+  content: "\e016";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000360}}
+.glyphicon-off:before {
+  content: "\e017";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000361}}
+.glyphicon-signal:before {
+  content: "\e018";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000362}}
+.glyphicon-cog:before {
+  content: "\e019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000363}}
+.glyphicon-trash:before {
+  content: "\e020";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000364}}
+.glyphicon-home:before {
+  content: "\e021";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000365}}
+.glyphicon-file:before {
+  content: "\e022";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000366}}
+.glyphicon-time:before {
+  content: "\e023";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000367}}
+.glyphicon-road:before {
+  content: "\e024";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000368}}
+.glyphicon-download-alt:before {
+  content: "\e025";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000369}}
+.glyphicon-download:before {
+  content: "\e026";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000370}}
+.glyphicon-upload:before {
+  content: "\e027";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000371}}
+.glyphicon-inbox:before {
+  content: "\e028";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000372}}
+.glyphicon-play-circle:before {
+  content: "\e029";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000373}}
+.glyphicon-repeat:before {
+  content: "\e030";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000374}}
+.glyphicon-refresh:before {
+  content: "\e031";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000375}}
+.glyphicon-list-alt:before {
+  content: "\e032";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000376}}
+.glyphicon-lock:before {
+  content: "\e033";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000377}}
+.glyphicon-flag:before {
+  content: "\e034";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000378}}
+.glyphicon-headphones:before {
+  content: "\e035";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000379}}
+.glyphicon-volume-off:before {
+  content: "\e036";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000380}}
+.glyphicon-volume-down:before {
+  content: "\e037";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000381}}
+.glyphicon-volume-up:before {
+  content: "\e038";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000382}}
+.glyphicon-qrcode:before {
+  content: "\e039";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000383}}
+.glyphicon-barcode:before {
+  content: "\e040";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000384}}
+.glyphicon-tag:before {
+  content: "\e041";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000385}}
+.glyphicon-tags:before {
+  content: "\e042";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000386}}
+.glyphicon-book:before {
+  content: "\e043";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000387}}
+.glyphicon-bookmark:before {
+  content: "\e044";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000388}}
+.glyphicon-print:before {
+  content: "\e045";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000389}}
+.glyphicon-camera:before {
+  content: "\e046";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000390}}
+.glyphicon-font:before {
+  content: "\e047";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000391}}
+.glyphicon-bold:before {
+  content: "\e048";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000392}}
+.glyphicon-italic:before {
+  content: "\e049";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000393}}
+.glyphicon-text-height:before {
+  content: "\e050";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000394}}
+.glyphicon-text-width:before {
+  content: "\e051";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000395}}
+.glyphicon-align-left:before {
+  content: "\e052";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000396}}
+.glyphicon-align-center:before {
+  content: "\e053";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000397}}
+.glyphicon-align-right:before {
+  content: "\e054";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000398}}
+.glyphicon-align-justify:before {
+  content: "\e055";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\0000399}}
+.glyphicon-list:before {
+  content: "\e056";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003100}}
+.glyphicon-indent-left:before {
+  content: "\e057";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003101}}
+.glyphicon-indent-right:before {
+  content: "\e058";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003102}}
+.glyphicon-facetime-video:before {
+  content: "\e059";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003103}}
+.glyphicon-picture:before {
+  content: "\e060";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003104}}
+.glyphicon-map-marker:before {
+  content: "\e062";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003105}}
+.glyphicon-adjust:before {
+  content: "\e063";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003106}}
+.glyphicon-tint:before {
+  content: "\e064";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003107}}
+.glyphicon-edit:before {
+  content: "\e065";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003108}}
+.glyphicon-share:before {
+  content: "\e066";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003109}}
+.glyphicon-check:before {
+  content: "\e067";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003110}}
+.glyphicon-move:before {
+  content: "\e068";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003111}}
+.glyphicon-step-backward:before {
+  content: "\e069";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003112}}
+.glyphicon-fast-backward:before {
+  content: "\e070";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003113}}
+.glyphicon-backward:before {
+  content: "\e071";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003114}}
+.glyphicon-play:before {
+  content: "\e072";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003115}}
+.glyphicon-pause:before {
+  content: "\e073";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003116}}
+.glyphicon-stop:before {
+  content: "\e074";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003117}}
+.glyphicon-forward:before {
+  content: "\e075";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003118}}
+.glyphicon-fast-forward:before {
+  content: "\e076";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003119}}
+.glyphicon-step-forward:before {
+  content: "\e077";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003120}}
+.glyphicon-eject:before {
+  content: "\e078";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003121}}
+.glyphicon-chevron-left:before {
+  content: "\e079";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003122}}
+.glyphicon-chevron-right:before {
+  content: "\e080";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003123}}
+.glyphicon-plus-sign:before {
+  content: "\e081";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003124}}
+.glyphicon-minus-sign:before {
+  content: "\e082";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003125}}
+.glyphicon-remove-sign:before {
+  content: "\e083";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003126}}
+.glyphicon-ok-sign:before {
+  content: "\e084";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003127}}
+.glyphicon-question-sign:before {
+  content: "\e085";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003128}}
+.glyphicon-info-sign:before {
+  content: "\e086";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003129}}
+.glyphicon-screenshot:before {
+  content: "\e087";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003130}}
+.glyphicon-remove-circle:before {
+  content: "\e088";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003131}}
+.glyphicon-ok-circle:before {
+  content: "\e089";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003132}}
+.glyphicon-ban-circle:before {
+  content: "\e090";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003133}}
+.glyphicon-arrow-left:before {
+  content: "\e091";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003134}}
+.glyphicon-arrow-right:before {
+  content: "\e092";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003135}}
+.glyphicon-arrow-up:before {
+  content: "\e093";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003136}}
+.glyphicon-arrow-down:before {
+  content: "\e094";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003137}}
+.glyphicon-share-alt:before {
+  content: "\e095";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003138}}
+.glyphicon-resize-full:before {
+  content: "\e096";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003139}}
+.glyphicon-resize-small:before {
+  content: "\e097";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003140}}
+.glyphicon-exclamation-sign:before {
+  content: "\e101";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003141}}
+.glyphicon-gift:before {
+  content: "\e102";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003142}}
+.glyphicon-leaf:before {
+  content: "\e103";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003143}}
+.glyphicon-fire:before {
+  content: "\e104";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003144}}
+.glyphicon-eye-open:before {
+  content: "\e105";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003145}}
+.glyphicon-eye-close:before {
+  content: "\e106";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003146}}
+.glyphicon-warning-sign:before {
+  content: "\e107";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003147}}
+.glyphicon-plane:before {
+  content: "\e108";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003148}}
+.glyphicon-calendar:before {
+  content: "\e109";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003149}}
+.glyphicon-random:before {
+  content: "\e110";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003150}}
+.glyphicon-comment:before {
+  content: "\e111";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003151}}
+.glyphicon-magnet:before {
+  content: "\e112";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003152}}
+.glyphicon-chevron-up:before {
+  content: "\e113";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003153}}
+.glyphicon-chevron-down:before {
+  content: "\e114";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003154}}
+.glyphicon-retweet:before {
+  content: "\e115";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003155}}
+.glyphicon-shopping-cart:before {
+  content: "\e116";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003156}}
+.glyphicon-folder-close:before {
+  content: "\e117";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003157}}
+.glyphicon-folder-open:before {
+  content: "\e118";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003158}}
+.glyphicon-resize-vertical:before {
+  content: "\e119";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003159}}
+.glyphicon-resize-horizontal:before {
+  content: "\e120";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003160}}
+.glyphicon-hdd:before {
+  content: "\e121";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003161}}
+.glyphicon-bullhorn:before {
+  content: "\e122";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003162}}
+.glyphicon-bell:before {
+  content: "\e123";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003163}}
+.glyphicon-certificate:before {
+  content: "\e124";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003164}}
+.glyphicon-thumbs-up:before {
+  content: "\e125";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003165}}
+.glyphicon-thumbs-down:before {
+  content: "\e126";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003166}}
+.glyphicon-hand-right:before {
+  content: "\e127";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003167}}
+.glyphicon-hand-left:before {
+  content: "\e128";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003168}}
+.glyphicon-hand-up:before {
+  content: "\e129";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003169}}
+.glyphicon-hand-down:before {
+  content: "\e130";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003170}}
+.glyphicon-circle-arrow-right:before {
+  content: "\e131";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003171}}
+.glyphicon-circle-arrow-left:before {
+  content: "\e132";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003172}}
+.glyphicon-circle-arrow-up:before {
+  content: "\e133";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003173}}
+.glyphicon-circle-arrow-down:before {
+  content: "\e134";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003174}}
+.glyphicon-globe:before {
+  content: "\e135";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003175}}
+.glyphicon-wrench:before {
+  content: "\e136";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003176}}
+.glyphicon-tasks:before {
+  content: "\e137";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003177}}
+.glyphicon-filter:before {
+  content: "\e138";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003178}}
+.glyphicon-briefcase:before {
+  content: "\e139";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003179}}
+.glyphicon-fullscreen:before {
+  content: "\e140";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003180}}
+.glyphicon-dashboard:before {
+  content: "\e141";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003181}}
+.glyphicon-paperclip:before {
+  content: "\e142";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003182}}
+.glyphicon-heart-empty:before {
+  content: "\e143";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003183}}
+.glyphicon-link:before {
+  content: "\e144";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003184}}
+.glyphicon-phone:before {
+  content: "\e145";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003185}}
+.glyphicon-pushpin:before {
+  content: "\e146";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003186}}
+.glyphicon-usd:before {
+  content: "\e148";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003187}}
+.glyphicon-gbp:before {
+  content: "\e149";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003188}}
+.glyphicon-sort:before {
+  content: "\e150";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003189}}
+.glyphicon-sort-by-alphabet:before {
+  content: "\e151";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003190}}
+.glyphicon-sort-by-alphabet-alt:before {
+  content: "\e152";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003191}}
+.glyphicon-sort-by-order:before {
+  content: "\e153";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003192}}
+.glyphicon-sort-by-order-alt:before {
+  content: "\e154";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003193}}
+.glyphicon-sort-by-attributes:before {
+  content: "\e155";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003194}}
+.glyphicon-sort-by-attributes-alt:before {
+  content: "\e156";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003195}}
+.glyphicon-unchecked:before {
+  content: "\e157";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003196}}
+.glyphicon-expand:before {
+  content: "\e158";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003197}}
+.glyphicon-collapse-down:before {
+  content: "\e159";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003198}}
+.glyphicon-collapse-up:before {
+  content: "\e160";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003199}}
+.glyphicon-log-in:before {
+  content: "\e161";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003200}}
+.glyphicon-flash:before {
+  content: "\e162";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003201}}
+.glyphicon-log-out:before {
+  content: "\e163";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003202}}
+.glyphicon-new-window:before {
+  content: "\e164";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003203}}
+.glyphicon-record:before {
+  content: "\e165";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003204}}
+.glyphicon-save:before {
+  content: "\e166";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003205}}
+.glyphicon-open:before {
+  content: "\e167";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003206}}
+.glyphicon-saved:before {
+  content: "\e168";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003207}}
+.glyphicon-import:before {
+  content: "\e169";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003208}}
+.glyphicon-export:before {
+  content: "\e170";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003209}}
+.glyphicon-send:before {
+  content: "\e171";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003210}}
+.glyphicon-floppy-disk:before {
+  content: "\e172";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003211}}
+.glyphicon-floppy-saved:before {
+  content: "\e173";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003212}}
+.glyphicon-floppy-remove:before {
+  content: "\e174";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003213}}
+.glyphicon-floppy-save:before {
+  content: "\e175";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003214}}
+.glyphicon-floppy-open:before {
+  content: "\e176";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003215}}
+.glyphicon-credit-card:before {
+  content: "\e177";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003216}}
+.glyphicon-transfer:before {
+  content: "\e178";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003217}}
+.glyphicon-cutlery:before {
+  content: "\e179";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003218}}
+.glyphicon-header:before {
+  content: "\e180";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003219}}
+.glyphicon-compressed:before {
+  content: "\e181";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003220}}
+.glyphicon-earphone:before {
+  content: "\e182";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003221}}
+.glyphicon-phone-alt:before {
+  content: "\e183";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003222}}
+.glyphicon-tower:before {
+  content: "\e184";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003223}}
+.glyphicon-stats:before {
+  content: "\e185";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003224}}
+.glyphicon-sd-video:before {
+  content: "\e186";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003225}}
+.glyphicon-hd-video:before {
+  content: "\e187";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003226}}
+.glyphicon-subtitles:before {
+  content: "\e188";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003227}}
+.glyphicon-sound-stereo:before {
+  content: "\e189";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003228}}
+.glyphicon-sound-dolby:before {
+  content: "\e190";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003229}}
+.glyphicon-sound-5-1:before {
+  content: "\e191";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003230}}
+.glyphicon-sound-6-1:before {
+  content: "\e192";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003231}}
+.glyphicon-sound-7-1:before {
+  content: "\e193";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003232}}
+.glyphicon-copyright-mark:before {
+  content: "\e194";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003233}}
+.glyphicon-registration-mark:before {
+  content: "\e195";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003234}}
+.glyphicon-cloud-download:before {
+  content: "\e197";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003235}}
+.glyphicon-cloud-upload:before {
+  content: "\e198";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003236}}
+.glyphicon-tree-conifer:before {
+  content: "\e199";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_glyphicons\.scss}line{font-family:\00003237}}
+.glyphicon-tree-deciduous:before {
+  content: "\e200";
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_logo\.scss}line{font-family:\0000345}}
