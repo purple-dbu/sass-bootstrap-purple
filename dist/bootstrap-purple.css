@@ -655,12 +655,12 @@ h2, .h2 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\00003118}}
 h3, .h3 {
-  font-size: 32px;
+  font-size: 31.99px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\00003119}}
 h4, .h4 {
-  font-size: 24px;
+  font-size: 23.996px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\00003120}}
@@ -670,7 +670,7 @@ h5, .h5 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\00003121}}
 h6, .h6 {
-  font-size: 12px;
+  font-size: 11.9px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\00003127}}
@@ -863,6 +863,22 @@ h5, .h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_type\.scss}line{font-family:\0000343}}
 h6, .h6 {
   font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_type\.scss}line{font-family:\0000345}}
+h1,
+h2,
+h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_type\.scss}line{font-family:\0000351}}
+h4,
+h5,
+h6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_grid\.scss}line{font-family:\000036}}
@@ -2281,7 +2297,7 @@ input[type="button"].btn-block {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_buttons\.scss}line{font-family:\000034}}
 .btn {
-  font-size: 12px;
+  font-size: 11.9px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_logo\.scss}line{font-family:\0000345}}

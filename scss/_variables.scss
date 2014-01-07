@@ -53,12 +53,12 @@ $font-size-base: 14px !default;
 // $font-size-large:         ceil($font-size-base * 1.25) !default; // ~18px
 // $font-size-small:         ceil($font-size-base * 0.85) !default; // ~12px
 
-$font-size-h1: round($font-size-base * 4) !default; // ~56px
-$font-size-h2: round($font-size-base * 3) !default; // ~42px
-$font-size-h3: round($font-size-base * 2.285) !default; // ~32px
-$font-size-h4: round($font-size-base * 1.714) !default; // ~24px
+$font-size-h1: ($font-size-base * 4) !default; // ~56px
+$font-size-h2: ($font-size-base * 3) !default; // ~42px
+$font-size-h3: ($font-size-base * 2.285) !default; // ~32px
+$font-size-h4: ($font-size-base * 1.714) !default; // ~24px
 $font-size-h5: $font-size-base !default;
-$font-size-h6: round($font-size-base * 0.85) !default; // ~12px
+$font-size-h6: ($font-size-base * 0.85) !default; // ~12px
 
 $font-weight-h1: lighter !default;
 $font-weight-h2: lighter !default;
@@ -115,7 +115,7 @@ $border-radius-small:            3px !default;
 // -------------------------
 //
 $btn-font-weight:         bold !default;
-$btn-font-size:           round($font-size-base * 0.85) !default;
+$btn-font-size:           ($font-size-base * 0.85) !default;
 
 $btn-default-color:       #fff !default;
 $btn-default-bg:          #666 !default;

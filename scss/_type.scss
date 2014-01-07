@@ -41,3 +41,16 @@ h3, .h3 { font-weight: $font-weight-h3; }
 h4, .h4 { font-weight: $font-weight-h4; }
 h5, .h5 { font-weight: $font-weight-h5; }
 h6, .h6 { font-weight: $font-weight-h6; }
+
+h1,
+h2,
+h3 {
+  margin-top: ($line-height-computed * 1.5);
+  margin-bottom: ($line-height-computed);
+}
+h4,
+h5,
+h6 {
+  margin-top: ($line-height-computed);
+  margin-bottom: ($line-height-computed);
+}
