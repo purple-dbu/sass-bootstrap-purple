@@ -1,5 +1,6 @@
 // Core variables and mixins
 @import "variables";
+@import "sass-bootstrap/lib/variables";
 @import "sass-bootstrap/lib/mixins";
 
 // Reset
@@ -13,7 +14,7 @@
 @import "sass-bootstrap/lib/grid";
 // @import "tables";
 // @import "forms";
-// @import "buttons";
+@import "buttons";
 
 // Components
 // @import "component-animations";

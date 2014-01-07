@@ -10,15 +10,15 @@
   margin: 0.8em 0;
 }
 
-.pp-row {
-  margin: 10px 0;
-}
-
-.pp-col {
+.pp-grid {
   background: #dbd8d3;
   height: 20px;
   text-align: center;
   color: #8e8573;
+}
+
+.pp-col {
+  margin: 5px 0;
 }
 
     </style>
@@ -28,21 +28,43 @@
 
 <!--
 ================================================================================
-Logo
+Grid
 ================================================================================
 -->
 
-<h2 class="pp-title">the Purple logo</h2>
+<h2 class="pp-title">the grid</h2>
 
-<div class="row pp-row">
-  <h1 class="col-lg-12 col-md-12 col-sm-12">
-    <img src="images/purple-logo.png" class="logo"/>
-    lorem ipsum
-  </h1>
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-6"><div class="pp-col pp-grid">6</div></div>
+  <div class="col-lg-6 col-md-6 col-sm-6"><div class="pp-col pp-grid">6</div></div>
+</div>
+<div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-4"><div class="pp-col pp-grid">4</div></div>
+  <div class="col-lg-4 col-md-4 col-sm-4"><div class="pp-col pp-grid">4</div></div>
+  <div class="col-lg-4 col-md-4 col-sm-4"><div class="pp-col pp-grid">4</div></div>
+</div>
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-3"><div class="pp-col pp-grid">3</div></div>
+  <div class="col-lg-3 col-md-3 col-sm-3"><div class="pp-col pp-grid">3</div></div>
+  <div class="col-lg-3 col-md-3 col-sm-3"><div class="pp-col pp-grid">3</div></div>
+  <div class="col-lg-3 col-md-3 col-sm-3"><div class="pp-col pp-grid">3</div></div>
+</div>
+<div class="row">
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
+  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col pp-grid">1</div></div>
 </div>
 
 <hr>
-
 
 <!--
 ================================================================================
@@ -52,7 +74,7 @@ Typography
 
 <h2 class="pp-title">typography</h2>
 
-<div class="row pp-row">
+<div class="row">
   <div class="col-lg-6 col-md-6 col-sm-6">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, nunc non scelerisque tincidunt, dolor lacus tincidunt justo, vitae hendrerit neque libero non nulla. Nunc sit amet justo ipsum. Pellentesque bibendum ipsum ut lobortis tempor. Sed accumsan mauris arcu, in fermentum mauris vehicula eget. Praesent semper sed eros a dictum. Quisque in diam dolor. Duis eleifend euismod tincidunt. Nulla facilisi. Donec bibendum ipsum ut ante luctus, convallis pretium tortor imperdiet.</p>
     <p>Curabitur malesuada elementum mi quis sagittis. Ut faucibus nunc quis lacus euismod varius. Ut eleifend sed enim nec mollis. Nunc varius eleifend nibh. In posuere faucibus elit sed mattis. Phasellus sed aliquet dui, nec sollicitudin purus. Suspendisse tempor ut est non fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ligula, congue at nisi a, tristique pulvinar risus.</p>
@@ -72,41 +94,66 @@ Typography
 
 <!--
 ================================================================================
-Grid
+Buttons
+================================================================================
+-->
+<h2 class="pp-title">buttons</h2>
+
+<div class="row">
+  <div class="pp-col col-lg-6 col-md-6 col-sm-6">
+    <button type="button" class="btn btn-default">default</button>
+    <button type="button" class="btn btn-primary">primary</button>
+    <button type="button" class="btn btn-success">success</button>
+    <button type="button" class="btn btn-info">info</button>
+    <button type="button" class="btn btn-warning">warning</button>
+    <button type="button" class="btn btn-danger">danger</button>
+    <button type="button" class="btn btn-link">link</button>
+  </div>
+  <div class="pp-col col-lg-6 col-md-6 col-sm-6">
+    <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> back</button>
+    <button type="button" class="btn btn-default">next <i class="glyphicon glyphicon-chevron-right"></i></button>
+    <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-chevron-remove"></i> close</button>
+  </div>
+  <div class="pp-col col-lg-6 col-md-6 col-sm-6">
+    <button type="button" class="btn btn-default">cancel</button>
+    <button type="button" class="btn btn-primary">OK</button>
+  </div>
+  <div class="pp-col col-lg-6 col-md-6 col-sm-6">
+    <button type="button" class="btn btn-xs btn-primary">cancel</button>
+    <button type="button" class="btn btn-xs btn-default">find out more</button>
+  </div>
+</div>
+
+<hr>
+
+<!--
+================================================================================
+Tables
+================================================================================
+-->
+<h2 class="pp-title">tables</h2>
+
+<hr>
+
+
+<!--
+================================================================================
+Logo
 ================================================================================
 -->
 
-<h2 class="pp-title">the grid</h2>
+<h2 class="pp-title">logo</h2>
 
-<div class="row pp-row">
-  <div class="col-lg-6 col-md-6 col-sm-6"><div class="pp-col">6</div></div>
-  <div class="col-lg-6 col-md-6 col-sm-6"><div class="pp-col">6</div></div>
+<div class="row">
+  <h1 class="col-lg-12 col-md-12 col-sm-12">
+    <img src="images/purple-logo.png" class="logo"/>
+    lorem ipsum
+  </h1>
 </div>
-<div class="row pp-row">
-  <div class="col-lg-4 col-md-4 col-sm-4"><div class="pp-col">4</div></div>
-  <div class="col-lg-4 col-md-4 col-sm-4"><div class="pp-col">4</div></div>
-  <div class="col-lg-4 col-md-4 col-sm-4"><div class="pp-col">4</div></div>
-</div>
-<div class="row pp-row">
-  <div class="col-lg-3 col-md-3 col-sm-3"><div class="pp-col">3</div></div>
-  <div class="col-lg-3 col-md-3 col-sm-3"><div class="pp-col">3</div></div>
-  <div class="col-lg-3 col-md-3 col-sm-3"><div class="pp-col">3</div></div>
-  <div class="col-lg-3 col-md-3 col-sm-3"><div class="pp-col">3</div></div>
-</div>
-<div class="row pp-row">
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-  <div class="col-lg-1 col-md-1 col-sm-1"><div class="pp-col">1</div></div>
-</div>
+
+<hr>
+
+
 
 
     </div>

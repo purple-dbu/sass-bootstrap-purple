@@ -371,7 +371,7 @@ html {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_scaffolding\.scss}line{font-family:\0000322}}
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -390,12 +390,12 @@ textarea {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_scaffolding\.scss}line{font-family:\0000343}}
 a {
-  color: #428bca;
+  color: #803980;
   text-decoration: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_scaffolding\.scss}line{font-family:\0000347}}
 a:hover, a:focus {
-  color: #2a6496;
+  color: #803980;
   text-decoration: underline;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_scaffolding\.scss}line{font-family:\0000353}}
@@ -419,7 +419,7 @@ img {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_scaffolding\.scss}line{font-family:\0000371}}
 .img-rounded {
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_scaffolding\.scss}line{font-family:\0000378}}
@@ -428,7 +428,7 @@ img {
   line-height: 1.42857;
   background-color: white;
   border: 1px solid #dddddd;
-  border-radius: 4px;
+  border-radius: 3px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
@@ -523,11 +523,11 @@ cite {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\0000338}}
 .text-primary {
-  color: #f16e00;
+  color: #803980;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\0000340}}
 .text-primary:hover {
-  color: #be5700;
+  color: #5d295d;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\0000344}}
@@ -1172,7 +1172,7 @@ h6, .h6 {
 @media (min-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_grid\.scss}line{font-family:\0000343}}
   .container {
-    width: 750px;
+    width: 740px;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003747}}
@@ -1438,7 +1438,7 @@ h6, .h6 {
 @media (min-width: 992px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_grid\.scss}line{font-family:\0000363}}
   .container {
-    width: 970px;
+    width: 960px;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003747}}
@@ -1704,7 +1704,7 @@ h6, .h6 {
 @media (min-width: 1200px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_grid\.scss}line{font-family:\0000383}}
   .container {
-    width: 1170px;
+    width: 1160px;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003747}}
@@ -1967,6 +1967,323 @@ h6, .h6 {
     margin-left: 100%;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000310}}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  border-radius: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000323}}
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000327}}
+.btn:hover, .btn:focus {
+  color: white;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000333}}
+.btn:active, .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000340}}
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000355}}
+.btn-default {
+  color: white;
+  background-color: #666666;
+  border-color: #666666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003467}}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+  color: white;
+  background-color: #525252;
+  border-color: #474747;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003475}}
+.open .btn-default.dropdown-toggle {
+  color: white;
+  background-color: #525252;
+  border-color: #474747;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003480}}
+.btn-default:active, .btn-default.active {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003484}}
+.open .btn-default.dropdown-toggle {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003490}}
+.btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
+  background-color: #666666;
+  border-color: #666666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000358}}
+.btn-primary {
+  color: white;
+  background-color: #803980;
+  border-color: #803980;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003467}}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  color: white;
+  background-color: #642c64;
+  border-color: #562656;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003475}}
+.open .btn-primary.dropdown-toggle {
+  color: white;
+  background-color: #642c64;
+  border-color: #562656;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003480}}
+.btn-primary:active, .btn-primary.active {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003484}}
+.open .btn-primary.dropdown-toggle {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003490}}
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+  background-color: #803980;
+  border-color: #803980;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000362}}
+.btn-warning {
+  color: #473900;
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003467}}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active {
+  color: #473900;
+  background-color: #d6ab00;
+  border-color: #c29b00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003475}}
+.open .btn-warning.dropdown-toggle {
+  color: #473900;
+  background-color: #d6ab00;
+  border-color: #c29b00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003480}}
+.btn-warning:active, .btn-warning.active {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003484}}
+.open .btn-warning.dropdown-toggle {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003490}}
+.btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000366}}
+.btn-danger {
+  color: white;
+  background-color: #cd3c14;
+  border-color: #cd3c14;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003467}}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active {
+  color: white;
+  background-color: #a83110;
+  border-color: #952c0f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003475}}
+.open .btn-danger.dropdown-toggle {
+  color: white;
+  background-color: #a83110;
+  border-color: #952c0f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003480}}
+.btn-danger:active, .btn-danger.active {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003484}}
+.open .btn-danger.dropdown-toggle {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003490}}
+.btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
+  background-color: #cd3c14;
+  border-color: #cd3c14;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000370}}
+.btn-success {
+  color: white;
+  background-color: #32c832;
+  border-color: #32c832;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003467}}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+  color: white;
+  background-color: #2aa72a;
+  border-color: #269726;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003475}}
+.open .btn-success.dropdown-toggle {
+  color: white;
+  background-color: #2aa72a;
+  border-color: #269726;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003480}}
+.btn-success:active, .btn-success.active {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003484}}
+.open .btn-success.dropdown-toggle {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003490}}
+.btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
+  background-color: #32c832;
+  border-color: #32c832;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000374}}
+.btn-info {
+  color: white;
+  background-color: #527edb;
+  border-color: #527edb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003467}}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
+  color: white;
+  background-color: #3065d4;
+  border-color: #295cc6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003475}}
+.open .btn-info.dropdown-toggle {
+  color: white;
+  background-color: #3065d4;
+  border-color: #295cc6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003480}}
+.btn-info:active, .btn-info.active {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003484}}
+.open .btn-info.dropdown-toggle {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003490}}
+.btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
+  background-color: #527edb;
+  border-color: #527edb;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000383}}
+.btn-link {
+  color: #803980;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000389}}
+.btn-link, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000396}}
+.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+  border-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003102}}
+.btn-link:hover, .btn-link:focus {
+  color: #803980;
+  text-decoration: underline;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003110}}
+.btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003122}}
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003126}}
+.btn-sm,
+.btn-xs {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003131}}
+.btn-xs {
+  padding: 1px 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003139}}
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003147}}
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003155}}
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_buttons\.scss}line{font-family:\000034}}
+.btn {
+  font-size: 12px;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_logo\.scss}line{font-family:\0000345}}
 .logo {
   width: 50px;
