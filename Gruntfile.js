@@ -84,7 +84,10 @@ module.exports = function(grunt) {
         options: {
           livereload: '<%= connect.options.livereload %>'
         },
-        files: 'scss/*.scss',
+        files: [
+          'index.html',
+          'scss/*.scss'
+        ],
         tasks: []
       }
     }

@@ -1,0 +1,56 @@
+
+// The Purple logo
+// ===============
+//
+// As the Purple logo is our most immediately recognisable identity element it
+// is vital to protect the logo, and ensure that it is used with care.
+//
+// Things to remember:
+//   - Never animate the logo.
+//   - Apply the logo at 50 pixels wide by 50 pixels high.
+//   - Always use full colour master artwork.
+//   - Do not alter the logo in any way.
+//   - Do not place it on a background image where you cannot see it.
+//   - When placing the logo on the screen, leave an exclusion zone around the
+//     logo of at least half its width. The logo should always appear on a
+//     white, black or photographic background. If using photography, ensure
+//     that the colour is complementary to the purple of the logo.
+//
+//     +---------+-----------------------------+
+//     |         |                   |         |
+//     |         |                   |         |
+//     |         |                   |         | 0.5 x
+//     |         |                   |         |
+//     |         |                   |         |
+//     |---------+-------------------+---------|
+//     |         |///////////////////|         |
+//     |         |///////////////////|         |
+//     |         |///////////////////|         |
+//     |         |///////////////////|         |
+//     |         |///////////////////|         | x
+//     |         |///////////////////|         |
+//     |         |///////////////////|         |
+//     |         |///////////////////|         |
+//     |         |///// purple tm ///|         |
+//     |         |///////////////////|         |
+//     |---------+-------------------+---------|
+//     |         |                   |         |
+//     |         |                   |         |
+//     |         |                   |         | 0.5 x
+//     |         |                   |         |
+//     |         |                   |         |
+//     +---------+-----------------------------+
+//        0.5 x             x           0.5 x
+
+.logo {
+  width: $logo-width;
+  height: $logo-height;
+  margin-left: round($logo-width / 2);
+  margin-right: round($logo-width / 2);
+  margin-top: $logo-offset-top;
+  float: left;
+}
+
+.logo:first-child {
+  margin-left: 0;
+}

@@ -1,0 +1,58 @@
+/**
+ * Header
+ */
+
+$header-margin-top: 20px;
+$header-margin-bottom: 20px;
+
+/**
+ * Bootstrap variables
+ */
+
+// Brand colors
+// -------------------------
+
+$brand-primary: #ff6600;
+
+// Links
+// -------------------------
+
+$link-color:       $brand-primary;
+$link-hover-color: #ff5500;
+
+
+// Grid
+$grid-columns:          12;
+$grid-gutter-width:     60px;
+$grid-float-breakpoint: 768px;
+
+// Container sizes
+// --------------------------------------------------
+
+// Small screen / tablet
+$container-tablet:        ((520px + $grid-gutter-width));
+$container-sm:            $container-tablet;
+
+// Medium screen / desktop
+$container-desktop:       ((740px + $grid-gutter-width));
+$container-md:            $container-desktop;
+
+// Large screen / wide desktop
+$container-large-desktop: ((940px + $grid-gutter-width));
+$container-lg:            $container-large-desktop;
+
+
+// Components
+// Based on 14px font-size and 1.428 line-height (~20px to start)
+
+$border-radius-base:  0;
+$border-radius-large: 0;
+$border-radius-small: 0;
+
+// Navbar
+
+$navbar-default-border: #cacaca;
+
+$theme-color: #ff6600;
+
+$nav-link-padding: 5px 15px;

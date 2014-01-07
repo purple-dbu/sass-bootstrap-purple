@@ -1,4 +1,43 @@
 
-.list-links {
-  @extend .list-unstyled;
-}
+// Typography
+// ==========
+//
+// The Orange brand font is Helvetica Neue and consists of five weights.
+// Helvetica Neue should be used wherever text is displayed as a graphic.
+//
+// Text as image
+// -------------
+//
+// Helvetica Neue should be used wherever text is displayed as a graphic. The
+// advantage of this method is that you have complete control over every aspect
+// of the typography. However, the disadvantage of working with text as an image
+// is that it is difficult and time consuming to change if, for example, you
+// need to translate the text. Displaying text as an image is not recommended
+// for general use and should only be done when expressing the Orange brand,
+// i.e. marketing messages.
+//
+// Web font
+// Arial is a standard system font used by browsers. Whilst the majority of text
+// on an Orange site is HTML Arial, the page designs also occasionally use a
+// graphical version of Helvetica Neue to reinforce the brand identity.
+
+
+// Font faces
+// -------------------------
+
+@import "compass/css3/font-face";
+
+@include font-face("Helvetica Neue", font-files("HelvNeue35_Cyr.ttf"), null, 100);
+@include font-face("Helvetica Neue", font-files("HelvNeue45_Cyr.ttf"), null, 200);
+@include font-face("Helvetica Neue", font-files("HelvNeue55_Cyr.ttf"), null, 400);
+@include font-face("Helvetica Neue", font-files("HelvNeue65_Cyr.ttf"), null, 700);
+@include font-face("Helvetica Neue", font-files("HelvNeue75_Cyr.ttf"), null, 900);
+
+@import "sass-bootstrap/lib/type";
+
+h1, .h1 { font-weight: $font-weight-h1; }
+h2, .h2 { font-weight: $font-weight-h2; }
+h3, .h3 { font-weight: $font-weight-h3; }
+h4, .h4 { font-weight: $font-weight-h4; }
+h5, .h5 { font-weight: $font-weight-h5; }
+h6, .h6 { font-weight: $font-weight-h6; }

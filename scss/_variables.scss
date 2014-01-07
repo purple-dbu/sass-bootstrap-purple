@@ -1,58 +1,258 @@
-/**
- * Header
- */
+//
+// Variables
+// --------------------------------------------------
 
-$header-margin-top: 20px;
-$header-margin-bottom: 20px;
+@import "sass-bootstrap/lib/variables";
 
-/**
- * Bootstrap variables
- */
+
+// Global values
+// --------------------------------------------------
+
+// Grays
+// -------------------------
+
 
 // Brand colors
 // -------------------------
 
-$brand-primary: #ff6600;
+$brand-primary: #F16E00;
+$brand-success: #32C832;
+$brand-warning: #FFCC00;
+$brand-danger:  #CD3C14;
+$brand-info:    #527EDB;
+
+// Scaffolding
+// -------------------------
+
 
 // Links
 // -------------------------
 
-$link-color:       $brand-primary;
-$link-hover-color: #ff5500;
+
+// Typography
+// -------------------------
+
+$font-family-sans-serif: Arial, sans-serif;
+// $font-family-serif:       Georgia, "Times New Roman", Times, serif;
+// $font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
+// $font-family-base:        $font-family-sans-serif;
+
+// $font-size-base:          14px;
+// $font-size-large:         ceil($font-size-base * 1.25); // ~18px
+// $font-size-small:         ceil($font-size-base * 0.85); // ~12px
+
+$font-size-h1: round($font-size-base * 4); // ~56px
+$font-size-h2: round($font-size-base * 3); // ~42px
+$font-size-h3: round($font-size-base * 2.285); // ~32px
+$font-size-h4: round($font-size-base * 1.714); // ~24px
+$font-size-h5: $font-size-base;
+$font-size-h6: round($font-size-base * 0.85); // ~12px
+
+$font-weight-h1: lighter;
+$font-weight-h2: lighter;
+$font-weight-h3: 200;
+$font-weight-h4: 200;
+$font-weight-h5: bold;
+$font-weight-h6: bold;
+
+// $line-height-base:        1.428571429; // 20/14
+// $line-height-computed:    floor($font-size-base * $line-height-base); // ~20px
+
+$headings-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+// $headings-font-weight:    500;
+// $headings-line-height:    1.1;
+// $headings-color:          inherit;
 
 
-// Grid
+// Iconography
+// -------------------------
+
+
+// Components
+// -------------------------
+// Based on 14px font-size and 1.428 line-height (~20px to start)
+
+
+// Tables
+// -------------------------
+
+
+// Buttons
+// -------------------------
+
+
+// Forms
+// -------------------------
+
+
+// Dropdowns
+// -------------------------
+
+
+
+// COMPONENT VARIABLES
+// --------------------------------------------------
+
+
+// Z-index master list
+// -------------------------
+// Used for a bird's eye view of components dependent on the z-axis
+// Try to avoid customizing these :)
+
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+// Note: Deprecated
+
+// Small screen / tablet
+// Note: Deprecated
+
+// Medium screen / desktop
+// Note: Deprecated
+
+// Large screen / wide desktop
+// Note: Deprecated
+
+// So media queries don't overlap when required, provide a maximum
+
+
+// Grid system
+// --------------------------------------------------
+
+// Number of columns in the grid system
 $grid-columns:          12;
-$grid-gutter-width:     60px;
-$grid-float-breakpoint: 768px;
+
+// Padding, to be divided by two and applied to the left and right of all columns
+$grid-gutter-width:     20px;
+
+// Point at which the navbar stops collapsing
+$grid-float-breakpoint: 940px;
+
+
+// Navbar
+// -------------------------
+
+// Basics of a navbar
+// Navbar links
+// Navbar brand label
+// Navbar toggle
+// Inverted navbar
+// Reset inverted navbar basics
+// Inverted navbar links
+// Inverted navbar brand label
+// Inverted navbar toggle
+
+
+// Navs
+// -------------------------
+
+// Tabs
+// Pills
+
+
+// Pagination
+// -------------------------
+
+
+// Pager
+// -------------------------
+
+
+// Jumbotron
+// -------------------------
+
+
+// Form states and alerts
+// -------------------------
+
+
+// Tooltips
+// -------------------------
+
+
+// Popovers
+// -------------------------
+
+
+// Labels
+// -------------------------
+
+
+// Modals
+// -------------------------
+
+
+// Alerts
+// -------------------------
+
+
+// Progress bars
+// -------------------------
+
+
+// List group
+// -------------------------
+
+
+// Panels
+// -------------------------
+
+
+// Thumbnails
+// -------------------------
+
+
+// Wells
+// -------------------------
+
+
+// Badges
+// -------------------------
+
+
+// Breadcrumbs
+// -------------------------
+
+
+// Carousel
+// ------------------------
+
+
+// Close
+// ------------------------
+
+
+// Code
+// ------------------------
+
+
+// Type
+// ------------------------
+
+
+// Miscellaneous
+// -------------------------
+
+// Hr border color
+
+// Horizontal forms & lists
+
+
+// Logo
+// -------------------------
+
+$logo-width : 50px !default;
+$logo-height: $logo-width !default;
+$logo-offset-top: 5px;
+
 
 // Container sizes
 // --------------------------------------------------
 
 // Small screen / tablet
-$container-tablet:        ((520px + $grid-gutter-width));
-$container-sm:            $container-tablet;
 
 // Medium screen / desktop
-$container-desktop:       ((740px + $grid-gutter-width));
-$container-md:            $container-desktop;
 
 // Large screen / wide desktop
-$container-large-desktop: ((940px + $grid-gutter-width));
-$container-lg:            $container-large-desktop;
-
-
-// Components
-// Based on 14px font-size and 1.428 line-height (~20px to start)
-
-$border-radius-base:  0;
-$border-radius-large: 0;
-$border-radius-small: 0;
-
-// Navbar
-
-$navbar-default-border: #cacaca;
-
-$theme-color: #ff6600;
-
-$nav-link-padding: 5px 15px;
