@@ -1,0 +1,77 @@
+
+// Tables
+// ======
+// 
+// There are two main types of tables used within the Purple web products and
+// services, data tables and layout tables.
+// 
+// - When using tables to present tabular information, use spacing, alignment,
+//   and indents, not borders, to delimit tabular information.
+// - Left align text within columns, and right align quantitative data (e.g.
+//   prices, quantity).
+// - Use colour to place emphasis on important information such as to
+//   highlight summary detail, or unread email.
+//     
+// Data tables
+// -----------
+// 
+// Data table should be used to make a collection of items with multiple
+// attributes easy to scan, analyze, and customize. All data should be left
+// aligned except for quantitative data which should be right aligned.
+// When the table is too long to display on one page, pagination can be used.
+//
+// Column sorting
+// --------------
+// 
+// By clicking on a column header, the user has the ability to sort the
+// presented data to their liking. The arrow icon and a darker background for
+// the column header let users know that the default sorting column and the
+// table is sortable. All sortable headers have clear rollover state to show the
+// functionality is available.
+
+
+@import "sass-bootstrap/lib/tables";
+
+.table {
+
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        border-top: none;
+        border-bottom: 1px solid $table-border-color;
+      }
+    }
+  }
+
+  // Bottom align for column headings
+  > thead > tr > th {
+    border-bottom: 1px solid $table-header-border-color;
+    border-left: 1px solid $table-header-border-color;
+    background-color: $table-header-bg-color;
+
+    &:first-child {
+    	border-left: none;
+    }
+
+    &.active {
+    	background-color: $table-header-bg-color-active;
+    }
+  }
+
+  // Set top header to thead by default
+  > caption + thead,
+  > colgroup + thead,
+  > thead:first-child {
+    > tr:first-child {
+      > th,
+      > td {
+        border-top: 1px solid $table-header-border-color;
+      }
+    }
+  }
+
+}

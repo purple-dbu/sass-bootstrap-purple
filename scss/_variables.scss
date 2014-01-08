@@ -110,6 +110,20 @@ $border-radius-small:            3px !default;
 // Tables
 // -------------------------
 
+$table-cell-padding:                 5px 8px !default;
+$table-condensed-cell-padding:       3px 5px !default;
+
+// $table-bg:                           transparent !default; // overall background-color
+// $table-bg-accent:                    #f9f9f9 !default; // for striping
+// $table-bg-hover:                     #f5f5f5 !default;
+// $table-bg-active:                    $table-bg-hover !default;
+
+$table-border-color:                 #ddd !default; // table and cell border
+
+$table-header-border-color:          #ccc !default; // header border
+$table-header-bg-color:              #eee !default; // header background
+$table-header-bg-color-active:       #ccc !default; // header background (active = sorted)
+
 
 // Buttons
 // -------------------------

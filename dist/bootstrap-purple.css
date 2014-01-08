@@ -2054,7 +2054,7 @@ th {
 .table > tbody > tr > td,
 .table > tfoot > tr > th,
 .table > tfoot > tr > td {
-  padding: 8px;
+  padding: 5px 8px;
   line-height: 1.42857;
   vertical-align: top;
   border-top: 1px solid #dddddd;
@@ -2089,7 +2089,7 @@ th {
 .table-condensed > tbody > tr > td,
 .table-condensed > tfoot > tr > th,
 .table-condensed > tfoot > tr > td {
-  padding: 5px;
+  padding: 3px 5px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tables\.scss}line{font-family:\0000382}}
@@ -2264,6 +2264,40 @@ table th[class*="col-"] {
     border-bottom: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_tables\.scss}line{font-family:\0000342}}
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td {
+  border-top: none;
+  border-bottom: 1px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_tables\.scss}line{font-family:\0000351}}
+.table > thead > tr > th {
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  background-color: #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_tables\.scss}line{font-family:\0000356}}
+.table > thead > tr > th:first-child {
+  border-left: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_tables\.scss}line{font-family:\0000360}}
+.table > thead > tr > th.active {
+  background-color: #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_tables\.scss}line{font-family:\0000370}}
+.table > caption + thead > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > th,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 1px solid #cccccc;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000310}}
 fieldset {
   padding: 0;
