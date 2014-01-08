@@ -655,7 +655,7 @@ h2, .h2 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\00003118}}
 h3, .h3 {
-  font-size: 31.99px;
+  font-size: 29.988px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\00003119}}
@@ -6631,7 +6631,11 @@ button.close {
 .footer a:hover, .footer a:focus, .footer a:active {
   color: ligthen(#803980, 10%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_footer\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_footer\.scss}line{font-family:\0000329}}
+.footer .divider {
+  margin: 5px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_footer\.scss}line{font-family:\0000333}}
 .footer hr {
   border-top-color: #a2a2a2;
 }

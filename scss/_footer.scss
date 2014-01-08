@@ -25,6 +25,11 @@
   	  color: $footer-link-hover-color;
   	}
   }
+
+  .divider {
+    margin: ($line-height-computed / 4) 0;
+  }
+
   hr {
   	border-top-color: darken($footer-color, 30%);
   }
