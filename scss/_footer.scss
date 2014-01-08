@@ -1,0 +1,31 @@
+
+// Footer
+// ======
+//
+// The footer is included at the bottom of every page and provides quick access
+// to the main sections of the site.
+//
+// It can also contain other elements such as search and social features. Links
+// to information such as contact details and terms and conditions are located
+// along the bottom of the footer. The amount of links in the footer can vary on
+// different sites so ensure the design aligns to the grid and follows the
+// spacing rules.
+
+.footer {
+
+  background: $footer-bg;
+  color: $footer-color;
+  padding-top: ($font-size-base);
+  padding-bottom: ($font-size-base);
+  a {
+  	color: $footer-link-color;
+  	&:hover,
+  	&:focus,
+  	&:active {
+  	  color: $footer-link-hover-color;
+  	}
+  }
+  hr {
+  	border-top-color: darken($footer-color, 30%);
+  }
+}

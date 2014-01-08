@@ -6616,6 +6616,26 @@ button.close {
   -webkit-appearance: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_footer\.scss}line{font-family:\0000314}}
+.footer {
+  background: black;
+  color: #eeeeee;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_footer\.scss}line{font-family:\0000320}}
+.footer a {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_footer\.scss}line{font-family:\0000322}}
+.footer a:hover, .footer a:focus, .footer a:active {
+  color: ligthen(#803980, 10%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_footer\.scss}line{font-family:\0000328}}
+.footer hr {
+  border-top-color: #a2a2a2;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_logo\.scss}line{font-family:\0000345}}
 .logo {
   width: 50px;

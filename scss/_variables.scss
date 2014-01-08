@@ -363,6 +363,15 @@ $logo-height: $logo-width !default !default;
 $logo-offset-top: 5px !default;
 
 
+// Footer
+// -------------------------
+
+$footer-bg:    #000 !default;
+$footer-color: #eee !default;
+$footer-link-color: #999 !default;
+$footer-link-hover-color: ligthen($link-color, 10%) !default;
+
+
 // Container sizes
 // --------------------------------------------------
 
