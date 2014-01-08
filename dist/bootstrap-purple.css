@@ -423,7 +423,7 @@ img {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_scaffolding\.scss}line{font-family:\0000378}}
-.img-thumbnail {
+.img-thumbnail, .thumbnail {
   padding: 4px;
   line-height: 1.42857;
   background-color: white;
@@ -879,6 +879,54 @@ h5,
 h6 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_code\.scss}line{font-family:\000037}}
+code,
+kbd,
+pre,
+samp {
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_code\.scss}line{font-family:\0000315}}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  white-space: nowrap;
+  border-radius: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_code\.scss}line{font-family:\0000325}}
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333333;
+  background-color: whitesmoke;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_code\.scss}line{font-family:\0000339}}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_code\.scss}line{font-family:\0000350}}
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_grid\.scss}line{font-family:\000036}}
@@ -2216,6 +2264,431 @@ table th[class*="col-"] {
     border-bottom: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000310}}
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000316}}
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000328}}
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000338}}
+input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000343}}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  /* IE8-9 */
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000351}}
+input[type="file"] {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000356}}
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000362}}
+select optgroup {
+  font-size: inherit;
+  font-style: inherit;
+  font-family: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000369}}
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000379}}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\0000386}}
+output {
+  display: block;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003118}}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555;
+  vertical-align: middle;
+  background-color: white;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003833}}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000357}}
+.form-control:-moz-placeholder {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000358}}
+.form-control::-moz-placeholder {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000359}}
+.form-control:-ms-input-placeholder {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000360}}
+.form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003147}}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003158}}
+textarea.form-control {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003168}}
+.form-group {
+  margin-bottom: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003177}}
+.radio,
+.checkbox {
+  display: block;
+  min-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003185}}
+.radio label,
+.checkbox label {
+  display: inline;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003192}}
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003199}}
+.radio + .radio,
+.checkbox + .checkbox {
+  margin-top: -5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003205}}
+.radio-inline,
+.checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003214}}
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003229}}
+input[type="radio"][disabled], fieldset[disabled] input[type="radio"],
+input[type="checkbox"][disabled], fieldset[disabled]
+input[type="checkbox"],
+.radio[disabled], fieldset[disabled]
+.radio,
+.radio-inline[disabled], fieldset[disabled]
+.radio-inline,
+.checkbox[disabled], fieldset[disabled]
+.checkbox,
+.checkbox-inline[disabled], fieldset[disabled]
+.checkbox-inline {
+  cursor: not-allowed;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003848}}
+.input-sm, .input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003853}}
+select.input-sm, .input-group-sm > select.form-control,
+.input-group-sm > select.input-group-addon,
+.input-group-sm > .input-group-btn > select.btn {
+  height: 30px;
+  line-height: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003858}}
+textarea.input-sm, .input-group-sm > textarea.form-control,
+.input-group-sm > textarea.input-group-addon,
+.input-group-sm > .input-group-btn > textarea.btn {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003848}}
+.input-lg, .input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn {
+  height: 45px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003853}}
+select.input-lg, .input-group-lg > select.form-control,
+.input-group-lg > select.input-group-addon,
+.input-group-lg > .input-group-btn > select.btn {
+  height: 45px;
+  line-height: 45px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003858}}
+textarea.input-lg, .input-group-lg > textarea.form-control,
+.input-group-lg > textarea.input-group-addon,
+.input-group-lg > .input-group-btn > textarea.btn {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003792}}
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline {
+  color: #c09853;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003801}}
+.has-warning .form-control {
+  border-color: #c09853;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003804}}
+.has-warning .form-control:focus {
+  border-color: #a47e3c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003811}}
+.has-warning .input-group-addon {
+  color: #c09853;
+  border-color: #c09853;
+  background-color: #fcf8e3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003792}}
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline {
+  color: #b94a48;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003801}}
+.has-error .form-control {
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003804}}
+.has-error .form-control:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003811}}
+.has-error .input-group-addon {
+  color: #b94a48;
+  border-color: #b94a48;
+  background-color: #f2dede;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003792}}
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline {
+  color: #468847;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003801}}
+.has-success .form-control {
+  border-color: #468847;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003804}}
+.has-success .form-control:focus {
+  border-color: #356635;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003811}}
+.has-success .input-group-addon {
+  color: #468847;
+  border-color: #468847;
+  background-color: #dff0d8;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003265}}
+.form-control-static {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003275}}
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003300}}
+  .form-inline .form-group, .navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003307}}
+  .form-inline .form-control, .navbar-form .form-control {
+    display: inline-block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003314}}
+  .form-inline .radio, .navbar-form .radio,
+  .form-inline .checkbox,
+  .navbar-form .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003321}}
+  .form-inline .radio input[type="radio"], .navbar-form .radio input[type="radio"],
+  .form-inline .checkbox input[type="checkbox"],
+  .navbar-form .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003338}}
+.form-horizontal .control-label,
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003349}}
+.form-horizontal .form-group {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.form-horizontal .form-group:before, .form-horizontal .form-group:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.form-horizontal .form-group:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003353}}
+.form-horizontal .form-control-static {
+  padding-top: 7px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_forms\.scss}line{font-family:\00003359}}
+  .form-horizontal .control-label {
+    text-align: right;
+  }
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\0000310}}
 .btn {
   display: inline-block;
@@ -2487,7 +2960,7 @@ table th[class*="col-"] {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003122}}
-.btn-lg {
+.btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
@@ -2495,8 +2968,9 @@ table th[class*="col-"] {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003126}}
-.btn-sm,
-.btn-xs {
+.btn-sm, .btn-group-sm > .btn,
+.btn-xs,
+.btn-group-xs > .btn {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
@@ -2504,7 +2978,7 @@ table th[class*="col-"] {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_buttons\.scss}line{font-family:\00003131}}
-.btn-xs {
+.btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
 }
 
@@ -2531,6 +3005,35 @@ input[type="button"].btn-block {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_buttons\.scss}line{font-family:\000034}}
 .btn {
   font-size: 11.9px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_component-animations\.scss}line{font-family:\0000310}}
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_component-animations\.scss}line{font-family:\0000313}}
+.fade.in {
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_component-animations\.scss}line{font-family:\0000318}}
+.collapse {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_component-animations\.scss}line{font-family:\0000320}}
+.collapse.in {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_component-animations\.scss}line{font-family:\0000324}}
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
 }
 
 @font-face {
@@ -3555,6 +4058,2404 @@ input[type="button"].btn-block {
   content: "\e200";
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\000037}}
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid black;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  border-bottom: 0 dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\0000322}}
+.dropdown {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\0000327}}
+.dropdown-toggle:focus {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\0000332}}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\0000352}}
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\0000358}}
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\0000363}}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857;
+  color: #333333;
+  white-space: nowrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\0000376}}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: whitesmoke;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\0000386}}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  color: white;
+  text-decoration: none;
+  outline: 0;
+  background-color: #803980;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\00003101}}
+.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+  color: #999999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\00003109}}
+.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\00003122}}
+.open > .dropdown-menu {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\00003127}}
+.open > a {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\00003133}}
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.42857;
+  color: #999999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\00003142}}
+.dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\00003152}}
+.pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\00003165}}
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0 dotted;
+  border-bottom: 4px solid black;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\00003173}}
+.dropup .dropdown-menu,
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_dropdowns\.scss}line{font-family:\00003187}}
+  .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000310}}
+.btn-default .caret {
+  border-top-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000313}}
+.btn-primary .caret, .btn-success .caret, .btn-warning .caret, .btn-danger .caret, .btn-info .caret {
+  border-top-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000322}}
+.dropup .btn-default .caret {
+  border-bottom-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000330}}
+.dropup .btn-primary .caret,
+.dropup .btn-success .caret,
+.dropup .btn-warning .caret,
+.dropup .btn-danger .caret,
+.dropup .btn-info .caret {
+  border-bottom-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000337}}
+.btn-group,
+.btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000342}}
+.btn-group > .btn,
+.btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000346}}
+.btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,
+.btn-group-vertical > .btn:hover,
+.btn-group-vertical > .btn:focus,
+.btn-group-vertical > .btn:active,
+.btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000352}}
+.btn-group > .btn:focus,
+.btn-group-vertical > .btn:focus {
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000361}}
+.btn-group .btn + .btn,
+.btn-group .btn + .btn-group,
+.btn-group .btn-group + .btn,
+.btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.btn-toolbar:before, .btn-toolbar:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.btn-toolbar:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000373}}
+.btn-toolbar .btn-group {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000379}}
+.btn-toolbar > .btn + .btn,
+.btn-toolbar > .btn + .btn-group,
+.btn-toolbar > .btn-group + .btn,
+.btn-toolbar > .btn-group + .btn-group {
+  margin-left: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000386}}
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000391}}
+.btn-group > .btn:first-child {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000393}}
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\0000398}}
+.btn-group > .btn:last-child:not(:first-child),
+.btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003104}}
+.btn-group > .btn-group {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003107}}
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003111}}
+.btn-group > .btn-group:first-child > .btn:last-child,
+.btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003116}}
+.btn-group > .btn-group:last-child > .btn:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003121}}
+.btn-group .dropdown-toggle:active,
+.btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003140}}
+.btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003144}}
+.btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003151}}
+.btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003155}}
+.btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003162}}
+.btn .caret {
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003166}}
+.btn-lg .caret, .btn-group-lg > .btn .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003171}}
+.dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret {
+  border-width: 0 5px 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003180}}
+.btn-group-vertical > .btn,
+.btn-group-vertical > .btn-group {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.btn-group-vertical > .btn-group:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003191}}
+.btn-group-vertical > .btn-group > .btn {
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003196}}
+.btn-group-vertical > .btn + .btn,
+.btn-group-vertical > .btn + .btn-group,
+.btn-group-vertical > .btn-group + .btn,
+.btn-group-vertical > .btn-group + .btn-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003206}}
+.btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003209}}
+.btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003213}}
+.btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003218}}
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003222}}
+.btn-group-vertical > .btn-group:first-child > .btn:last-child,
+.btn-group-vertical > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003227}}
+.btn-group-vertical > .btn-group:last-child > .btn:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003236}}
+.btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003241}}
+.btn-group-justified .btn {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_button-groups\.scss}line{font-family:\00003250}}
+[data-toggle="buttons"] > .btn > input[type="radio"],
+[data-toggle="buttons"] > .btn > input[type="checkbox"] {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\000037}}
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000313}}
+.input-group.col {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000319}}
+.input-group .form-control {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000340}}
+.input-group-addon,
+.input-group-btn,
+.input-group .form-control {
+  display: table-cell;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000345}}
+.input-group-addon:not(:first-child):not(:last-child),
+.input-group-btn:not(:first-child):not(:last-child),
+.input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000350}}
+.input-group-addon,
+.input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000359}}
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555555;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000371}}
+.input-group-addon.input-sm,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .input-group-addon.btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000376}}
+.input-group-addon.input-lg,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .input-group-addon.btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000383}}
+.input-group-addon input[type="radio"],
+.input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000390}}
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\0000397}}
+.input-group-addon:first-child {
+  border-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\00003100}}
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\00003107}}
+.input-group-addon:last-child {
+  border-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\00003113}}
+.input-group-btn {
+  position: relative;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\00003118}}
+.input-group-btn:first-child > .btn {
+  margin-right: -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\00003121}}
+.input-group-btn:last-child > .btn {
+  margin-left: -1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\00003125}}
+.input-group-btn > .btn {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\00003128}}
+.input-group-btn > .btn + .btn {
+  margin-left: -4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_input-groups\.scss}line{font-family:\00003132}}
+.input-group-btn > .btn:hover, .input-group-btn > .btn:active {
+  z-index: 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\000039}}
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.nav:before, .nav:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.nav:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000315}}
+.nav > li {
+  position: relative;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000319}}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000323}}
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000331}}
+.nav > li.disabled > a {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000334}}
+.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+  color: #999999;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000346}}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #803980;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000352}}
+.nav .open > a .caret, .nav .open > a:hover .caret, .nav .open > a:focus .caret {
+  border-top-color: #803980;
+  border-bottom-color: #803980;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000364}}
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000371}}
+.nav > li > a > img {
+  max-width: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000381}}
+.nav-tabs {
+  border-bottom: 1px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000383}}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000389}}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857;
+  border: 1px solid transparent;
+  border-radius: 3px 3px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\0000394}}
+.nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003101}}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #555555;
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003123}}
+.nav-pills > li {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003127}}
+.nav-pills > li > a {
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003130}}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003136}}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: white;
+  background-color: #803980;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003142}}
+.nav-pills > li.active > a .caret, .nav-pills > li.active > a:hover .caret, .nav-pills > li.active > a:focus .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003154}}
+.nav-stacked > li {
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003156}}
+.nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003170}}
+.nav-justified, .nav-tabs.nav-justified {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003173}}
+.nav-justified > li, .nav-tabs.nav-justified > li {
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003175}}
+.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003181}}
+.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003187}}
+  .nav-justified > li, .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003190}}
+  .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003200}}
+.nav-tabs-justified, .nav-tabs.nav-justified {
+  border-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003203}}
+.nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003209}}
+.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+.nav-tabs-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus,
+.nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #dddddd;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003216}}
+  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 3px 3px 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003220}}
+  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover,
+  .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus,
+  .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: white;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003234}}
+.tab-content > .tab-pane {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003237}}
+.tab-content > .active {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003247}}
+.nav .caret {
+  border-top-color: #803980;
+  border-bottom-color: #803980;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003251}}
+.nav a:hover .caret {
+  border-top-color: #803980;
+  border-bottom-color: #803980;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navs\.scss}line{font-family:\00003257}}
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000311}}
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.navbar:before, .navbar:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.navbar:after {
+  clear: both;
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000311}}
+  .navbar {
+    border-radius: 3px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.navbar-header:before, .navbar-header:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.navbar-header:after {
+  clear: both;
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000331}}
+  .navbar-header {
+    float: left;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000350}}
+.navbar-collapse {
+  max-height: 340px;
+  overflow-x: visible;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.navbar-collapse:before, .navbar-collapse:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.navbar-collapse:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000360}}
+.navbar-collapse.in {
+  overflow-y: auto;
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000350}}
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000369}}
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000376}}
+  .navbar-collapse.in {
+    overflow-y: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000381}}
+  .navbar-collapse .navbar-nav.navbar-left:first-child {
+    margin-left: -10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000384}}
+  .navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: -10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000387}}
+  .navbar-collapse .navbar-text:last-child {
+    margin-right: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000398}}
+.container > .navbar-header,
+.container > .navbar-collapse {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000398}}
+  .container > .navbar-header,
+  .container > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003117}}
+.navbar-static-top {
+  z-index: 1000;
+  border-width: 0 0 1px;
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003117}}
+  .navbar-static-top {
+    border-radius: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003127}}
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003127}}
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    border-radius: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003139}}
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003143}}
+.navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003152}}
+.navbar-brand {
+  float: left;
+  padding: 15px 10px;
+  font-size: 18px;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003158}}
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003164}}
+  .navbar > .container .navbar-brand {
+    margin-left: -10px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003176}}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003187}}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003193}}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003176}}
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003208}}
+.navbar-nav {
+  margin: 7.5px -10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003211}}
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003219}}
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003227}}
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003231}}
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003233}}
+  .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003208}}
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003246}}
+  .navbar-nav > li {
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003248}}
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003265}}
+  .navbar-left {
+    float: left !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003268}}
+  .navbar-right {
+    float: right !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003279}}
+.navbar-form {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 10px 10px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003291}}
+  .navbar-form .form-group {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003279}}
+  .navbar-form {
+    width: auto;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003316}}
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003321}}
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003326}}
+.navbar-nav.pull-right > li > .dropdown-menu,
+.navbar-nav > li > .dropdown-menu.pull-right {
+  left: auto;
+  right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003337}}
+.navbar-btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003346}}
+.navbar-text {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+@media (min-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003346}}
+  .navbar-text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003360}}
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003364}}
+.navbar-default .navbar-brand {
+  color: #777777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003366}}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003373}}
+.navbar-default .navbar-text {
+  color: #777777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003378}}
+.navbar-default .navbar-nav > li > a {
+  color: #777777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003381}}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #333333;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003388}}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #555555;
+  background-color: #e7e7e7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003396}}
+.navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003405}}
+.navbar-default .navbar-toggle {
+  border-color: #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003407}}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003411}}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003416}}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003424}}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #333333;
+  border-bottom-color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003432}}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #e7e7e7;
+  color: #555555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003437}}
+.navbar-default .navbar-nav > .open > a .caret, .navbar-default .navbar-nav > .open > a:hover .caret, .navbar-default .navbar-nav > .open > a:focus .caret {
+  border-top-color: #555555;
+  border-bottom-color: #555555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003443}}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #777777;
+  border-bottom-color: #777777;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003452}}
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777777;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003454}}
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333333;
+    background-color: transparent;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003461}}
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555555;
+    background-color: #e7e7e7;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003469}}
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003485}}
+.navbar-default .navbar-link {
+  color: #777777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003487}}
+.navbar-default .navbar-link:hover {
+  color: #333333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003496}}
+.navbar-inverse {
+  background-color: #222222;
+  border-color: #090909;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003500}}
+.navbar-inverse .navbar-brand {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003502}}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: white;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003509}}
+.navbar-inverse .navbar-text {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003514}}
+.navbar-inverse .navbar-nav > li > a {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003517}}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: white;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003524}}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #090909;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003532}}
+.navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003542}}
+.navbar-inverse .navbar-toggle {
+  border-color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003544}}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003548}}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003553}}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003561}}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #090909;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003568}}
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003572}}
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+  border-top-color: #999999;
+  border-bottom-color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003580}}
+.navbar-inverse .navbar-nav > .open > a .caret, .navbar-inverse .navbar-nav > .open > a:hover .caret, .navbar-inverse .navbar-nav > .open > a:focus .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003590}}
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #090909;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003593}}
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #999999;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003595}}
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: white;
+    background-color: transparent;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003602}}
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: white;
+    background-color: #090909;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003610}}
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003621}}
+.navbar-inverse .navbar-link {
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003623}}
+.navbar-inverse .navbar-link:hover {
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_breadcrumbs\.scss}line{font-family:\000036}}
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_breadcrumbs\.scss}line{font-family:\0000312}}
+.breadcrumb > li {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_breadcrumbs\.scss}line{font-family:\0000314}}
+.breadcrumb > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_breadcrumbs\.scss}line{font-family:\0000320}}
+.breadcrumb > .active {
+  color: #999999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pagination\.scss}line{font-family:\000034}}
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pagination\.scss}line{font-family:\0000310}}
+.pagination > li {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pagination\.scss}line{font-family:\0000312}}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid #dddddd;
+  margin-left: -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pagination\.scss}line{font-family:\0000324}}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pagination\.scss}line{font-family:\0000331}}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pagination\.scss}line{font-family:\0000340}}
+.pagination > li > a:hover, .pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus {
+  background-color: #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pagination\.scss}line{font-family:\0000348}}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: white;
+  background-color: #803980;
+  border-color: #803980;
+  cursor: default;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pagination\.scss}line{font-family:\0000360}}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #999999;
+  background-color: white;
+  border-color: #dddddd;
+  cursor: not-allowed;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003514}}
+.pagination-lg > li > a,
+.pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003520}}
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003526}}
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003514}}
+.pagination-sm > li > a,
+.pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003520}}
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003526}}
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pager\.scss}line{font-family:\000036}}
+.pager {
+  padding-left: 0;
+  margin: 20px 0;
+  list-style: none;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.pager:before, .pager:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.pager:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pager\.scss}line{font-family:\0000312}}
+.pager li {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pager\.scss}line{font-family:\0000314}}
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pager\.scss}line{font-family:\0000323}}
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pager\.scss}line{font-family:\0000331}}
+.pager .next > a,
+.pager .next > span {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pager\.scss}line{font-family:\0000338}}
+.pager .previous > a,
+.pager .previous > span {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_pager\.scss}line{font-family:\0000345}}
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #999999;
+  background-color: white;
+  cursor: not-allowed;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_labels\.scss}line{font-family:\000035}}
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_labels\.scss}line{font-family:\0000319}}
+.label[href]:hover, .label[href]:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_labels\.scss}line{font-family:\0000328}}
+.label:empty {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_labels\.scss}line{font-family:\0000336}}
+.label-default {
+  background-color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003539}}
+.label-default[href]:hover, .label-default[href]:focus {
+  background-color: gray;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_labels\.scss}line{font-family:\0000340}}
+.label-primary {
+  background-color: #803980;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003539}}
+.label-primary[href]:hover, .label-primary[href]:focus {
+  background-color: #5d295d;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_labels\.scss}line{font-family:\0000344}}
+.label-success {
+  background-color: #32c832;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003539}}
+.label-success[href]:hover, .label-success[href]:focus {
+  background-color: #289f28;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_labels\.scss}line{font-family:\0000348}}
+.label-info {
+  background-color: #527edb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003539}}
+.label-info[href]:hover, .label-info[href]:focus {
+  background-color: #2b60cf;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_labels\.scss}line{font-family:\0000352}}
+.label-warning {
+  background-color: #ffcc00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003539}}
+.label-warning[href]:hover, .label-warning[href]:focus {
+  background-color: #cca300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_labels\.scss}line{font-family:\0000356}}
+.label-danger {
+  background-color: #cd3c14;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003539}}
+.label-danger[href]:hover, .label-danger[href]:focus {
+  background-color: #9f2e0f;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_badges\.scss}line{font-family:\000037}}
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #999999;
+  border-radius: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_badges\.scss}line{font-family:\0000322}}
+.badge:empty {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_badges\.scss}line{font-family:\0000329}}
+a.badge:hover, a.badge:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_badges\.scss}line{font-family:\0000338}}
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_badges\.scss}line{font-family:\0000344}}
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #803980;
+  background-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_badges\.scss}line{font-family:\0000349}}
+.nav-pills > li > a > .badge {
+  margin-left: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_jumbotron\.scss}line{font-family:\000036}}
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.14286;
+  color: inherit;
+  background-color: #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_jumbotron\.scss}line{font-family:\0000315}}
+.jumbotron h1 {
+  line-height: 1;
+  color: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_jumbotron\.scss}line{font-family:\0000319}}
+.jumbotron p {
+  line-height: 1.4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_jumbotron\.scss}line{font-family:\0000323}}
+.container .jumbotron {
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_jumbotron\.scss}line{font-family:\000036}}
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_jumbotron\.scss}line{font-family:\0000331}}
+  .container .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_jumbotron\.scss}line{font-family:\0000336}}
+  .jumbotron h1 {
+    font-size: 63px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_thumbnails\.scss}line{font-family:\000037}}
+.thumbnail {
+  display: block;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_thumbnails\.scss}line{font-family:\0000312}}
+.thumbnail > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_thumbnails\.scss}line{font-family:\0000321}}
+.thumbnail .caption {
+  padding: 9px;
+  color: #333333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_thumbnails\.scss}line{font-family:\0000328}}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #803980;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\000039}}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000316}}
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000322}}
+.alert .alert-link {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000327}}
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000331}}
+.alert > p + p {
+  margin-top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000340}}
+.alert-dismissable {
+  padding-right: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000344}}
+.alert-dismissable .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000356}}
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003422}}
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003425}}
+.alert-success .alert-link {
+  color: #356635;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000359}}
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003422}}
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003425}}
+.alert-info .alert-link {
+  color: #2d6987;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000362}}
+.alert-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #c09853;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003422}}
+.alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003425}}
+.alert-warning .alert-link {
+  color: #a47e3c;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000365}}
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #b94a48;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003422}}
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003425}}
+.alert-danger .alert-link {
+  color: #953b39;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+  /* line 11, /var/www/sass-bootstrap-theme-purple/bower_components/sass-bootstrap/lib/_progress-bars.scss */
+  from {
+    background-position: 40px 0;
+  }
+
+  /* line 12, /var/www/sass-bootstrap-theme-purple/bower_components/sass-bootstrap/lib/_progress-bars.scss */
+  to {
+    background-position: 0 0;
+  }
+}
+@-moz-keyframes progress-bar-stripes {
+  /* line 17, /var/www/sass-bootstrap-theme-purple/bower_components/sass-bootstrap/lib/_progress-bars.scss */
+  from {
+    background-position: 40px 0;
+  }
+
+  /* line 18, /var/www/sass-bootstrap-theme-purple/bower_components/sass-bootstrap/lib/_progress-bars.scss */
+  to {
+    background-position: 0 0;
+  }
+}
+@-o-keyframes progress-bar-stripes {
+  /* line 23, /var/www/sass-bootstrap-theme-purple/bower_components/sass-bootstrap/lib/_progress-bars.scss */
+  from {
+    background-position: 0 0;
+  }
+
+  /* line 24, /var/www/sass-bootstrap-theme-purple/bower_components/sass-bootstrap/lib/_progress-bars.scss */
+  to {
+    background-position: 40px 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  /* line 29, /var/www/sass-bootstrap-theme-purple/bower_components/sass-bootstrap/lib/_progress-bars.scss */
+  from {
+    background-position: 40px 0;
+  }
+
+  /* line 30, /var/www/sass-bootstrap-theme-purple/bower_components/sass-bootstrap/lib/_progress-bars.scss */
+  to {
+    background-position: 0 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_progress-bars\.scss}line{font-family:\0000339}}
+.progress {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_progress-bars\.scss}line{font-family:\0000349}}
+.progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  background-color: #803980;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_progress-bars\.scss}line{font-family:\0000363}}
+.progress-striped .progress-bar {
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_progress-bars\.scss}line{font-family:\0000369}}
+.progress.active .progress-bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_progress-bars\.scss}line{font-family:\0000378}}
+.progress-bar-success {
+  background-color: #32c832;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003559}}
+.progress-striped .progress-bar-success {
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_progress-bars\.scss}line{font-family:\0000382}}
+.progress-bar-info {
+  background-color: #527edb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003559}}
+.progress-striped .progress-bar-info {
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_progress-bars\.scss}line{font-family:\0000386}}
+.progress-bar-warning {
+  background-color: #ffcc00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003559}}
+.progress-striped .progress-bar-warning {
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_progress-bars\.scss}line{font-family:\0000390}}
+.progress-bar-danger {
+  background-color: #cd3c14;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003559}}
+.progress-striped .progress-bar-danger {
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_media\.scss}line{font-family:\0000310}}
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_media\.scss}line{font-family:\0000317}}
+.media,
+.media .media {
+  margin-top: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_media\.scss}line{font-family:\0000321}}
+.media:first-child {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_media\.scss}line{font-family:\0000326}}
+.media-object {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_media\.scss}line{font-family:\0000331}}
+.media-heading {
+  margin: 0 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_media\.scss}line{font-family:\0000340}}
+.media > .pull-left {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_media\.scss}line{font-family:\0000343}}
+.media > .pull-right {
+  margin-left: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_media\.scss}line{font-family:\0000353}}
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\000038}}
+.list-group {
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000317}}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: white;
+  border: 1px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000327}}
+.list-group-item:first-child {
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000330}}
+.list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000336}}
+.list-group-item > .badge {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000339}}
+.list-group-item > .badge + .badge {
+  margin-right: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000345}}
+a.list-group-item {
+  color: #555555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000348}}
+a.list-group-item .list-group-item-heading {
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000353}}
+a.list-group-item:hover, a.list-group-item:focus {
+  text-decoration: none;
+  background-color: whitesmoke;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000360}}
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+  z-index: 2;
+  color: white;
+  background-color: #803980;
+  border-color: #803980;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000369}}
+a.list-group-item.active .list-group-item-heading, a.list-group-item.active:hover .list-group-item-heading, a.list-group-item.active:focus .list-group-item-heading {
+  color: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000372}}
+a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .list-group-item-text, a.list-group-item.active:focus .list-group-item-text {
+  color: #daabda;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000381}}
+.list-group-item-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_list-group\.scss}line{font-family:\0000385}}
+.list-group-item-text {
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\000037}}
+.panel {
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000316}}
+.panel-body {
+  padding: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.panel-body:before, .panel-body:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.panel-body:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000328}}
+.panel > .list-group {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000331}}
+.panel > .list-group .list-group-item {
+  border-width: 1px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000335}}
+.panel > .list-group .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000339}}
+.panel > .list-group .list-group-item:last-child {
+  border-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000347}}
+.panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000359}}
+.panel > .table,
+.panel > .table-responsive {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000363}}
+.panel > .panel-body + .table,
+.panel > .panel-body + .table-responsive {
+  border-top: 1px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000367}}
+.panel > .table-bordered,
+.panel > .table-responsive > .table-bordered {
+  border: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000374}}
+.panel > .table-bordered > thead > tr > th:first-child,
+.panel > .table-bordered > thead > tr > td:first-child,
+.panel > .table-bordered > tbody > tr > th:first-child,
+.panel > .table-bordered > tbody > tr > td:first-child,
+.panel > .table-bordered > tfoot > tr > th:first-child,
+.panel > .table-bordered > tfoot > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000378}}
+.panel > .table-bordered > thead > tr > th:last-child,
+.panel > .table-bordered > thead > tr > td:last-child,
+.panel > .table-bordered > tbody > tr > th:last-child,
+.panel > .table-bordered > tbody > tr > td:last-child,
+.panel > .table-bordered > tfoot > tr > th:last-child,
+.panel > .table-bordered > tfoot > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000383}}
+.panel > .table-bordered > thead > tr:last-child > th, .panel > .table-bordered > thead > tr:last-child > td,
+.panel > .table-bordered > tbody > tr:last-child > th,
+.panel > .table-bordered > tbody > tr:last-child > td,
+.panel > .table-bordered > tfoot > tr:last-child > th,
+.panel > .table-bordered > tfoot > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > thead > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > thead > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+  border-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000394}}
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\0000399}}
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003105}}
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003109}}
+.panel-title > a {
+  color: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003115}}
+.panel-footer {
+  padding: 10px 15px;
+  background-color: whitesmoke;
+  border-top: 1px solid #dddddd;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003130}}
+.panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003134}}
+.panel-group .panel + .panel {
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003139}}
+.panel-group .panel-heading {
+  border-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003141}}
+.panel-group .panel-heading + .panel-collapse .panel-body {
+  border-top: 1px solid #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003145}}
+.panel-group .panel-footer {
+  border-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003147}}
+.panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid #dddddd;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003155}}
+.panel-default {
+  border-color: #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003396}}
+.panel-default > .panel-heading {
+  color: #333333;
+  background-color: whitesmoke;
+  border-color: #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003401}}
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003404}}
+.panel-default > .panel-heading > .dropdown .caret {
+  border-color: #333333 transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003409}}
+.panel-default > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #dddddd;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003158}}
+.panel-primary {
+  border-color: #803980;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003396}}
+.panel-primary > .panel-heading {
+  color: white;
+  background-color: #803980;
+  border-color: #803980;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003401}}
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #803980;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003404}}
+.panel-primary > .panel-heading > .dropdown .caret {
+  border-color: white transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003409}}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #803980;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003161}}
+.panel-success {
+  border-color: #d6e9c6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003396}}
+.panel-success > .panel-heading {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003401}}
+.panel-success > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #d6e9c6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003404}}
+.panel-success > .panel-heading > .dropdown .caret {
+  border-color: #468847 transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003409}}
+.panel-success > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #d6e9c6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003164}}
+.panel-warning {
+  border-color: #faebcc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003396}}
+.panel-warning > .panel-heading {
+  color: #c09853;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003401}}
+.panel-warning > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #faebcc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003404}}
+.panel-warning > .panel-heading > .dropdown .caret {
+  border-color: #c09853 transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003409}}
+.panel-warning > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #faebcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003167}}
+.panel-danger {
+  border-color: #ebccd1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003396}}
+.panel-danger > .panel-heading {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003401}}
+.panel-danger > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #ebccd1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003404}}
+.panel-danger > .panel-heading > .dropdown .caret {
+  border-color: #b94a48 transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003409}}
+.panel-danger > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #ebccd1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003170}}
+.panel-info {
+  border-color: #bce8f1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003396}}
+.panel-info > .panel-heading {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003401}}
+.panel-info > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #bce8f1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003404}}
+.panel-info > .panel-heading > .dropdown .caret {
+  border-color: #3a87ad transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003409}}
+.panel-info > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #bce8f1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_wells\.scss}line{font-family:\000037}}
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_wells\.scss}line{font-family:\0000315}}
+.well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_wells\.scss}line{font-family:\0000322}}
+.well-lg {
+  padding: 24px;
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_wells\.scss}line{font-family:\0000326}}
+.well-sm {
+  padding: 9px;
+  border-radius: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_close\.scss}line{font-family:\000036}}
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: black;
+  text-shadow: 0 1px 0 white;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_close\.scss}line{font-family:\0000315}}
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_close\.scss}line{font-family:\0000329}}
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_logo\.scss}line{font-family:\0000345}}
 .logo {
   width: 50px;
@@ -3568,6 +6469,1248 @@ input[type="button"].btn-block {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_logo\.scss}line{font-family:\0000354}}
 .logo:first-child {
   margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000311}}
+.modal-open {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000316}}
+.modal {
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000328}}
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000332}}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000336}}
+.modal-dialog {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding: 10px;
+  z-index: 1050;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000346}}
+.modal-content {
+  position: relative;
+  background-color: white;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000359}}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000368}}
+.modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000369}}
+.modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000374}}
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 16.42857px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000380}}
+.modal-header .close {
+  margin-top: -2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000385}}
+.modal-title {
+  margin: 0;
+  line-height: 1.42857;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000392}}
+.modal-body {
+  position: relative;
+  padding: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\0000398}}
+.modal-footer {
+  margin-top: 15px;
+  padding: 19px 20px 20px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.modal-footer:before, .modal-footer:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.modal-footer:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\00003106}}
+.modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\00003111}}
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\00003115}}
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\00003123}}
+  .modal-dialog {
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_modals\.scss}line{font-family:\00003128}}
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\000037}}
+.tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000316}}
+.tooltip.in {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000317}}
+.tooltip.top {
+  margin-top: -3px;
+  padding: 5px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000318}}
+.tooltip.right {
+  margin-left: 3px;
+  padding: 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000319}}
+.tooltip.bottom {
+  margin-top: 3px;
+  padding: 5px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000320}}
+.tooltip.left {
+  margin-left: -3px;
+  padding: 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000324}}
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000335}}
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000343}}
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000350}}
+.tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000356}}
+.tooltip.top-right .tooltip-arrow {
+  bottom: 0;
+  right: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000362}}
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000369}}
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000376}}
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000383}}
+.tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_tooltip\.scss}line{font-family:\0000389}}
+.tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\000036}}
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  background-color: white;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000326}}
+.popover.top {
+  margin-top: -10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000327}}
+.popover.right {
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000328}}
+.popover.bottom {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000329}}
+.popover.left {
+  margin-left: -10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000332}}
+.popover-title {
+  margin: 0;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px 5px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000343}}
+.popover-content {
+  padding: 9px 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000352}}
+.popover .arrow, .popover .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000362}}
+.popover .arrow {
+  border-width: 11px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000365}}
+.popover .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000371}}
+.popover.top .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-width: 0;
+  border-top-color: #999999;
+  border-top-color: rgba(0, 0, 0, 0.25);
+  bottom: -11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000378}}
+.popover.top .arrow:after {
+  content: " ";
+  bottom: 1px;
+  margin-left: -10px;
+  border-bottom-width: 0;
+  border-top-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000386}}
+.popover.right .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-left-width: 0;
+  border-right-color: #999999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\0000393}}
+.popover.right .arrow:after {
+  content: " ";
+  left: 1px;
+  bottom: -10px;
+  border-left-width: 0;
+  border-right-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\00003101}}
+.popover.bottom .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999999;
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  top: -11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\00003108}}
+.popover.bottom .arrow:after {
+  content: " ";
+  top: 1px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\00003117}}
+.popover.left .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999999;
+  border-left-color: rgba(0, 0, 0, 0.25);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_popovers\.scss}line{font-family:\00003124}}
+.popover.left .arrow:after {
+  content: " ";
+  right: 1px;
+  border-right-width: 0;
+  border-left-color: white;
+  bottom: -10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\000037}}
+.carousel {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000311}}
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000316}}
+.carousel-inner > .item {
+  display: none;
+  position: relative;
+  -webkit-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000322}}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000329}}
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000333}}
+.carousel-inner > .active {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000337}}
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000344}}
+.carousel-inner > .next {
+  left: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000347}}
+.carousel-inner > .prev {
+  left: -100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000350}}
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000355}}
+.carousel-inner > .active.left {
+  left: -100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000358}}
+.carousel-inner > .active.right {
+  left: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000367}}
+.carousel-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000382}}
+.carousel-control.left {
+  background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000385}}
+.carousel-control.right {
+  left: auto;
+  right: 0;
+  background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\0000392}}
+.carousel-control:hover, .carousel-control:focus {
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003100}}
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003109}}
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left {
+  left: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003113}}
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {
+  right: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003117}}
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  font-family: serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003127}}
+.carousel-control .icon-prev:before {
+  content: '\2039';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003132}}
+.carousel-control .icon-next:before {
+  content: '\203a';
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003143}}
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003154}}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003175}}
+.carousel-indicators .active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003186}}
+.carousel-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003197}}
+.carousel-caption .btn {
+  text-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003208}}
+  .carousel-control .glyphicons-chevron-left,
+  .carousel-control .glyphicons-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003221}}
+  .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_carousel\.scss}line{font-family:\00003228}}
+  .carousel-indicators {
+    bottom: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000320}}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\0000325}}
+.clearfix:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_utilities\.scss}line{font-family:\0000312}}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_utilities\.scss}line{font-family:\0000315}}
+.pull-right {
+  float: right !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_utilities\.scss}line{font-family:\0000318}}
+.pull-left {
+  float: left !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_utilities\.scss}line{font-family:\0000327}}
+.hide {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_utilities\.scss}line{font-family:\0000330}}
+.show {
+  display: block !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_utilities\.scss}line{font-family:\0000333}}
+.invisible {
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_utilities\.scss}line{font-family:\0000336}}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_utilities\.scss}line{font-family:\0000345}}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_utilities\.scss}line{font-family:\0000354}}
+.affix {
+  position: fixed;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+.visible-xs,
+tr.visible-xs,
+th.visible-xs,
+td.visible-xs {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-xs {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-xs.visible-sm {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-xs.visible-sm {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-xs.visible-sm,
+  td.visible-xs.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-xs.visible-md {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-xs.visible-md {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-xs.visible-md,
+  td.visible-xs.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-xs.visible-lg {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-xs.visible-lg {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-xs.visible-lg,
+  td.visible-xs.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+.visible-sm,
+tr.visible-sm,
+th.visible-sm,
+td.visible-sm {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-sm.visible-xs {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-sm.visible-xs {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-sm.visible-xs,
+  td.visible-sm.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-sm {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-sm {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-sm.visible-md {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-sm.visible-md {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-sm.visible-md,
+  td.visible-sm.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-sm.visible-lg {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-sm.visible-lg {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-sm.visible-lg,
+  td.visible-sm.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+.visible-md,
+tr.visible-md,
+th.visible-md,
+td.visible-md {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-md.visible-xs {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-md.visible-xs {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-md.visible-xs,
+  td.visible-md.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-md.visible-sm {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-md.visible-sm {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-md.visible-sm,
+  td.visible-md.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-md {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-md {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-md.visible-lg {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-md.visible-lg {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-md.visible-lg,
+  td.visible-md.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+.visible-lg,
+tr.visible-lg,
+th.visible-lg,
+td.visible-lg {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-lg.visible-xs {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-lg.visible-xs {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-lg.visible-xs,
+  td.visible-lg.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-lg.visible-sm {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-lg.visible-sm {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-lg.visible-sm,
+  td.visible-lg.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-lg.visible-md {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-lg.visible-md {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-lg.visible-md,
+  td.visible-lg.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-lg {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-lg {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+.hidden-xs {
+  display: block !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+tr.hidden-xs {
+  display: table-row !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+th.hidden-xs,
+td.hidden-xs {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-xs,
+  tr.hidden-xs,
+  th.hidden-xs,
+  td.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-xs.hidden-sm,
+  tr.hidden-xs.hidden-sm,
+  th.hidden-xs.hidden-sm,
+  td.hidden-xs.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-xs.hidden-md,
+  tr.hidden-xs.hidden-md,
+  th.hidden-xs.hidden-md,
+  td.hidden-xs.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-xs.hidden-lg,
+  tr.hidden-xs.hidden-lg,
+  th.hidden-xs.hidden-lg,
+  td.hidden-xs.hidden-lg {
+    display: none !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+.hidden-sm {
+  display: block !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+tr.hidden-sm {
+  display: table-row !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+th.hidden-sm,
+td.hidden-sm {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-sm.hidden-xs,
+  tr.hidden-sm.hidden-xs,
+  th.hidden-sm.hidden-xs,
+  td.hidden-sm.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-sm,
+  tr.hidden-sm,
+  th.hidden-sm,
+  td.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-sm.hidden-md,
+  tr.hidden-sm.hidden-md,
+  th.hidden-sm.hidden-md,
+  td.hidden-sm.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-sm.hidden-lg,
+  tr.hidden-sm.hidden-lg,
+  th.hidden-sm.hidden-lg,
+  td.hidden-sm.hidden-lg {
+    display: none !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+.hidden-md {
+  display: block !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+tr.hidden-md {
+  display: table-row !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+th.hidden-md,
+td.hidden-md {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-md.hidden-xs,
+  tr.hidden-md.hidden-xs,
+  th.hidden-md.hidden-xs,
+  td.hidden-md.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-md.hidden-sm,
+  tr.hidden-md.hidden-sm,
+  th.hidden-md.hidden-sm,
+  td.hidden-md.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-md,
+  tr.hidden-md,
+  th.hidden-md,
+  td.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-md.hidden-lg,
+  tr.hidden-md.hidden-lg,
+  th.hidden-md.hidden-lg,
+  td.hidden-md.hidden-lg {
+    display: none !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+.hidden-lg {
+  display: block !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+tr.hidden-lg {
+  display: table-row !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+th.hidden-lg,
+td.hidden-lg {
+  display: table-cell !important;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-lg.hidden-xs,
+  tr.hidden-lg.hidden-xs,
+  th.hidden-lg.hidden-xs,
+  td.hidden-lg.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-lg.hidden-sm,
+  tr.hidden-lg.hidden-sm,
+  th.hidden-lg.hidden-sm,
+  td.hidden-lg.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-lg.hidden-md,
+  tr.hidden-lg.hidden-md,
+  th.hidden-lg.hidden-md,
+  td.hidden-lg.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-lg,
+  tr.hidden-lg,
+  th.hidden-lg,
+  td.hidden-lg {
+    display: none !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+.visible-print,
+tr.visible-print,
+th.visible-print,
+td.visible-print {
+  display: none !important;
+}
+
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003569}}
+  .visible-print {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003570}}
+  tr.visible-print {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003571}}
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003577}}
+  .hidden-print,
+  tr.hidden-print,
+  th.hidden-print,
+  td.hidden-print {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=bootstrap-purple.css.map */
