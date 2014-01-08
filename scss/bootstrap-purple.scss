@@ -4,7 +4,7 @@ $icon-font-path: "../bower_components/sass-bootstrap/fonts/" !default;
 // Core variables and mixins
 @import "variables";
 @import "sass-bootstrap/lib/variables";
-@import "sass-bootstrap/lib/mixins";
+@import "mixins";
 
 // Reset
 @import "sass-bootstrap/lib/normalize";
@@ -16,7 +16,7 @@ $icon-font-path: "../bower_components/sass-bootstrap/fonts/" !default;
 @import "sass-bootstrap/lib/code";
 @import "sass-bootstrap/lib/grid";
 @import "tables";
-@import "sass-bootstrap/lib/forms";
+@import "forms";
 @import "buttons";
 
 // Components

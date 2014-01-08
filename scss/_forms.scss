@@ -1,0 +1,62 @@
+@import "sass-bootstrap/lib/forms";
+
+legend {
+  font-family: $legend-font-family;
+  font-weight: $legend-font-weight;
+}
+
+label {
+  font-weight: normal;
+}
+
+.form-control {
+  @include box-shadow(none);
+}
+
+
+// Form control feedback states
+//
+// Apply contextual and semantic states to individual form controls.
+
+// Warning
+.has-warning {
+  @include form-control-validation($state-warning-text, $state-warning-border, $state-warning-bg);
+}
+// Error
+.has-error {
+  @include form-control-validation($state-danger-text, $state-danger-border, $state-danger-bg);
+}
+// Success
+.has-success {
+  @include form-control-validation($state-success-text, $state-success-border, $state-success-bg);
+}
+
+// Contextual emphasis
+// .text-muted {
+//   color: $text-muted;
+// }
+.text-primary {
+  &:hover {
+    color: $brand-primary;
+  }
+}
+.text-warning {
+  &:hover {
+    color: $state-warning-text;
+  }
+}
+.text-danger {
+  &:hover {
+    color: $state-danger-text;
+  }
+}
+.text-success {
+  &:hover {
+    color: $state-success-text;
+  }
+}
+.text-info {
+  &:hover {
+    color: $state-info-text;
+  }
+}
