@@ -1,6 +1,43 @@
 
 @import "sass-bootstrap/lib/navbar";
 
+.navbar {
+  border: none;
+}
+
+.navbar-nav {
+
+  // Uncollapse the nav
+  @media (min-width: $grid-float-breakpoint) {
+    > li {
+      position: relative;
+      padding-top: (($navbar-height - $line-height-computed) / 2);
+      padding-bottom: (($navbar-height - $line-height-computed) / 2);
+      > a {
+      	position: static;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+}
+
+// Default navbar
+
+.navbar-default {
+  @include gradient-vertical($navbar-default-bg-top, $navbar-default-bg-bottom);
+  .navbar-nav {
+    > li > a,
+    > li > a:focus {
+      border-left: 1px solid $navbar-default-link-separator;
+    }
+    > :first-child > a {
+      border-left: none;
+    }
+  }
+}
+
 // Inverse navbar
 
 .navbar-inverse {
@@ -8,16 +45,33 @@
   .navbar-nav {
     > .active > a {
       font-weight: $navbar-inverse-link-active-weight;
-      position: relative;
       &:after {
-      	content: '';
+        content: '';
         position: absolute;
         border: $navbar-inverse-link-active-caret solid transparent;
+        border-left-color: $body-bg;
+        left: -1px;
+        top: 50%;
+        margin-top: -($navbar-inverse-link-active-caret);
+      }
+    }
+
+    @media (min-width: $grid-float-breakpoint) {
+      > .active > a:after {
+        border-left-color: transparent;
         border-bottom-color: $body-bg;
+        left: auto;
+        top: auto;
         bottom: -1px;
         left: 50%;
+        margin-top: 0;
         margin-left: -($navbar-inverse-link-active-caret / 2);
       }
     }
+  }
+
+  .navbar-collapse,
+  .navbar-form {
+    border-color: transparent;
   }
 }
