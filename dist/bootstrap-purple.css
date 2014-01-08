@@ -4979,7 +4979,7 @@ input[type="button"].btn-block {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000311}}
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 40px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4997,7 +4997,7 @@ input[type="button"].btn-block {
 @media (min-width: 940px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\0000311}}
   .navbar {
-    border-radius: 3px;
+    border-radius: 0;
   }
 }
 
@@ -5135,7 +5135,7 @@ input[type="button"].btn-block {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003152}}
 .navbar-brand {
   float: left;
-  padding: 15px 10px;
+  padding: 10px 10px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -5156,8 +5156,8 @@ input[type="button"].btn-block {
   float: right;
   margin-right: 10px;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 3px;
@@ -5182,7 +5182,7 @@ input[type="button"].btn-block {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003208}}
 .navbar-nav {
-  margin: 7.5px -10px;
+  margin: 5px -10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003211}}
 .navbar-nav > li > a {
@@ -5227,8 +5227,8 @@ input[type="button"].btn-block {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003248}}
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
@@ -5252,8 +5252,8 @@ input[type="button"].btn-block {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003291}}
@@ -5297,15 +5297,15 @@ input[type="button"].btn-block {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003337}}
 .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003346}}
 .navbar-text {
   float: left;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media (min-width: 940px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003346}}
@@ -5422,39 +5422,39 @@ input[type="button"].btn-block {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003496}}
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #090909;
+  background-color: #dddddd;
+  border-color: #dddddd;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003500}}
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #333333;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003502}}
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-  color: white;
+  color: #333333;
   background-color: transparent;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003509}}
 .navbar-inverse .navbar-text {
-  color: #999999;
+  color: #333333;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003514}}
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #333333;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003517}}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: white;
+  color: #333333;
   background-color: transparent;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003524}}
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: #090909;
+  color: #333333;
+  background-color: transparent;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003532}}
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
-  color: #444444;
+  color: #666666;
   background-color: transparent;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003542}}
@@ -5472,60 +5472,76 @@ input[type="button"].btn-block {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003553}}
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  border-color: #cbcbcb;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003561}}
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #090909;
-  color: white;
+  background-color: transparent;
+  color: #333333;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003568}}
 .navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
-  border-top-color: white;
-  border-bottom-color: white;
+  border-top-color: #333333;
+  border-bottom-color: #333333;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003572}}
 .navbar-inverse .navbar-nav > .dropdown > a .caret {
-  border-top-color: #999999;
-  border-bottom-color: #999999;
+  border-top-color: #333333;
+  border-bottom-color: #333333;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003580}}
 .navbar-inverse .navbar-nav > .open > a .caret, .navbar-inverse .navbar-nav > .open > a:hover .caret, .navbar-inverse .navbar-nav > .open > a:focus .caret {
-  border-top-color: white;
-  border-bottom-color: white;
+  border-top-color: #333333;
+  border-bottom-color: #333333;
 }
 @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003590}}
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #090909;
+    border-color: #dddddd;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003593}}
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #999999;
+    color: #333333;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003595}}
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: white;
+    color: #333333;
     background-color: transparent;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003602}}
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: white;
-    background-color: #090909;
+    color: #333333;
+    background-color: transparent;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003610}}
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #444444;
+    color: #666666;
     background-color: transparent;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003621}}
 .navbar-inverse .navbar-link {
-  color: #999999;
+  color: #333333;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_navbar\.scss}line{font-family:\00003623}}
 .navbar-inverse .navbar-link:hover {
-  color: white;
+  color: #333333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_navbar\.scss}line{font-family:\000039}}
+.navbar-inverse .navbar-nav > .active > a {
+  font-weight: bold;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_navbar\.scss}line{font-family:\0000312}}
+.navbar-inverse .navbar-nav > .active > a:after {
+  content: '';
+  position: absolute;
+  border: 6px solid transparent;
+  border-bottom-color: white;
+  bottom: -1px;
+  left: 50%;
+  margin-left: -3px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_breadcrumbs\.scss}line{font-family:\000036}}

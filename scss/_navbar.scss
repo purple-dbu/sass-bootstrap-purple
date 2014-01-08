@@ -1,0 +1,23 @@
+
+@import "sass-bootstrap/lib/navbar";
+
+// Inverse navbar
+
+.navbar-inverse {
+  
+  .navbar-nav {
+    > .active > a {
+      font-weight: $navbar-inverse-link-active-weight;
+      position: relative;
+      &:after {
+      	content: '';
+        position: absolute;
+        border: $navbar-inverse-link-active-caret solid transparent;
+        border-bottom-color: $body-bg;
+        bottom: -1px;
+        left: 50%;
+        margin-left: -($navbar-inverse-link-active-caret / 2);
+      }
+    }
+  }
+}
