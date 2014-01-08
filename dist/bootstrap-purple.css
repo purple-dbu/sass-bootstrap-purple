@@ -541,20 +541,20 @@ cite {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\0000350}}
 .text-danger {
-  color: #b63512;
+  color: #cd3c14;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\0000352}}
 .text-danger:hover {
-  color: #87280d;
+  color: #9f2e0f;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\0000356}}
 .text-success {
-  color: #2db42d;
+  color: #2aa72a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\0000358}}
 .text-success:hover {
-  color: #238b23;
+  color: #207f20;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_type\.scss}line{font-family:\0000362}}
@@ -2595,24 +2595,24 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 .has-error .checkbox,
 .has-error .radio-inline,
 .has-error .checkbox-inline {
-  color: #b63512;
+  color: #cd3c14;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000321}}
 .has-error .form-control {
-  border-color: #b63512;
+  border-color: #cd3c14;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000324}}
 .has-error .form-control:focus {
-  border-color: #b63512;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #e44316;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #e44316;
+  border-color: #cd3c14;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ea532a;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ea532a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000331}}
 .has-error .input-group-addon {
-  color: #b63512;
-  border-color: #b63512;
+  color: #cd3c14;
+  border-color: #cd3c14;
   background-color: #cd3c14;
 }
 
@@ -2623,24 +2623,24 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 .has-success .checkbox,
 .has-success .radio-inline,
 .has-success .checkbox-inline {
-  color: #2db42d;
+  color: #2aa72a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000321}}
 .has-success .form-control {
-  border-color: #2db42d;
+  border-color: #2aa72a;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000324}}
 .has-success .form-control:focus {
-  border-color: #2db42d;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #43d043;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #43d043;
+  border-color: #2aa72a;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #37cd37;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #37cd37;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000331}}
 .has-success .input-group-addon {
-  color: #2db42d;
-  border-color: #2db42d;
+  color: #2aa72a;
+  border-color: #2aa72a;
   background-color: #32c832;
 }
 
@@ -2775,7 +2775,7 @@ label {
 .has-error .checkbox,
 .has-error .radio-inline,
 .has-error .checkbox-inline {
-  color: #b63512;
+  color: #cd3c14;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000321}}
 .has-error .form-control {
@@ -2791,7 +2791,7 @@ label {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000331}}
 .has-error .input-group-addon {
-  color: #b63512;
+  color: #cd3c14;
   border-color: #cd3c14;
   background-color: #cd3c14;
 }
@@ -2803,24 +2803,24 @@ label {
 .has-success .checkbox,
 .has-success .radio-inline,
 .has-success .checkbox-inline {
-  color: #2db42d;
+  color: #2aa72a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000321}}
 .has-success .form-control {
-  border-color: #32c832;
+  border-color: #2fbc2f;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000324}}
 .has-success .form-control:focus {
-  border-color: #32c832;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #58d558;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #58d558;
+  border-color: #2fbc2f;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #4cd24c;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #4cd24c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_mixins\.scss}line{font-family:\0000331}}
 .has-success .input-group-addon {
-  color: #2db42d;
-  border-color: #32c832;
+  color: #2aa72a;
+  border-color: #2fbc2f;
   background-color: #32c832;
 }
 
@@ -2836,12 +2836,12 @@ label {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_forms\.scss}line{font-family:\0000349}}
 .text-danger:hover {
-  color: #b63512;
+  color: #cd3c14;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_forms\.scss}line{font-family:\0000354}}
 .text-success:hover {
-  color: #2db42d;
+  color: #2aa72a;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/scss\/_forms\.scss}line{font-family:\0000359}}
@@ -5942,16 +5942,16 @@ a.thumbnail.active {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000356}}
 .alert-success {
   background-color: #32c832;
-  border-color: #32c832;
-  color: #2db42d;
+  border-color: #2fbc2f;
+  color: #2aa72a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003422}}
 .alert-success hr {
-  border-top-color: #2db42d;
+  border-top-color: #2aa72a;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003425}}
 .alert-success .alert-link {
-  color: #238b23;
+  color: #207f20;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_alerts\.scss}line{font-family:\0000359}}
@@ -5988,7 +5988,7 @@ a.thumbnail.active {
 .alert-danger {
   background-color: #cd3c14;
   border-color: #cd3c14;
-  color: #b63512;
+  color: #cd3c14;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003422}}
 .alert-danger hr {
@@ -5996,7 +5996,7 @@ a.thumbnail.active {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003425}}
 .alert-danger .alert-link {
-  color: #87280d;
+  color: #9f2e0f;
 }
 
 @-webkit-keyframes progress-bar-stripes {
@@ -6468,25 +6468,25 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003161}}
 .panel-success {
-  border-color: #32c832;
+  border-color: #2fbc2f;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003396}}
 .panel-success > .panel-heading {
-  color: #2db42d;
+  color: #2aa72a;
   background-color: #32c832;
-  border-color: #32c832;
+  border-color: #2fbc2f;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003401}}
 .panel-success > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #32c832;
+  border-top-color: #2fbc2f;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003404}}
 .panel-success > .panel-heading > .dropdown .caret {
-  border-color: #2db42d transparent;
+  border-color: #2aa72a transparent;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003409}}
 .panel-success > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #32c832;
+  border-bottom-color: #2fbc2f;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_panels\.scss}line{font-family:\00003164}}
@@ -6518,7 +6518,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003396}}
 .panel-danger > .panel-heading {
-  color: #b63512;
+  color: #cd3c14;
   background-color: #cd3c14;
   border-color: #cd3c14;
 }
@@ -6528,7 +6528,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003404}}
 .panel-danger > .panel-heading > .dropdown .caret {
-  border-color: #b63512 transparent;
+  border-color: #cd3c14 transparent;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sass-bootstrap-theme-purple\/bower_components\/sass-bootstrap\/lib\/_mixins\.scss}line{font-family:\00003409}}
 .panel-danger > .panel-footer + .panel-collapse .panel-body {

@@ -76,8 +76,29 @@ Typography
 
 <div class="row">
   <div class="col-lg-4 col-md-4 col-sm-4">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, nunc non scelerisque tincidunt, dolor lacus tincidunt justo, vitae hendrerit neque libero non nulla. Nunc sit amet justo ipsum. Pellentesque bibendum ipsum ut lobortis tempor. Sed accumsan mauris arcu, in fermentum mauris vehicula eget. Praesent semper sed eros a dictum. Quisque in diam dolor. Duis eleifend euismod tincidunt. Nulla facilisi. Donec bibendum ipsum ut ante luctus, convallis pretium tortor imperdiet.</p>
-    <p>Curabitur malesuada elementum mi quis sagittis. Ut faucibus nunc quis lacus euismod varius. Ut eleifend sed enim nec mollis. Nunc varius eleifend nibh. In posuere faucibus elit sed mattis. Phasellus sed aliquet dui, nec sollicitudin purus. Suspendisse tempor ut est non fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ligula, congue at nisi a, tristique pulvinar risus.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend,
+      <em>nunc non scelerisque tincidunt</em>,
+      dolor lacus tincidunt justo, vitae hendrerit neque libero non nulla.
+      <strong>Nunc sit amet justo ipsum</strong>.
+      Pellentesque bibendum ipsum ut lobortis tempor. Sed accumsan mauris arcu,
+      in fermentum mauris vehicula eget.
+      <a href="#">Praesent semper sed eros a dictum</a>.
+      Quisque in diam dolor. Duis eleifend euismod tincidunt.
+      Nulla facilisi. Donec bibendum ipsum ut ante luctus, convallis pretium
+      tortor imperdiet.
+    </p>
+    <p>
+      <span class="text-muted">Curabitur malesuada elementum mi quis sagittis.</span>
+      <span class="text-primary">Ut faucibus nunc quis lacus euismod varius.</span>
+      <span class="text-success">Ut eleifend sed enim nec mollis.</span>
+      <span class="text-info">Nunc varius eleifend nibh.</span>
+      <span class="text-warning">In posuere faucibus elit sed mattis.</span>
+      <span class="text-danger">Phasellus sed aliquet dui, nec sollicitudin purus.</span>
+      Suspendisse tempor ut est non fringilla. Vestibulum ante ipsum primis in
+      faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante
+      ligula, congue at nisi a, tristique pulvinar risus.
+    </p>
   </div>
   <h1 class="col-lg-8 col-md-8 col-sm-8">
     <img src="images/purple-logo.png" class="logo"/>
@@ -110,14 +131,25 @@ Buttons
 <h2>buttons</h2>
 
 <div class="row">
-  <div class="pp-col col-lg-6 col-md-6 col-sm-6">
-    <button type="button" class="btn btn-default">default</button>
-    <button type="button" class="btn btn-primary">primary</button>
-    <button type="button" class="btn btn-success">success</button>
-    <button type="button" class="btn btn-info">info</button>
-    <button type="button" class="btn btn-warning">warning</button>
-    <button type="button" class="btn btn-danger">danger</button>
-    <button type="button" class="btn btn-link">link</button>
+  <div class="col-lg-6 col-md-6 col-sm-6">
+    <div class="pp-col">
+      <button type="button" class="btn btn-default">default</button>
+      <button type="button" class="btn btn-primary">primary</button>
+      <button type="button" class="btn btn-success">success</button>
+      <button type="button" class="btn btn-info">info</button>
+      <button type="button" class="btn btn-warning">warning</button>
+      <button type="button" class="btn btn-danger">danger</button>
+      <button type="button" class="btn btn-link">link</button>
+    </div>
+    <div class="pp-col">
+      <button type="button" class="btn btn-default" disabled>default</button>
+      <button type="button" class="btn btn-primary" disabled>primary</button>
+      <button type="button" class="btn btn-success" disabled>success</button>
+      <button type="button" class="btn btn-info" disabled>info</button>
+      <button type="button" class="btn btn-warning" disabled>warning</button>
+      <button type="button" class="btn btn-danger" disabled>danger</button>
+      <button type="button" class="btn btn-link" disabled>link</button>
+    </div>
   </div>
   <div class="pp-col col-lg-6 col-md-6 col-sm-6">
     <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> back</button>
@@ -129,8 +161,8 @@ Buttons
     <button type="button" class="btn btn-primary">OK</button>
   </div>
   <div class="pp-col col-lg-6 col-md-6 col-sm-6">
-    <button type="button" class="btn btn-xs btn-primary">cancel</button>
-    <button type="button" class="btn btn-xs btn-default">find out more</button>
+    <button type="button" class="btn btn-xs btn-default">cancel</button>
+    <button type="button" class="btn btn-xs btn-primary">find out more</button>
   </div>
 </div>
 
@@ -277,6 +309,15 @@ Tabs
 -->
 <h2>tabs</h2>
 
+<div class="row">
+  <div class="pp-col col-lg-6 col-md-6 col-sm-6">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#">Section 1</a></li>
+      <li><a href="#">Section 2</a></li>
+      <li><a href="#">Section 3</a></li>
+    </ul>
+  </div>
+</div>
 
 <hr>
 
@@ -288,6 +329,19 @@ Pagination
 -->
 <h2>pagination</h2>
 
+<div class="row">
+  <div class="pp-col col-lg-6 col-md-6 col-sm-6">
+    <ul class="pagination">
+      <li><a href="#"><i class="glyphicon glyphicon-chevron-left"></i> previous</a></li>
+      <li><a href="#">1</a></li>
+      <li class="active"><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li><a href="#">next <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+    </ul>
+  </div>
+</div>
 
 <hr>
 
@@ -299,6 +353,26 @@ Breadcrumbs
 -->
 <h2>breadcrumbs</h2>
 
+<div class="row">
+  <div class="pp-col col-lg-6 col-md-6 col-sm-6">
+    <ol class="breadcrumb">
+      <li><a href="#">Step 1</a></li>
+      <li><a href="#">Step 2</a></li>
+      <li class="active">Step 3</li>
+      <li>Step 4</li>
+      <li>Step 5</li>
+    </ol>
+  </div>
+  <div class="pp-col col-lg-6 col-md-6 col-sm-6">
+    <ol class="steps">
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li class="active">3</li>
+      <li>4</li>
+      <li>5</li>
+    </ol>
+  </div>
+</div>
 
 <hr>
 
