@@ -390,12 +390,12 @@ textarea {
 
 /* line 43, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_scaffolding.scss */
 a {
-  color: #803980;
+  color: #f16e00;
   text-decoration: none;
 }
 /* line 47, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_scaffolding.scss */
 a:hover, a:focus {
-  color: #803980;
+  color: #f16e00;
   text-decoration: underline;
 }
 /* line 53, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_scaffolding.scss */
@@ -523,11 +523,11 @@ cite {
 
 /* line 38, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_type.scss */
 .text-primary {
-  color: #803980;
+  color: #f16e00;
 }
 /* line 40, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_type.scss */
 .text-primary:hover {
-  color: #5d295d;
+  color: #be5700;
 }
 
 /* line 44, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_type.scss */
@@ -2404,10 +2404,10 @@ output {
 }
 /* line 833, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .form-control:focus {
-  border-color: #803980;
+  border-color: #f16e00;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(128, 57, 128, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(128, 57, 128, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(241, 110, 0, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(241, 110, 0, 0.6);
 }
 /* line 57, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .form-control:-moz-placeholder {
@@ -2826,7 +2826,7 @@ label {
 
 /* line 39, ../../scss/_forms.scss */
 .text-primary:hover {
-  color: #803980;
+  color: #f16e00;
 }
 
 /* line 44, ../../scss/_forms.scss */
@@ -2933,20 +2933,20 @@ label {
 /* line 58, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_buttons.scss */
 .btn-primary {
   color: white;
-  background-color: #803980;
-  border-color: #803980;
+  background-color: #f16e00;
+  border-color: #f16e00;
 }
 /* line 467, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
   color: white;
-  background-color: #642c64;
-  border-color: #562656;
+  background-color: #c85b00;
+  border-color: #b45200;
 }
 /* line 475, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .open .btn-primary.dropdown-toggle {
   color: white;
-  background-color: #642c64;
-  border-color: #562656;
+  background-color: #c85b00;
+  border-color: #b45200;
 }
 /* line 480, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .btn-primary:active, .btn-primary.active {
@@ -2958,8 +2958,8 @@ label {
 }
 /* line 490, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #803980;
-  border-color: #803980;
+  background-color: #f16e00;
+  border-color: #f16e00;
 }
 
 /* line 62, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_buttons.scss */
@@ -3092,7 +3092,7 @@ label {
 
 /* line 83, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_buttons.scss */
 .btn-link {
-  color: #803980;
+  color: #f16e00;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -3109,7 +3109,7 @@ label {
 }
 /* line 102, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #803980;
+  color: #f16e00;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4297,7 +4297,7 @@ input[type="button"].btn-block {
   color: white;
   text-decoration: none;
   outline: 0;
-  background-color: #803980;
+  background-color: #f16e00;
 }
 
 /* line 101, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_dropdowns.scss */
@@ -4804,12 +4804,12 @@ input[type="button"].btn-block {
 /* line 46, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #803980;
+  border-color: #f16e00;
 }
 /* line 52, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav .open > a .caret, .nav .open > a:hover .caret, .nav .open > a:focus .caret {
-  border-top-color: #803980;
-  border-bottom-color: #803980;
+  border-top-color: #f16e00;
+  border-bottom-color: #f16e00;
 }
 /* line 64, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav .nav-divider {
@@ -4867,7 +4867,7 @@ input[type="button"].btn-block {
 /* line 136, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: white;
-  background-color: #803980;
+  background-color: #f16e00;
 }
 /* line 142, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav-pills > li.active > a .caret, .nav-pills > li.active > a:hover .caret, .nav-pills > li.active > a:focus .caret {
@@ -4959,14 +4959,14 @@ input[type="button"].btn-block {
 
 /* line 247, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav .caret {
-  border-top-color: #803980;
-  border-bottom-color: #803980;
+  border-top-color: #f16e00;
+  border-bottom-color: #f16e00;
 }
 
 /* line 251, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav a:hover .caret {
-  border-top-color: #803980;
-  border-bottom-color: #803980;
+  border-top-color: #f16e00;
+  border-bottom-color: #f16e00;
 }
 
 /* line 257, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
@@ -5672,8 +5672,8 @@ input[type="button"].btn-block {
 .pagination > .active > span:focus {
   z-index: 2;
   color: white;
-  background-color: #803980;
-  border-color: #803980;
+  background-color: #f16e00;
+  border-color: #f16e00;
   cursor: default;
 }
 /* line 60, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_pagination.scss */
@@ -5819,11 +5819,11 @@ input[type="button"].btn-block {
 
 /* line 40, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_labels.scss */
 .label-primary {
-  background-color: #803980;
+  background-color: #f16e00;
 }
 /* line 539, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #5d295d;
+  background-color: #be5700;
 }
 
 /* line 44, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_labels.scss */
@@ -5898,7 +5898,7 @@ a.badge:hover, a.badge:focus {
 /* line 44, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_badges.scss */
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #803980;
+  color: #f16e00;
   background-color: white;
 }
 
@@ -5970,7 +5970,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #803980;
+  border-color: #f16e00;
 }
 
 /* line 9, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_alerts.scss */
@@ -6135,7 +6135,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: white;
   text-align: center;
-  background-color: #803980;
+  background-color: #f16e00;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -6300,8 +6300,8 @@ a.list-group-item:hover, a.list-group-item:focus {
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
   z-index: 2;
   color: white;
-  background-color: #803980;
-  border-color: #803980;
+  background-color: #f16e00;
+  border-color: #f16e00;
 }
 /* line 69, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_list-group.scss */
 a.list-group-item.active .list-group-item-heading, a.list-group-item.active:hover .list-group-item-heading, a.list-group-item.active:focus .list-group-item-heading {
@@ -6309,7 +6309,7 @@ a.list-group-item.active .list-group-item-heading, a.list-group-item.active:hove
 }
 /* line 72, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_list-group.scss */
 a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .list-group-item-text, a.list-group-item.active:focus .list-group-item-text {
-  color: #daabda;
+  color: #ffdcbe;
 }
 
 /* line 81, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_list-group.scss */
@@ -6517,17 +6517,17 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 
 /* line 158, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_panels.scss */
 .panel-primary {
-  border-color: #803980;
+  border-color: #f16e00;
 }
 /* line 396, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .panel-primary > .panel-heading {
   color: white;
-  background-color: #803980;
-  border-color: #803980;
+  background-color: #f16e00;
+  border-color: #f16e00;
 }
 /* line 401, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #803980;
+  border-top-color: #f16e00;
 }
 /* line 404, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .panel-primary > .panel-heading > .dropdown .caret {
@@ -6535,7 +6535,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 }
 /* line 409, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #803980;
+  border-bottom-color: #f16e00;
 }
 
 /* line 161, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_panels.scss */
@@ -6701,7 +6701,7 @@ button.close {
 }
 /* line 22, ../../scss/_footer.scss */
 .footer a:hover, .footer a:focus, .footer a:active {
-  color: ligthen(#803980, 10%);
+  color: ligthen(#f16e00, 10%);
 }
 /* line 29, ../../scss/_footer.scss */
 .footer .divider {

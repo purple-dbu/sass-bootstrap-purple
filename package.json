@@ -1,5 +1,5 @@
 {
-  "name": "sass-bootstrap-theme-purple",
+  "name": "sass-bootstrap-purple",
   "description": "Purple theme for Twitter Bootstrap 3 (Sass)",
   "version": "0.1.0",
   "keywords": [
@@ -9,17 +9,17 @@
     "theme",
     "purple"
   ],
-  "homepage": "http://purple-dbu.github.io/sass-bootstrap-theme-purple/",
+  "homepage": "http://purple-dbu.github.io/sass-bootstrap-purple/",
   "author": "Purple DBU",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/purple-dbu/sass-bootstrap-theme-purple.git"
+    "url": "https://github.com/purple-dbu/sass-bootstrap-purple.git"
   },
   "bugs": {
-    "url": "https://github.com/purple-dbu/sass-bootstrap-theme-purple/issues"
+    "url": "https://github.com/purple-dbu/sass-bootstrap-purple/issues"
   },
   "licenses": [
     "MIT"
