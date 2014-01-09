@@ -6,6 +6,7 @@ Purple theme for [Twitter Bootstrap](http://getbootstrap.com/).
 This project is based on [jlong/sass-bootstrap](https://github.com/jlong/sass-bootstrap).
 It adds the following additions and changes:
 
+
 headlines
 ---------
 
@@ -31,6 +32,7 @@ Headlines have been modified to match the Purple web guideline.
 <h5>h5 - sub headers / small headlines</h5>
 ```
 
+
 colour palette
 --------------
 
@@ -40,12 +42,12 @@ Colour palette has been modified to match the Purple web guideline.
 > established conventions. For example, green can be used on a button to accept
 > a call and red can be used on the button to end a call. The functional colours
 > are:
->   - **Green** (`#32C832`): positive: add, call or save.
->   - **Red** (`#CD3C14`): negative: remove, delete, critical alert, end call,
+>   - **Green** `#32C832`: positive: add, call or save.
+>   - **Red** `#CD3C14`: negative: remove, delete, critical alert, end call,
 >     cancel.
->   - **Blue** (`#527EDB`): neutral / information: new, edit, settings/wizard,
+>   - **Blue** `#527EDB`: neutral / information: new, edit, settings/wizard,
 >     notification counter, help, info, sync, upload, download.
->   - **Yellow** (`#FFCC00`): caution / warning: caution alert.
+>   - **Yellow** `#FFCC00`: caution / warning: caution alert.
 
 ![Buttons](docs/images/buttons.png)
 
@@ -58,6 +60,47 @@ Colour palette has been modified to match the Purple web guideline.
 <button type="button" class="btn btn-danger">danger</button>
 <button type="button" class="btn btn-link">link</button>
 ```
+
+
+tables
+------
+
+Tables have been modified to match the Purple web guideline.
+
+> When using tables to present tabular information, use spacing, alignment, and
+> indents, not borders, to delimit tabular information.
+> Left align text within columns, and right align quantitative data (e.g.
+> prices, quantity). Use colour to place emphasis on important information such
+> as to highlight summary detail, or unread email.
+
+![Tables](docs/images/tables.png)
+
+```html
+<table class="table">
+  <thead>
+    <tr>
+      <th class="active">date</th>
+      <th>number</th>
+      <th>place number</th>
+      <th>call class</th>
+      <th>duration</th>
+      <th>cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>08/10/12</td>
+      <td>442084459876</td>
+      <td>Purple text messaging</td>
+      <td>text</td>
+      <td>0:00:00</td>
+      <td>0.000</td>
+    </tr>
+    <!-- ... -->
+  </tbody>
+</table>
+```
+
 
 global navigation
 -----------------
@@ -129,3 +172,5 @@ local navigation.
   </div>
 </nav>
 ```
+
+
