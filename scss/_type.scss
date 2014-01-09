@@ -49,15 +49,21 @@
 // Font faces
 // -------------------------
 
-@import "compass/css3/font-face";
+@font-face { font-family: 'Helvetica Neue'; src: url('#{$icon-path}HelvNeue35_Cyr.ttf') format('truetype'); font-weight: 100; }
+@font-face { font-family: 'Helvetica Neue'; src: url('#{$icon-path}HelvNeue45_Cyr.ttf') format('truetype'); font-weight: 200; }
+@font-face { font-family: 'Helvetica Neue'; src: url('#{$icon-path}HelvNeue55_Cyr.ttf') format('truetype'); font-weight: 400; }
+@font-face { font-family: 'Helvetica Neue'; src: url('#{$icon-path}HelvNeue65_Cyr.ttf') format('truetype'); font-weight: 700; }
+@font-face { font-family: 'Helvetica Neue'; src: url('#{$icon-path}HelvNeue75_Cyr.ttf') format('truetype'); font-weight: 900; }
 
-@include font-face("Helvetica Neue", font-files("HelvNeue35_Cyr.ttf"), null, 100);
-@include font-face("Helvetica Neue", font-files("HelvNeue45_Cyr.ttf"), null, 200);
-@include font-face("Helvetica Neue", font-files("HelvNeue55_Cyr.ttf"), null, 400);
-@include font-face("Helvetica Neue", font-files("HelvNeue65_Cyr.ttf"), null, 700);
-@include font-face("Helvetica Neue", font-files("HelvNeue75_Cyr.ttf"), null, 900);
+
+// Original type
+// -------------------------
 
 @import "sass-bootstrap/lib/type";
+
+
+// Tweaks
+// -------------------------
 
 h1, .h1 { font-weight: $font-weight-h1; }
 h2, .h2 { font-weight: $font-weight-h2; }

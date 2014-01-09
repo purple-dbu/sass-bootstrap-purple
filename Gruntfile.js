@@ -46,12 +46,11 @@ module.exports = function(grunt) {
       development: {
         options: {
           style: 'expanded',
-          debugInfo: true,
           lineNumbers: true,
           sourcemap: true
         },
         files: {
-          'dist/bootstrap-purple.css': 'scss/bootstrap-purple.scss'
+          'dist/css/bootstrap-purple.css': 'scss/bootstrap-purple.scss'
         }
       },
       production: {
@@ -60,7 +59,7 @@ module.exports = function(grunt) {
           banner: '<%= banner %>'
         },
         files: {
-          'dist/bootstrap-purple.min.css': 'scss/bootstrap-purple.scss'
+          'dist/css/bootstrap-purple.min.css': 'scss/bootstrap-purple.scss'
         }
       }
     },
@@ -68,8 +67,25 @@ module.exports = function(grunt) {
     copy: {
       fonts: {
         expand: true,
-        src: ["fonts/*"],
+        src: ['fonts/*'],
         dest: 'dist/'
+      },
+      images: {
+        expand: true,
+        src: ['images/*'],
+        dest: 'dist/'
+      },
+      'bootstrap-fonts': {
+        expand: true,
+        flatten: true,
+        src: ['bower_components/sass-bootstrap/dist/fonts/*'],
+        dest: 'dist/fonts'
+      },
+      'bootstrap-js': {
+        expand: true,
+        flatten: true,
+        src: ['bower_components/sass-bootstrap/dist/js/*'],
+        dest: 'dist/js'
       }
     },
 
@@ -109,11 +125,16 @@ module.exports = function(grunt) {
   // CSS distribution task.
   grunt.registerTask('dist-sass', ['sass:development', 'sass:production']);
 
-  // Fonts distribution task.
-  grunt.registerTask('dist-fonts', ['copy']);
+  // Assets distribution task.
+  grunt.registerTask('dist-assets', [
+    'copy:fonts',
+    'copy:images',
+    'copy:bootstrap-fonts',
+    'copy:bootstrap-js'
+  ]);
 
   // Full distribution task.
-  grunt.registerTask('dist', ['clean', 'dist-sass', 'dist-fonts']);
+  grunt.registerTask('dist', ['clean', 'dist-sass', 'dist-assets']);
 
   // Default task.
   grunt.registerTask('default', ['dist']);
