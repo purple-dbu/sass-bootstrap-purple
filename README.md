@@ -179,6 +179,15 @@ footer
 
 Added footer according to Purple guideline.
 
+> The footer is included at the bottom of every page and provides quick access
+> to the main sections of the site.
+>
+> It can also contain other elements such as search and social features. Links
+> to information such as contact details and terms and conditions are located
+> along the bottom of the footer. The amount of links in the footer can vary on
+> different sites so ensure the design aligns to the grid and follows the
+> spacing rules.
+
 ![Footer](docs/images/footer.png)
 
 ```html
