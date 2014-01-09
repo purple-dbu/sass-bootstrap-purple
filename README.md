@@ -9,7 +9,7 @@ It adds the following additions and changes:
 headlines
 ---------
 
-Headlines have been changed to match the Purple web guideline.
+Headlines have been modified to match the Purple web guideline.
 
 > The Purple brand font is Helvetica Neue and consists of five weights: 35 Thin,
 > 45 Light, 55 Roman, 65 Medium and 75 Bold.
@@ -34,7 +34,7 @@ Headlines have been changed to match the Purple web guideline.
 colour palette
 --------------
 
-Colour palette has been changed to match the Purple web guideline.
+Colour palette has been modified to match the Purple web guideline.
 
 > Colours can be used for certain functions in places where there are strongly
 > established conventions. For example, green can be used on a button to accept
@@ -57,4 +57,75 @@ Colour palette has been changed to match the Purple web guideline.
 <button type="button" class="btn btn-warning">warning</button>
 <button type="button" class="btn btn-danger">danger</button>
 <button type="button" class="btn btn-link">link</button>
+```
+
+global navigation
+-----------------
+
+Bootstrap's nav bar has been modified to match the Purple guideline's global
+navigation.
+
+> The global navigation is fixed at the top of the page allowing the page
+> content to scroll beneath. The global navigation provides several key
+> functions:
+>   - important links prominent and accessible.
+>   - users with scope of what’s available.
+>   - enables navigation of deeper hierarchies without going to a separate page.
+>   - provides a fully touch compliant experience for tablet users.
+>   - creates an unobtrusive system of navigation.
+
+![Global navigation](docs/images/global-navigation.png)
+
+```html
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#pp-local-navigation">
+        <span class="sr-only">toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="my-global-navigation">
+      <!-- ... (cf. Bootstrap documentation) -->
+    </div>
+
+  </div>
+</nav>
+```
+
+
+local navigation
+----------------
+
+Bootstrap's inverted nav bar has been modified to match the Purple guideline's
+local navigation.
+
+> The local navigation is positioned below the title bar and provides links to
+> the main categories of a channel.
+
+![Local navigation](docs/images/local-navigation.png)
+
+```html
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-local-navigation">
+        <span class="sr-only">toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="my-local-navigation">
+      <!-- ... (cf. Bootstrap documentation) -->
+    </div>
+
+  </div>
+</nav>
 ```
