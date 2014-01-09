@@ -120,7 +120,7 @@ navigation.
 ![Global navigation](docs/images/global-navigation.png)
 
 ```html
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-fixed navbar-default" role="navigation">
   <div class="container">
 
     <div class="navbar-header">
@@ -174,3 +174,36 @@ local navigation.
 ```
 
 
+footer
+------
+
+Added footer according to Purple guideline.
+
+![Footer](docs/images/footer.png)
+
+```html
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-3">
+        <ul class="list-unstyled">
+          <li><strong>Purple shop</strong></li>
+          <li class="divider"></li>
+          <li><a href="#">iPad</a></li>
+          <li><a href="#">iPhone</a></li>
+          <!-- ... -->
+        </ul>
+      </div>
+      <!-- ... -->
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <hr/>
+        <ul class="list-inline">
+          <li><a href="#">about Purple</a></li>
+          <li><a href="#">contact us</a></li>
+          <!-- ... -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+```
