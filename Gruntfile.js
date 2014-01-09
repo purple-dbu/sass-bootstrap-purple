@@ -51,8 +51,7 @@ module.exports = function(grunt) {
           sourcemap: true
         },
         files: {
-          'dist/bootstrap-purple.css': 'scss/bootstrap-purple.scss',
-          'dist/bootstrap-purple-theme.css': 'scss/bootstrap-purple-theme.scss'
+          'dist/bootstrap-purple.css': 'scss/bootstrap-purple.scss'
         }
       },
       production: {
@@ -61,8 +60,7 @@ module.exports = function(grunt) {
           banner: '<%= banner %>'
         },
         files: {
-          'dist/bootstrap-purple.min.css': 'scss/bootstrap-purple.scss',
-          'dist/bootstrap-purple-theme.min.css': 'scss/bootstrap-purple-theme.scss'
+          'dist/bootstrap-purple.min.css': 'scss/bootstrap-purple.scss'
         }
       }
     },
