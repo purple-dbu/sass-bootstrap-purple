@@ -1,0 +1,36 @@
+
+.steps {
+  @extend .list-unstyled;
+
+  > li {
+    display: inline;
+    margin-left: $steps-margin;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    > a,
+    > span {
+      padding-left: $steps-padding-horizontal;
+      padding-right: $steps-padding-horizontal;
+      padding-top: $steps-padding-vertical;
+      padding-bottom: $steps-padding-vertical;
+      font-weight: bold;
+      background: $steps-default-bg;
+      color: $steps-default-color;
+    }
+
+    &.active > a,
+    &.active > span {
+      background: $steps-active-bg;
+      color: $steps-active-color;
+    }
+
+    &.disabled > a,
+    &.disabled > span {
+      background: $steps-disabled-bg;
+      color: $steps-disabled-color;
+    }
+  }
+}

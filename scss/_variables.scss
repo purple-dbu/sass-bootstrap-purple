@@ -22,6 +22,7 @@ $gray-light:             lighten(#000, 60%) !default;   // #999
 // -------------------------
 
 $brand-primary: #803980 !default; // #purple
+$brand-primary-fill: darken($brand-primary, 3%) !default; // #purple
 $brand-success: #32C832 !default; // #purple
 $brand-warning: #FFCC00 !default; // #purple
 $brand-danger:  #CD3C14 !default; // #purple
@@ -420,6 +421,20 @@ $footer-bg:    #000 !default;
 $footer-color: #eee !default;
 $footer-link-color: #999 !default;
 $footer-link-hover-color: ligthen($link-color, 10%) !default;
+
+// Steps
+// -------------------------
+
+$steps-margin: 1px;
+$steps-padding-vertical: ($font-size-base / 2);
+$steps-padding-horizontal: 10px;
+$steps-default-bg: #666;
+$steps-default-color: #fdfdfd;
+$steps-active-bg: $brand-primary-fill;
+$steps-active-color: #fdfdfd;
+$steps-disabled-bg: #ccc;
+$steps-disabled-color: #666;
+
 
 
 // Container sizes
