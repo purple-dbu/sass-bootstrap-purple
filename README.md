@@ -177,6 +177,8 @@ local navigation.
 tabs
 ----
 
+Bootstrap's tabs have been modified to match the Purple guideline.
+
 ![Default tabs](docs/images/tabs1.png)
 
 ```html
