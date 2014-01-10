@@ -174,6 +174,24 @@ local navigation.
 ```
 
 
+steps
+-----
+
+Added steps according to Purple guideline.
+
+![Steps](docs/images/steps.png)
+
+```html
+<ol class="steps">
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li class="active"><span>3</span></li>
+  <li class="disabled"><span>4</span></li>
+  <li class="disabled"><span>5</span></li>
+</ol>
+```
+
+
 footer
 ------
 
