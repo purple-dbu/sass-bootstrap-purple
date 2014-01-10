@@ -174,6 +174,52 @@ local navigation.
 ```
 
 
+tabs
+----
+
+![Default tabs](docs/images/tabs1.png)
+
+```html
+<ul class="nav nav-tabs">
+  <li><a href="#">good news</a></li>
+  <li class="active"><a href="#">pay as you go</a></li>
+  <li><a href="#">pay monthly</a></li>
+</ul>
+```
+
+![Justified tabs](docs/images/tabs2.png)
+
+```html
+<ul class="nav nav-tabs nav-justified">
+  <li><a href="#">good news</a></li>
+  <li class="active"><a href="#">pay as you go</a></li>
+  <li><a href="#">pay monthly</a></li>
+</ul>
+```
+
+![Justified tabs (bottom)](docs/images/tabs3.png)
+
+```html
+<img src="http://fakeimg.pl/560x100/753475/ffffff"/>
+<ul class="nav nav-tabs nav-justified nav-tabs-bottom">
+  <li><a href="#">good news</a></li>
+  <li class="active"><a href="#">pay as you go</a></li>
+  <li><a href="#">pay monthly</a></li>
+</ul>
+```
+
+![Justified tabs (top)](docs/images/tabs4.png)
+
+```html
+<ul class="nav nav-tabs nav-justified nav-tabs-top">
+  <li><a href="#">good news</a></li>
+  <li class="active"><a href="#">pay as you go</a></li>
+  <li><a href="#">pay monthly</a></li>
+</ul>
+<img src="http://fakeimg.pl/560x100/753475/ffffff"/>
+```
+
+
 steps
 -----
 
