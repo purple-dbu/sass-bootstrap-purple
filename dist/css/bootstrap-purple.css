@@ -5717,7 +5717,7 @@ input[type="button"].btn-block {
   padding: 6px 12px;
   line-height: 1.42857;
   text-decoration: none;
-  background-color: white;
+  background-color: transparent;
   border: 1px solid #dddddd;
   margin-left: -1px;
 }
@@ -5738,7 +5738,7 @@ input[type="button"].btn-block {
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
-  background-color: #eeeeee;
+  background-color: transparent;
 }
 /* line 48, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_pagination.scss */
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
@@ -5746,9 +5746,9 @@ input[type="button"].btn-block {
 .pagination > .active > span:hover,
 .pagination > .active > span:focus {
   z-index: 2;
-  color: white;
-  background-color: #803980;
-  border-color: #803980;
+  color: #803980;
+  background-color: transparent;
+  border-color: transparent;
   cursor: default;
 }
 /* line 60, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_pagination.scss */
@@ -5759,7 +5759,7 @@ input[type="button"].btn-block {
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
   color: #999999;
-  background-color: white;
+  background-color: transparent;
   border-color: #dddddd;
   cursor: not-allowed;
 }
@@ -5802,6 +5802,21 @@ input[type="button"].btn-block {
   border-top-right-radius: 3px;
 }
 
+/* line 9, ../../scss/_pagination.scss */
+.pagination > li > a,
+.pagination > li > span {
+  font-weight: bold;
+  color: inherit;
+  border: none;
+  border-left: 1px solid #dddddd;
+}
+/* line 18, ../../scss/_pagination.scss */
+.pagination > .active > a,
+.pagination > .active > span {
+  border: none;
+  border-left: 1px solid #dddddd;
+}
+
 /* line 6, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_pager.scss */
 .pager {
   padding-left: 0;
@@ -5829,7 +5844,7 @@ input[type="button"].btn-block {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: white;
+  background-color: transparent;
   border: 1px solid #dddddd;
   border-radius: 15px;
 }
@@ -5837,7 +5852,7 @@ input[type="button"].btn-block {
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: transparent;
 }
 /* line 31, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_pager.scss */
 .pager .next > a,
@@ -5855,7 +5870,7 @@ input[type="button"].btn-block {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #999999;
-  background-color: white;
+  background-color: transparent;
   cursor: not-allowed;
 }
 

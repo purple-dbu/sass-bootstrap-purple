@@ -1,0 +1,24 @@
+//
+// Pagination
+// ----------------------------
+
+@import "sass-bootstrap/lib/pagination";
+
+.pagination {
+  > li {
+    > a,
+    > span {
+      font-weight: bold;
+      color: inherit;
+      border: none;
+      border-left: 1px solid $pagination-border;
+    }
+  }
+  > .active {
+    > a,
+    > span {
+      border: none;
+      border-left: 1px solid $pagination-border;
+    }
+  }
+}
