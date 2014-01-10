@@ -1,0 +1,136 @@
+
+@import "sass-bootstrap/lib/navs";
+
+// // Give the tabs something to sit on
+// .nav-tabs {
+//   border-bottom: 1px solid $nav-tabs-border-color;
+//   > li {
+//     float: left;
+//     // Make the list-items overlay the bottom border
+//     margin-bottom: -1px;
+
+//     // Actual tabs (as links)
+//     > a {
+//       margin-right: 2px;
+//       line-height: $line-height-base;
+//       border: 1px solid transparent;
+//       border-radius: $border-radius-base $border-radius-base 0 0;
+//       &:hover {
+//         border-color: $nav-tabs-link-hover-border-color $nav-tabs-link-hover-border-color $nav-tabs-border-color;
+//       }
+//     }
+
+//     // Active state, and it's :hover to override normal :hover
+//     &.active > a {
+//       &,
+//       &:hover,
+//       &:focus {
+//         color: $nav-tabs-active-link-hover-color;
+//         background-color: $nav-tabs-active-link-hover-bg;
+//         border: 1px solid $nav-tabs-active-link-hover-border-color;
+//         border-bottom-color: transparent;
+//         cursor: default;
+//       }
+//     }
+//   }
+//   // pulling this in mainly for less shorthand
+//   &.nav-justified {
+//     @extend .nav-justified;
+//     @extend .nav-tabs-justified;
+//   }
+// }
+
+// Give the tabs something to sit on
+.nav-tabs {
+  border-bottom: none;
+  > li {
+    display: inline-block;
+    float: left;
+    margin-bottom: 0;
+
+    // Actual tabs (as links)
+    > a {
+      margin-right: $nav-tabs-margin;
+      line-height: $line-height-base;
+      border: none;
+      border-radius: 0;
+      color: $nav-tabs-link-color;
+      background-color: $nav-tabs-link-bg;
+      font-weight: bold;
+      &:hover {
+        color: $nav-tabs-link-hover-color;
+        background-color: $nav-tabs-link-hover-bg;
+        text-decoration: none;
+      }
+
+
+    }
+
+    &:last-child > a {
+      margin-right: 0;
+    }
+
+    // Active state, and it's :hover to override normal :hover
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: $nav-tabs-active-link-color;
+        background-color: $nav-tabs-active-link-bg;
+        border: none;
+        cursor: default;
+      }
+    }
+  }
+  // pulling this in mainly for less shorthand
+  &.nav-justified {
+    @extend .nav-justified;
+    @extend .nav-tabs-justified;
+    > .active > a,
+    > li > a {
+      &,
+      &:hover,
+      &:focus {
+        border: none;
+        border-radius: 0;
+        margin-right: $nav-tabs-margin;
+      }
+    }
+
+    > :last-child > a {
+      margin-right: 0;
+    }
+  }
+
+  &.nav-tabs-bottom,
+  &.nav-tabs-top {
+    > .active > a {
+      & {
+        position: relative;
+      }
+      &:after {
+        position: absolute;
+        content: '';
+        border-width: $nav-tabs-active-link-caret;
+        border-style: solid;
+        border-color: transparent;
+        left: 50%;
+        margin-left: -($nav-tabs-active-link-caret / 2);
+      }
+    }
+  }
+
+  &.nav-tabs-bottom {
+    > .active > a:after {
+      bottom: 100%;
+      border-bottom-color: $nav-tabs-active-link-bg;
+    }
+  }
+
+  &.nav-tabs-top {
+    > .active > a:after {
+      top: 100%;
+      border-top-color: $nav-tabs-active-link-bg;
+    }
+  }
+}

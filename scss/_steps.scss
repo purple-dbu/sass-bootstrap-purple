@@ -3,7 +3,8 @@
   @extend .list-unstyled;
 
   > li {
-    display: inline;
+    display: inline-block;
+    float: left;
     margin-left: $steps-margin;
 
     &:first-child {

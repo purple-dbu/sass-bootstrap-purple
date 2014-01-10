@@ -4976,6 +4976,81 @@ input[type="button"].btn-block {
   border-top-left-radius: 0;
 }
 
+/* line 44, ../../scss/_navs.scss */
+.nav-tabs {
+  border-bottom: none;
+}
+/* line 46, ../../scss/_navs.scss */
+.nav-tabs > li {
+  display: inline-block;
+  float: left;
+  margin-bottom: 0;
+}
+/* line 52, ../../scss/_navs.scss */
+.nav-tabs > li > a {
+  margin-right: 1px;
+  line-height: 1.42857;
+  border: none;
+  border-radius: 0;
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+}
+/* line 60, ../../scss/_navs.scss */
+.nav-tabs > li > a:hover {
+  color: #333333;
+  background-color: #aeaeae;
+  text-decoration: none;
+}
+/* line 69, ../../scss/_navs.scss */
+.nav-tabs > li:last-child > a {
+  margin-right: 0;
+}
+/* line 75, ../../scss/_navs.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: white;
+  background-color: #666666;
+  border: none;
+  cursor: default;
+}
+/* line 91, ../../scss/_navs.scss */
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus,
+.nav-tabs.nav-justified > li > a,
+.nav-tabs.nav-justified > li > a:hover,
+.nav-tabs.nav-justified > li > a:focus {
+  border: none;
+  border-radius: 0;
+  margin-right: 1px;
+}
+/* line 100, ../../scss/_navs.scss */
+.nav-tabs.nav-justified > :last-child > a {
+  margin-right: 0;
+}
+/* line 108, ../../scss/_navs.scss */
+.nav-tabs.nav-tabs-bottom > .active > a, .nav-tabs.nav-tabs-top > .active > a {
+  position: relative;
+}
+/* line 111, ../../scss/_navs.scss */
+.nav-tabs.nav-tabs-bottom > .active > a:after, .nav-tabs.nav-tabs-top > .active > a:after {
+  position: absolute;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent;
+  left: 50%;
+  margin-left: -3px;
+}
+/* line 124, ../../scss/_navs.scss */
+.nav-tabs.nav-tabs-bottom > .active > a:after {
+  bottom: 100%;
+  border-bottom-color: #666666;
+}
+/* line 131, ../../scss/_navs.scss */
+.nav-tabs.nav-tabs-top > .active > a:after {
+  top: 100%;
+  border-top-color: #666666;
+}
+
 /* line 11, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar {
   position: relative;
@@ -6729,14 +6804,15 @@ button.close {
 
 /* line 5, ../../scss/_steps.scss */
 .steps > li {
-  display: inline;
+  display: inline-block;
+  float: left;
   margin-left: 1px;
 }
-/* line 9, ../../scss/_steps.scss */
+/* line 10, ../../scss/_steps.scss */
 .steps > li:first-child {
   margin-left: 0;
 }
-/* line 13, ../../scss/_steps.scss */
+/* line 14, ../../scss/_steps.scss */
 .steps > li > a,
 .steps > li > span {
   padding-left: 10px;
@@ -6747,12 +6823,12 @@ button.close {
   background: #666666;
   color: #fdfdfd;
 }
-/* line 24, ../../scss/_steps.scss */
+/* line 25, ../../scss/_steps.scss */
 .steps > li.active > a, .steps > li.active > span {
   background: #753475;
   color: #fdfdfd;
 }
-/* line 30, ../../scss/_steps.scss */
+/* line 31, ../../scss/_steps.scss */
 .steps > li.disabled > a, .steps > li.disabled > span {
   background: #cccccc;
   color: #666666;
