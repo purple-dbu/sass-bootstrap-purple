@@ -202,7 +202,7 @@ Bootstrap's tabs have been modified to match the Purple guideline.
 ![Justified tabs (bottom)](docs/images/tabs3.png)
 
 ```html
-<img src="http://fakeimg.pl/560x100/753475/ffffff"/>
+<img src="http://fakeimg.pl/560x50/753475/ffffff"/>
 <ul class="nav nav-tabs nav-justified nav-tabs-bottom">
   <li><a href="#">good news</a></li>
   <li class="active"><a href="#">pay as you go</a></li>
@@ -218,7 +218,7 @@ Bootstrap's tabs have been modified to match the Purple guideline.
   <li class="active"><a href="#">pay as you go</a></li>
   <li><a href="#">pay monthly</a></li>
 </ul>
-<img src="http://fakeimg.pl/560x100/753475/ffffff"/>
+<img src="http://fakeimg.pl/560x50/753475/ffffff"/>
 ```
 
 
