@@ -2,23 +2,78 @@
 // Pagination
 // ----------------------------
 
-@import "sass-bootstrap/lib/pagination";
-
 .pagination {
+
+  display: inline-block;
+  padding-left: 0;
+  margin: $line-height-computed 0;
+
   > li {
+    display: inline;
+
     > a,
     > span {
+      float: left; // Collapse white-space
+      padding: $pagination-padding-vertical $pagination-padding-horizontal;
+      line-height: $line-height-base;
+      text-decoration: none;
+      border-left: 1px solid $pagination-border;
+      color: $text-color;
       font-weight: bold;
-      color: inherit;
-      border: none;
-      border-left: 1px solid $pagination-border;
+    }
+
+    // Primary color on active
+    &.active {
+      > a,
+      > span {
+        color: $brand-primary;
+      }
+    }
+
+    > a {
+
+      // Enable underline on hover
+      &:hover,
+      &:active,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+
+    // Disable border-left on first child
+    &:first-child {
+      > a,
+      > span {
+        border-left: none;
+      }
     }
   }
-  > .active {
+
+  > .disabled {
+    > span,
+    > span:hover,
+    > span:focus,
     > a,
-    > span {
-      border: none;
-      border-left: 1px solid $pagination-border;
+    > a:hover,
+    > a:focus {
+      color: $pagination-disabled-color;
+      background-color: $pagination-bg;
+      border-color: $pagination-border;
+      cursor: not-allowed;
+      text-decoration: none;
     }
   }
+}
+
+// Sizing
+// --------------------------------------------------
+
+// Large
+.pagination-lg {
+  @include pagination-size($pagination-padding-vertical, $pagination-padding-horizontal, $font-size-large, $border-radius-large);
+}
+
+// Small
+.pagination-sm {
+  @include pagination-size($pagination-padding-vertical, $pagination-padding-horizontal, $font-size-small, $border-radius-small);
 }
