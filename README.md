@@ -198,6 +198,24 @@ Bootstrap's pagination has been modified to match the Purple guideline.
 ```
 
 
+breadcrumbs
+-----------
+
+Bootstrap's breadcrumbs have been modified to match the Purple guideline.
+
+![Breadcrumbs](docs/images/breadcrumbs.png)
+
+```html
+<ol class="breadcrumb">
+  <li><a href="#">start</a></li>
+  <li><a href="#">setup</a></li>
+  <li class="active"><span>connection</span></li>
+  <li class="disabled"><span>identification</span></li>
+  <li class="disabled"><span>end</span></li>
+</ol>
+```
+
+
 tabs
 ----
 
