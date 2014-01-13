@@ -174,6 +174,30 @@ local navigation.
 ```
 
 
+pagination
+----------
+
+Bootstrap's pagination has been modified to match the Purple guideline.
+
+![Pagination](docs/images/pagination.png)
+
+```html
+<ul class="pagination">
+  <li class="disabled"><a href="#"><i class="glyphicon glyphicon-chevron-left"></i> previous</a></li>
+</ul>
+<ul class="pagination">
+  <li class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+</ul>
+<ul class="pagination">
+  <li><a href="#">next <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+</ul>
+```
+
+
 tabs
 ----
 
