@@ -165,7 +165,7 @@ local navigation.
       </button>
     </div>
 
-    <div class="collapse navbar-collapse" id="my-local-navigation">
+    <div class="collapse navbar-collapse" id="mys-local-navigation">
       <!-- ... (cf. Bootstrap documentation) -->
     </div>
 
@@ -183,7 +183,7 @@ Bootstrap's pagination has been modified to match the Purple guideline.
 
 ```html
 <ul class="pagination">
-  <li class="disabled"><a href="#"><i class="glyphicon glyphicon-chevron-left"></i> previous</a></li>
+  <li class="disabled"><span><i class="glyphicon glyphicon-chevron-left"></i> previous</span></li>
 </ul>
 <ul class="pagination">
   <li class="active"><a href="#">1</a></li>
