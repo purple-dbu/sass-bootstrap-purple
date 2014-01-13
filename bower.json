@@ -17,9 +17,9 @@
     "MIT"
   ],
   "dependencies": {
+    "sass-bootstrap": "3.0.2"
   },
   "devDependencies": {
-    "jquery": "1.10.2",
-    "sass-bootstrap": "3.0.2"
+    "jquery": "1.10.2"
   }
 }
