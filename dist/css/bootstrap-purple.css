@@ -5675,27 +5675,115 @@ input[type="button"].btn-block {
   border-color: transparent;
 }
 
-/* line 6, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_breadcrumbs.scss */
+/* line 24, ../../scss/_breadcrumbs.scss */
 .breadcrumb {
-  padding: 8px 15px;
-  margin-bottom: 20px;
   list-style: none;
-  background-color: whitesmoke;
-  border-radius: 3px;
+  padding-left: 0;
 }
-/* line 12, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_breadcrumbs.scss */
+/* line 28, ../../scss/_breadcrumbs.scss */
 .breadcrumb > li {
-  display: inline-block;
+  float: left;
+  margin-top: 20px;
+  margin-left: 2px;
 }
-/* line 14, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_breadcrumbs.scss */
-.breadcrumb > li + li:before {
-  content: "/\00a0";
-  padding: 0 5px;
-  color: #cccccc;
+/* line 31, ../../scss/_breadcrumbs.scss */
+.breadcrumb > li > a,
+.breadcrumb > li > a:hover,
+.breadcrumb > li > a:focus,
+.breadcrumb > li > span {
+  color: white;
+  background: #666666;
+  padding: 6px 12px;
+  position: relative;
+  padding-left: 19px;
 }
-/* line 20, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_breadcrumbs.scss */
-.breadcrumb > .active {
-  color: #999999;
+/* line 41, ../../scss/_breadcrumbs.scss */
+.breadcrumb > li > a:before, .breadcrumb > li > a:after,
+.breadcrumb > li > a:hover:before,
+.breadcrumb > li > a:hover:after,
+.breadcrumb > li > a:focus:before,
+.breadcrumb > li > a:focus:after,
+.breadcrumb > li > span:before,
+.breadcrumb > li > span:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  border: 0 solid transparent;
+  border-width: 14px 7px;
+}
+/* line 49, ../../scss/_breadcrumbs.scss */
+.breadcrumb > li > a:before,
+.breadcrumb > li > a:hover:before,
+.breadcrumb > li > a:focus:before,
+.breadcrumb > li > span:before {
+  left: 0;
+  border-left-color: white;
+  z-index: 1;
+}
+/* line 54, ../../scss/_breadcrumbs.scss */
+.breadcrumb > li > a:after,
+.breadcrumb > li > a:hover:after,
+.breadcrumb > li > a:focus:after,
+.breadcrumb > li > span:after {
+  left: 100%;
+  border-left-color: #666666;
+  z-index: 2;
+}
+/* line 63, ../../scss/_breadcrumbs.scss */
+.breadcrumb > li:first-child {
+  margin-left: 0;
+}
+/* line 65, ../../scss/_breadcrumbs.scss */
+.breadcrumb > li:first-child > a,
+.breadcrumb > li:first-child > a:hover,
+.breadcrumb > li:first-child > a:focus,
+.breadcrumb > li:first-child > span {
+  padding-left: 12px;
+}
+/* line 70, ../../scss/_breadcrumbs.scss */
+.breadcrumb > li:first-child > a:before,
+.breadcrumb > li:first-child > a:hover:before,
+.breadcrumb > li:first-child > a:focus:before,
+.breadcrumb > li:first-child > span:before {
+  content: none;
+}
+/* line 81, ../../scss/_breadcrumbs.scss */
+.breadcrumb > li:last-child > a:after,
+.breadcrumb > li:last-child > a:hover:after,
+.breadcrumb > li:last-child > a:focus:after,
+.breadcrumb > li:last-child > span:after {
+  content: none;
+}
+/* line 89, ../../scss/_breadcrumbs.scss */
+.breadcrumb > .active > a,
+.breadcrumb > .active > a:hover,
+.breadcrumb > .active > a:focus,
+.breadcrumb > .active > span {
+  color: white;
+  background: #753475;
+  font-weight: bold;
+}
+/* line 96, ../../scss/_breadcrumbs.scss */
+.breadcrumb > .active > a:after,
+.breadcrumb > .active > a:hover:after,
+.breadcrumb > .active > a:focus:after,
+.breadcrumb > .active > span:after {
+  border-left-color: #753475;
+}
+/* line 103, ../../scss/_breadcrumbs.scss */
+.breadcrumb > .disabled > span,
+.breadcrumb > .disabled > a,
+.breadcrumb > .disabled > a:hover,
+.breadcrumb > .disabled > a:focus {
+  color: #333333;
+  background: #cccccc;
+}
+/* line 109, ../../scss/_breadcrumbs.scss */
+.breadcrumb > .disabled > span:after,
+.breadcrumb > .disabled > a:after,
+.breadcrumb > .disabled > a:hover:after,
+.breadcrumb > .disabled > a:focus:after {
+  border-left-color: #cccccc;
 }
 
 /* line 5, ../../scss/_pagination.scss */
@@ -5743,8 +5831,6 @@ input[type="button"].btn-block {
   color: #cccccc;
   background-color: transparent;
   border-color: #cccccc;
-  cursor: not-allowed;
-  text-decoration: none;
 }
 
 /* line 514, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */

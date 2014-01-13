@@ -1,0 +1,114 @@
+//
+// Breadcrumbs
+// ----------------------------
+
+// .breadcrumb {
+//   padding: 8px 15px;
+//   margin-bottom: $line-height-computed;
+//   list-style: none;
+//   background-color: $breadcrumb-bg;
+//   border-radius: $border-radius-base;
+//   > li {
+//     display: inline-block;
+//     + li:before {
+//       content: "#{$breadcrumb-separator}\00a0"; // Unicode space added since inline-block means non-collapsing white-space
+//       padding: 0 5px;
+//       color: $breadcrumb-color;
+//     }
+//   }
+//   > .active {
+//     color: $breadcrumb-active-color;
+//   }
+// }
+
+.breadcrumb {
+  list-style: none;
+  padding-left: 0;
+
+  > li {
+    float: left;
+    margin-top: 20px;
+    > a,
+    > a:hover,
+    > a:focus,
+    > span {
+      color: $breadcrumb-default-color;
+      background: $breadcrumb-default-bg;
+      padding: $breadcrumb-padding-vertical $breadcrumb-padding-horizontal;
+      position: relative;
+      padding-left: ($breadcrumb-padding-horizontal + $breadcrumb-border-width-horizontal);
+
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        border: 0 solid transparent;
+        border-width: $breadcrumb-border-width-vertical $breadcrumb-border-width-horizontal;
+      }
+      &:before {
+        left: 0;
+        border-left-color: $body-bg;
+        z-index: 1;
+      }
+      &:after {
+        left: 100%;
+        border-left-color: $breadcrumb-default-bg;
+        z-index: 2;
+      }
+    }
+
+    margin-left: $breadcrumb-margin;
+
+    &:first-child {
+      margin-left: 0;
+      > a,
+      > a:hover,
+      > a:focus,
+      > span {
+        padding-left: $breadcrumb-padding-horizontal;
+        &:before {
+          content: none;
+        }
+      }
+    }
+
+    &:last-child {
+      > a,
+      > a:hover,
+      > a:focus,
+      > span {
+        &:after {
+          content: none;
+        }
+      }
+    }
+  }
+
+  > .active {
+    > a,
+    > a:hover,
+    > a:focus,
+    > span {
+      color: $breadcrumb-active-color;
+      background: $breadcrumb-active-bg;
+      font-weight: bold;
+      &:after {
+        border-left-color: $breadcrumb-active-bg;
+      }
+    }
+  }
+
+  > .disabled {
+    > span,
+    > a,
+    > a:hover,
+    > a:focus {
+      color: $breadcrumb-disabled-color;
+      background: $breadcrumb-disabled-bg;
+      &:after {
+        border-left-color: $breadcrumb-disabled-bg;
+      }
+    }
+  }
+}
