@@ -133,8 +133,10 @@ navigation.
     </div>
 
     <div class="collapse navbar-collapse" id="my-global-navigation">
-      <li><a href="#">Action</a></li>
-      <!-- ... -->
+      <ul class="nav navbar-nav">
+        <li><a href="#">Action</a></li>
+        <!-- ... -->
+      </ul>
     </div>
 
   </div>
@@ -167,8 +169,10 @@ local navigation.
     </div>
 
     <div class="collapse navbar-collapse" id="my-local-navigation">
-      <li><a href="#">Action</a></li>
-      <!-- ... -->
+      <ul class="nav navbar-nav">
+        <li><a href="#">Action</a></li>
+        <!-- ... -->
+      </ul>
     </div>
 
   </div>
