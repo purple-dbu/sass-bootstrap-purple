@@ -124,7 +124,7 @@ navigation.
   <div class="container">
 
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#pp-local-navigation">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-global-navigation">
         <span class="sr-only">toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -133,7 +133,8 @@ navigation.
     </div>
 
     <div class="collapse navbar-collapse" id="my-global-navigation">
-      <!-- ... (cf. Bootstrap documentation) -->
+      <li><a href="#">Action</a></li>
+      <!-- ... -->
     </div>
 
   </div>
@@ -165,8 +166,9 @@ local navigation.
       </button>
     </div>
 
-    <div class="collapse navbar-collapse" id="mys-local-navigation">
-      <!-- ... (cf. Bootstrap documentation) -->
+    <div class="collapse navbar-collapse" id="my-local-navigation">
+      <li><a href="#">Action</a></li>
+      <!-- ... -->
     </div>
 
   </div>
