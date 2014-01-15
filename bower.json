@@ -1,5 +1,5 @@
 {
-  "name": "sass-bootstrap-purple",
+  "name": "sass-bootstrap",
   "description": "Purple theme for Twitter Bootstrap 3 (Sass)",
   "version": "0.2.0",
   "keywords": ["bootstrap", "css", "sass", "theme", "purple"],
@@ -16,10 +16,18 @@
   "licenses": [
     "MIT"
   ],
+  "main": [
+    "./dist/js/bootstrap.js",
+    "./dist/css/bootstrap-purple.css",
+    "./dist/fonts/*"
+  ],
+  "ignore": [
+    "**/.*"
+  ],
   "dependencies": {
+    "jquery": "1.10.2",
     "sass-bootstrap": "3.0.2"
   },
   "devDependencies": {
-    "jquery": "1.10.2"
   }
 }
