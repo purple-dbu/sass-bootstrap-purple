@@ -270,6 +270,21 @@ Bootstrap's tabs have been modified to match the Purple guideline.
 ```
 
 
+stacked
+-------
+
+![Stacked](docs/images/stacked.png)
+
+```html
+<ul class="nav nav-stacked">
+  <li class="active"><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> Home</a></li>
+  <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> Profile</a></li>
+  <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> Messages</a></li>
+</ul>
+
+```
+
+
 steps
 -----
 
