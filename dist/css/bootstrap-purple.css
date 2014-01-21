@@ -6183,23 +6183,23 @@ a.thumbnail.active {
 /* line 56, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_alerts.scss */
 .alert-success {
   background-color: #32c832;
-  border-color: #2fbc2f;
-  color: #2aa72a;
+  border-color: #32c832;
+  color: #0b2d0b;
 }
 /* line 422, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .alert-success hr {
-  border-top-color: #2aa72a;
+  border-top-color: #2db42d;
 }
 /* line 425, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .alert-success .alert-link {
-  color: #207f20;
+  color: #010401;
 }
 
 /* line 59, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_alerts.scss */
 .alert-info {
   background-color: #527edb;
   border-color: #527edb;
-  color: #3d6ed7;
+  color: #112550;
 }
 /* line 422, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .alert-info hr {
@@ -6207,29 +6207,29 @@ a.thumbnail.active {
 }
 /* line 425, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .alert-info .alert-link {
-  color: #2756ba;
+  color: #081226;
 }
 
 /* line 62, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_alerts.scss */
 .alert-warning {
   background-color: #ffcc00;
-  border-color: #cca300;
-  color: #b38f00;
+  border-color: #ffcc00;
+  color: #4d3d00;
 }
 /* line 422, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .alert-warning hr {
-  border-top-color: #b38f00;
+  border-top-color: #e6b800;
 }
 /* line 425, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .alert-warning .alert-link {
-  color: #806600;
+  color: #1a1400;
 }
 
 /* line 65, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_alerts.scss */
 .alert-danger {
   background-color: #cd3c14;
   border-color: #cd3c14;
-  color: #cd3c14;
+  color: #421306;
 }
 /* line 422, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .alert-danger hr {
@@ -6237,7 +6237,7 @@ a.thumbnail.active {
 }
 /* line 425, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
 .alert-danger .alert-link {
-  color: #9f2e0f;
+  color: #130602;
 }
 
 @-webkit-keyframes progress-bar-stripes {

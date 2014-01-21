@@ -383,6 +383,26 @@ $state-danger-border:  $state-danger-bg !default;
 // Alerts
 // -------------------------
 
+$alert-padding:               15px !default;
+$alert-border-radius:         $border-radius-base !default;
+$alert-link-font-weight:      bold !default;
+
+$alert-success-bg:            $state-success-bg !default;
+$alert-success-text:          darken($state-success-text, 30%) !default;
+$alert-success-border:        $state-success-bg !default;
+
+$alert-info-bg:               $state-info-bg !default;
+$alert-info-text:             darken($state-info-text, 35%) !default;
+$alert-info-border:           $state-info-bg !default;
+
+$alert-warning-bg:            $state-warning-bg !default;
+$alert-warning-text:          darken($state-warning-text, 20%) !default;
+$alert-warning-border:        $state-warning-bg !default;
+
+$alert-danger-bg:             $state-danger-bg !default;
+$alert-danger-text:           darken($state-danger-text, 30%) !default;
+$alert-danger-border:         $state-danger-bg !default;
+
 
 // Progress bars
 // -------------------------
