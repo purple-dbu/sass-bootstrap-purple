@@ -1,0 +1,366 @@
+<!doctype html>
+<html>
+  <head>
+  	<meta charset="utf-8"/>
+    <link rel="stylesheet" href="../../dist/css/bootstrap-purple.css"/>
+    <title>search results - Bootstrap Purpl documentation examples</title>
+    <style>
+.pp-result-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.pp-result-title > a {
+  color: inherit;
+}
+    </style>
+  </head>
+  <body>
+
+<!--
+================================================================================
+HEADER
+================================================================================
+-->
+<header>
+
+  <!--
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  Global navigation
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  -->
+  <nav class="navbar navbar-default nav-fixed" role="navigation">
+    <div class="container">
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#pp-global-navigation">
+          <span class="sr-only">toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="pp-global-navigation">
+        <ul class="nav navbar-nav">
+          <li><a class="navbar-brand" href="#"><i class="glyphicon glyphicon-home"></i></a></li>
+          <li class="active"><a href="#">news</a></li>
+          <li><a href="#">shop</a></li>
+          <li><a href="#">service</a></li>
+          <li><a href="#">support</a></li>
+          <li><a href="#">business</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">more <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">action 1</a></li>
+              <li><a href="#">another action</a></li>
+              <li><a href="#">aomething else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">one more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="glyphicon glyphicon-user"></i> log in
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!--
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  Header title
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  -->
+  <h1 class="container">
+    <img src="../../dist/images/purple-logo.png" class="logo"/>
+    search
+  </h1>
+
+  <!--
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  Local navigation
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  -->
+  <nav class="container navbar navbar-inverse">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#pp-local-navigation">
+        <span class="sr-only">toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="pp-local-navigation">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">web</a></li>
+        <li><a href="#">Purple</a></li>
+        <li><a href="#">video</a></li>
+        <li><a href="#">images</a></li>
+        <li><a href="#">maps</a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+</header>
+
+<!--
+================================================================================
+PAGE CONTENT
+================================================================================
+-->
+<div class="container">
+  <div class="row">
+
+    <!-- left column -->
+    <div class="col col-lg-8 col-md-8 col-sm-8">
+
+      <!--
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      Content title
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      -->
+      <h2 class="text-primary">results</h2>
+      <ul class="list-unstyled list-inline">
+        <li>number of results: <strong>1-11 of 14,758,699</strong></li>
+        <li>search for: <strong>"iphone 5"</strong></li>
+      </ul>
+      <hr class="primary"/>
+
+      <!--
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      Search results
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      -->
+      <h3 class="pp-result-title"><a href="http://www.apple.com/fr/iphone/">Apple - iPhone</a></h3>
+      <p>
+        Un design fin et léger. Connectivité sans fil 4G LTE ultra-rapide. Et
+        une pléiade d'apps pour être productif. L'iPhone est l'associé idéal.
+        iPhone en entreprise ...
+      </p>
+      <strong>www.apple.com/fr/iphone/‎</strong>
+      <hr/>
+
+      <h3 class="pp-result-title"><a href="http://boutique.orange.fr/mobile/apple-iphone5-16go-noir‎">Apple iPhone 5 16Go noir &amp; ardoise, iOS6, Écran rétina 4" sur ...</a></h3>
+      <p>
+        Venez découvrir le nouvel Apple iPhone 5 16Go noir &amp; ardoise avec
+        écran rétina 4 pouces, puce A6, iSight 8 Mpx et Facetime HD 720p sur
+        orange.
+      </p>
+      <strong>boutique.orange.fr/mobile/apple-iphone5-16go-noir‎</strong>
+      <hr/>
+
+      <h3 class="pp-result-title"><a href="#">iPhone 5 - Achat/Vente iPhone 5 - Rueducommerce</a></h3>
+      <p>
+        Profitez de notre sélection d'iPhone 5 et de tous les avantages
+        RueDuCommerce.
+      </p>
+      <strong>www.rueducommerce.fr › Smartphones › Smartphones Apple‎</strong>
+      <hr/>
+
+      <h3 class="pp-result-title"><a href="#">iPhone 5s et iPhone 5c : news et caractéristiques des nouveaux...</a></h3>
+      <p>
+        Découvrez les nouveaux iPhone d'Apple sur Begeek : l'iPhone 5s, plus...
+        aux caractéristiques techniques proches de l'iPhone 5 et un prix de
+        départ moins...
+      </p>
+      <strong>www.begeek.fr/apple/iphone-5‎</strong>
+      <hr/>
+
+      <h3 class="pp-result-title"><a href="#">Apple iPhone 5 : Test complet - Les Numériques</a></h3>
+      <p>
+        27 sept. 2012 - Apple signe, avec ce numéro 5, un terminal haut de gamme
+        efficace. Plus performant que le 4S — heureusement, cela dit —, sans
+        pour autant ...
+      </p>
+      <strong>www.lesnumeriques.com › Smartphone › Apple iPhone 5‎</strong>
+      <hr/>
+
+      <h3 class="pp-result-title"><a href="#">iPhone 5 - Wikipédia</a></h3>
+      <p>
+        Les premières rumeurs sur l'iPhone 5 émergent peu après l'annonce de
+        l'iPhone 4S (le 4 octobre 2011), bien que des informations détaillées ne
+        sont diffusées ...
+      </p>
+      <strong>fr.wikipedia.org/wiki/IPhone_5‎</strong>
+      <hr/>
+
+      <h3 class="pp-result-title"><a href="#">Apple iPhone 5 16 Go Noir pas cher : Prix et Avis sur Meilleur Mobile</a></h3>
+      <p>
+        Acheter Apple iPhone 5 16 Go Noir avec ou sans engagement au meilleur
+        prix. Retrouvez la fiche technique détaillée, le test, les avis, les
+        tarifs et la notice.
+      </p>
+      <strong>www.meilleurmobile.com › Tous les mobiles › Apple › iPhone 5‎</strong>
+      <hr/>
+
+      <h3 class="pp-result-title"><a href="#">Apple iPhone 5 - 16 Go Noir &amp; Ardoise - Téléphone mobile sans ...</a></h3>
+      <p>
+        Apple iPhone 5 - 16 Go Noir &amp; Ardoise. Téléphone mobile sans
+        abonnement. Taille écran : 4 ". Mémoire interne : 16 Go. Appareil
+        photo : iSight 8 Mégapixels, ...
+      </p>
+      <strong>www.fnac.com/Apple-iPhone-5-16-Go-Noir-et-Ardoise/.../w-4‎</strong>
+      <hr/>
+
+      <h3 class="pp-result-title"><a href="#">iPhone 5 - Le Journal du Geek</a></h3>
+      <p>
+        MOGA Ace Power : la première manette certifiée pour iPhone est
+        officielle ... Il y aura donc bien une version low-cost autre version,
+        de l'iPhone 5 ou de l'iPhone ...
+      </p>
+      <strong>www.journaldugeek.com/tag/iphone-5/‎</strong>
+      <hr/>
+
+    </div>
+
+    <!-- right column -->
+    <div class="col col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1">
+
+      <h3 class="text-primary">related searches</h3>
+      <ul class="nav nav-stacked">
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> magasin apple</a></li>
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> iphone 4s</a></li>
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> iphone 4</a></li>
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> iphone 3gs</a></li>
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> apple care</a></li>
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> ipad 3</a></li>
+      </ul>
+
+      <h3 class="text-primary">refine by date</h3>
+      <ul class="nav nav-stacked">
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> last 24 hours</a></li>
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> last week</a></li>
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> last month</a></li>
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> last 3 months</a></li>
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-right text-primary"></i> last 12 months</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+</div>
+
+<!--
+================================================================================
+FOOTER
+================================================================================
+-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-3">
+        <ul class="list-unstyled">
+          <li><strong>Purple shop</strong></li>
+          <li class="divider"></li>
+          <li><a href="#">iPad</a></li>
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">pay monthly phones</a></li>
+          <li><a href="#">pay as you go phones</a></li>
+          <li><a href="#">home broadband</a></li>
+          <li><a href="#">mobile broadband</a></li>
+          <li><a href="#">business shop</a></li>
+          <li><a href="#">doing more, using less</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-3">
+        <ul class="list-unstyled">
+          <li><strong>yout account</strong></li>
+          <li class="divider"></li>
+          <li><a href="#">mobile account</a></li>
+          <li><a href="#">broadband account</a></li>
+          <li><a href="#">mobile BB acount</a></li>
+          <li><a href="#">Purple Credit Card</a></li>
+          <li><a href="#">Purple Cash</a></li>
+          <li><a href="#">register pay as you go</a></li>
+          <li><a href="#">activate PAYM SIM</a></li>
+          <li><a href="#">activate PAYG SIM</a></li>
+          <li><a href="#">top up your phone</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-3">
+        <ul class="list-unstyled">
+          <li><strong>communicate</strong></li>
+          <li class="divider"></li>
+          <li><a href="#">email</a></li>
+          <li><a href="#">socialise</a></li>
+          <li><a href="#">contacts backup</a></li>
+          <li><a href="#">photography</a></li>
+          <li><a href="#">Purple Messenger</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-3">
+        <ul class="list-unstyled">
+          <li><strong>mobile services</strong></li>
+          <li class="divider"></li>
+          <li><a href="#">calling</a></li>
+          <li><a href="#">messaging</a></li>
+          <li><a href="#">mobile email</a></li>
+          <li><a href="#">Purple World</a></li>
+          <li><a href="#">contacts</a></li>
+          <li><a href="#">mobile data services</a></li>
+          <li><a href="#">roaming</a></li>
+          <li><a href="#">Purple money</a></li>
+          <li><a href="#">insurance &amp; protection</a></li>
+          <li><a href="#">Swapables</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-3">
+        <ul class="list-unstyled">
+          <li><strong>business</strong></li>
+          <li class="divider"></li>
+          <li><a href="#">sole trader</a></li>
+          <li><a href="#">small business</a></li>
+          <li><a href="#">medium business</a></li>
+          <li><a href="#">corporate business</a></li>
+          <li><a href="#">public sector</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-3">
+        <ul class="list-unstyled">
+          <li><strong>help &amp; support</strong></li>
+          <li class="divider"></li>
+          <li><a href="#">mobile help</a></li>
+          <li><a href="#">home broadband help</a></li>
+          <li><a href="#">mobile broadband help</a></li>
+          <li><a href="#">business help</a></li>
+          <li><a href="#">top up your phone</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <hr/>
+        <ul class="list-inline">
+          <li><a href="#">about Purple</a></li>
+          <li><a href="#">contact us</a></li>
+          <li><a href="#">jobs</a></li>
+          <li><a href="#">Purple newsroom</a></li>
+          <li><a href="#">advertise</a></li>
+          <li><a href="#">terms &amp; conditions</a></li>
+          <li><a href="#">privacy</a></li>
+          <li><a href="#">cookies</a></li>
+          <li><a href="#">access for all</a></li>
+          <li><a href="#">safety online</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+  </body>
+</html>
