@@ -298,6 +298,18 @@ $navbar-inverse-toggle-border-color:        transparent !default;
 // Navs
 // -------------------------
 
+$nav-link-padding:                          10px 15px !default;
+$nav-link-hover-bg:                         transparent !default;
+
+$nav-disabled-link-color:                   transparent !default;
+$nav-disabled-link-hover-color:             transparent !default;
+
+$nav-open-link-hover-color:                 #fff !default;
+$nav-open-caret-border-color:               #fff !default;
+
+// Stacked
+$nav-stacked-border: #ccc !default;
+
 // Tabs
 $nav-tabs-margin:            1px !default;
 $nav-tabs-link-color:        #333 !default;

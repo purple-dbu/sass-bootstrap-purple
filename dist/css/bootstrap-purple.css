@@ -4788,22 +4788,22 @@ input[type="button"].btn-block {
 /* line 23, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: transparent;
 }
 /* line 31, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav > li.disabled > a {
-  color: #999999;
+  color: transparent;
 }
 /* line 34, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
-  color: #999999;
+  color: transparent;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
 }
 /* line 46, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: #eeeeee;
+  background-color: transparent;
   border-color: #803980;
 }
 /* line 52, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_navs.scss */
@@ -4976,17 +4976,37 @@ input[type="button"].btn-block {
   border-top-left-radius: 0;
 }
 
-/* line 44, ../../scss/_navs.scss */
+/* line 9, ../../scss/_navs.scss */
+.nav-stacked > li > a {
+  color: inherit;
+  border-bottom: 1px solid #cccccc;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 14, ../../scss/_navs.scss */
+.nav-stacked > li > a:hover, .nav-stacked > li > a:focus, .nav-stacked > li > a:active {
+  text-decoration: undeline;
+}
+/* line 22, ../../scss/_navs.scss */
+.nav-stacked > .active > a {
+  font-weight: bold;
+}
+/* line 27, ../../scss/_navs.scss */
+.nav-stacked > :first-child > a {
+  border-top: 1px solid #cccccc;
+}
+
+/* line 34, ../../scss/_navs.scss */
 .nav-tabs {
   border-bottom: none;
 }
-/* line 46, ../../scss/_navs.scss */
+/* line 36, ../../scss/_navs.scss */
 .nav-tabs > li {
   display: inline-block;
   float: left;
   margin-bottom: 0;
 }
-/* line 52, ../../scss/_navs.scss */
+/* line 42, ../../scss/_navs.scss */
 .nav-tabs > li > a {
   margin-right: 1px;
   line-height: 1.42857;
@@ -4996,24 +5016,24 @@ input[type="button"].btn-block {
   background-color: #cccccc;
   font-weight: bold;
 }
-/* line 60, ../../scss/_navs.scss */
+/* line 50, ../../scss/_navs.scss */
 .nav-tabs > li > a:hover {
   color: #333333;
   background-color: #aeaeae;
   text-decoration: none;
 }
-/* line 69, ../../scss/_navs.scss */
+/* line 59, ../../scss/_navs.scss */
 .nav-tabs > li:last-child > a {
   margin-right: 0;
 }
-/* line 75, ../../scss/_navs.scss */
+/* line 65, ../../scss/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: white;
   background-color: #666666;
   border: none;
   cursor: default;
 }
-/* line 91, ../../scss/_navs.scss */
+/* line 81, ../../scss/_navs.scss */
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus,
 .nav-tabs.nav-justified > li > a,
 .nav-tabs.nav-justified > li > a:hover,
@@ -5022,15 +5042,15 @@ input[type="button"].btn-block {
   border-radius: 0;
   margin-right: 1px;
 }
-/* line 100, ../../scss/_navs.scss */
+/* line 90, ../../scss/_navs.scss */
 .nav-tabs.nav-justified > :last-child > a {
   margin-right: 0;
 }
-/* line 108, ../../scss/_navs.scss */
+/* line 98, ../../scss/_navs.scss */
 .nav-tabs.nav-tabs-bottom > .active > a, .nav-tabs.nav-tabs-top > .active > a {
   position: relative;
 }
-/* line 111, ../../scss/_navs.scss */
+/* line 101, ../../scss/_navs.scss */
 .nav-tabs.nav-tabs-bottom > .active > a:after, .nav-tabs.nav-tabs-top > .active > a:after {
   position: absolute;
   content: '';
@@ -5040,12 +5060,12 @@ input[type="button"].btn-block {
   left: 50%;
   margin-left: -3px;
 }
-/* line 124, ../../scss/_navs.scss */
+/* line 114, ../../scss/_navs.scss */
 .nav-tabs.nav-tabs-bottom > .active > a:after {
   bottom: 100%;
   border-bottom-color: #666666;
 }
-/* line 131, ../../scss/_navs.scss */
+/* line 121, ../../scss/_navs.scss */
 .nav-tabs.nav-tabs-top > .active > a:after {
   top: 100%;
   border-top-color: #666666;
