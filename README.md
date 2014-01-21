@@ -33,6 +33,22 @@ Headlines have been modified to match the Purple web guideline.
 ```
 
 
+dividers
+--------
+
+![Horizontal line](docs/images/hr1.png)
+
+```html
+<hr/>
+```
+
+![Active horizontal line](docs/images/hr2.png)
+
+```html
+<hr class="active"/>
+```
+
+
 colour palette
 --------------
 
