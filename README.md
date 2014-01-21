@@ -36,6 +36,8 @@ Headlines have been modified to match the Purple web guideline.
 dividers
 --------
 
+Horizontal lines have been modified to match the Purple web guideline.
+
 ![Horizontal line](docs/images/hr1.png)
 
 ```html
@@ -288,6 +290,8 @@ Bootstrap's tabs have been modified to match the Purple guideline.
 
 stacked
 -------
+
+Stacked navs have been modified to match the Purple web guideline.
 
 ![Stacked](docs/images/stacked.png)
 
