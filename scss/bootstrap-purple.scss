@@ -12,7 +12,7 @@ $icon-font-path: $icon-path !default;
 @import "sass-bootstrap/lib/print";
 
 // Core CSS
-@import "sass-bootstrap/lib/scaffolding";
+@import "scaffolding";
 @import "type";
 @import "sass-bootstrap/lib/code";
 @import "sass-bootstrap/lib/grid";
