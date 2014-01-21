@@ -34,3 +34,7 @@
   	border-top-color: darken($footer-color, 30%);
   }
 }
+
+html {
+  background: $footer-bg;
+}

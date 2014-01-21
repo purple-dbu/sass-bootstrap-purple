@@ -6856,6 +6856,11 @@ button.close {
   border-top-color: #a2a2a2;
 }
 
+/* line 38, ../../scss/_footer.scss */
+html {
+  background: black;
+}
+
 /* line 45, ../../scss/_logo.scss */
 .logo {
   width: 50px;
