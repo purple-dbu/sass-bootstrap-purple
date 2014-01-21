@@ -79,6 +79,55 @@ Colour palette has been modified to match the Purple web guideline.
 <button type="button" class="btn btn-link">link</button>
 ```
 
+alerts
+------
+
+Alerts have been modified to match the Purple web guideline.
+
+![Alert 1](docs/images/alert1.png)
+
+```html
+<div class="alert alert-dismissable alert-success">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  Well done!
+  <hr/>
+  You successfully read this important alert message.
+</div>
+```
+
+![Alert 2](docs/images/alert2.png)
+
+```html
+<div class="alert alert-dismissable alert-info">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  Heads up!
+  <hr/>
+  This alert needs your attention, but it's not super important.
+</div>
+```
+
+![Alert 3](docs/images/alert3.png)
+
+```html
+<div class="alert alert-dismissable alert-warning">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  Warning!
+  <hr/>
+  Best check yo self, you're not looking too good.
+</div>
+```
+
+![Alert 4](docs/images/alert4.png)
+
+```html
+<div class="alert alert-dismissable alert-danger">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  Oh snap!
+  <hr/>
+  Change a few things up and try submitting again.
+</div>
+```
+
 
 tables
 ------
