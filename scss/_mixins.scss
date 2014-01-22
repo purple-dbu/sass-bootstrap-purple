@@ -44,7 +44,7 @@
 
   hr {
     // border-top-color: darken($text-color, 5%);
-    border-top-color: mix($text-color, $background, 02%);
+    border-top-color: mix($text-color, $background, 20%);
   }
   .alert-link {
     color: darken($text-color, 10%);
