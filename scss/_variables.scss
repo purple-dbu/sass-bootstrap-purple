@@ -388,19 +388,19 @@ $alert-border-radius:         $border-radius-base !default;
 $alert-link-font-weight:      bold !default;
 
 $alert-success-bg:            $state-success-bg !default;
-$alert-success-text:          darken($state-success-text, 30%) !default;
+$alert-success-text:          $btn-success-color !default;
 $alert-success-border:        $state-success-bg !default;
 
 $alert-info-bg:               $state-info-bg !default;
-$alert-info-text:             darken($state-info-text, 35%) !default;
+$alert-info-text:             $btn-info-color !default;
 $alert-info-border:           $state-info-bg !default;
 
 $alert-warning-bg:            $state-warning-bg !default;
-$alert-warning-text:          darken($state-warning-text, 20%) !default;
+$alert-warning-text:          $btn-warning-color !default;
 $alert-warning-border:        $state-warning-bg !default;
 
 $alert-danger-bg:             $state-danger-bg !default;
-$alert-danger-text:           darken($state-danger-text, 30%) !default;
+$alert-danger-text:           $btn-danger-color !default;
 $alert-danger-border:         $state-danger-bg !default;
 
 

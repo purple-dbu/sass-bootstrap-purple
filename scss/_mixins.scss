@@ -34,3 +34,19 @@
     background-color: $background-color;
   }
 }
+
+// Alerts
+// -------------------------
+@mixin alert-variant($background, $border, $text-color) {
+  background-color: $background;
+  border-color: $border;
+  color: $text-color;
+
+  hr {
+    // border-top-color: darken($text-color, 5%);
+    border-top-color: mix($text-color, $background, 02%);
+  }
+  .alert-link {
+    color: darken($text-color, 10%);
+  }
+}

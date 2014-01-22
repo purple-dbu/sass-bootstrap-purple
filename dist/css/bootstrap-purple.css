@@ -6184,60 +6184,60 @@ a.thumbnail.active {
 .alert-success {
   background-color: #32c832;
   border-color: #32c832;
-  color: #0b2d0b;
+  color: white;
 }
-/* line 422, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
+/* line 45, ../../scss/_mixins.scss */
 .alert-success hr {
-  border-top-color: #2db42d;
+  border-top-color: #36c936;
 }
-/* line 425, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
+/* line 49, ../../scss/_mixins.scss */
 .alert-success .alert-link {
-  color: #010401;
+  color: #e6e6e6;
 }
 
 /* line 59, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_alerts.scss */
 .alert-info {
   background-color: #527edb;
   border-color: #527edb;
-  color: #112550;
+  color: white;
 }
-/* line 422, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
+/* line 45, ../../scss/_mixins.scss */
 .alert-info hr {
-  border-top-color: #3d6ed7;
+  border-top-color: #5580db;
 }
-/* line 425, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
+/* line 49, ../../scss/_mixins.scss */
 .alert-info .alert-link {
-  color: #081226;
+  color: #e6e6e6;
 }
 
 /* line 62, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_alerts.scss */
 .alert-warning {
   background-color: #ffcc00;
   border-color: #ffcc00;
-  color: #4d3d00;
+  color: #473900;
 }
-/* line 422, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
+/* line 45, ../../scss/_mixins.scss */
 .alert-warning hr {
-  border-top-color: #e6b800;
+  border-top-color: #fbc900;
 }
-/* line 425, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
+/* line 49, ../../scss/_mixins.scss */
 .alert-warning .alert-link {
-  color: #1a1400;
+  color: #141000;
 }
 
 /* line 65, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_alerts.scss */
 .alert-danger {
   background-color: #cd3c14;
   border-color: #cd3c14;
-  color: #421306;
+  color: white;
 }
-/* line 422, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
+/* line 45, ../../scss/_mixins.scss */
 .alert-danger hr {
-  border-top-color: #b63512;
+  border-top-color: #ce3f18;
 }
-/* line 425, /var/www/sass-bootstrap-purple/bower_components/sass-bootstrap/lib/_mixins.scss */
+/* line 49, ../../scss/_mixins.scss */
 .alert-danger .alert-link {
-  color: #130602;
+  color: #e6e6e6;
 }
 
 @-webkit-keyframes progress-bar-stripes {
