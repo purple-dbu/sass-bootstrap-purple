@@ -1,7 +1,7 @@
 {
   "name": "sass-bootstrap",
   "description": "Purple theme for Twitter Bootstrap 3 (Sass)",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "keywords": ["bootstrap", "css", "sass", "theme", "purple"],
   "homepage": "http://purple-dbu.github.io/sass-bootstrap-purple/",
   "author": "Purple DBU",
