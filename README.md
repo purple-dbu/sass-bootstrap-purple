@@ -3,9 +3,6 @@ sass-bootstrap-purple
 
 Purple theme for [Twitter Bootstrap](http://getbootstrap.com/).
 
-This project is based on [jlong/sass-bootstrap](https://github.com/jlong/sass-bootstrap).
-It adds the following additions and changes:
-
 
 Usage
 -----
@@ -15,6 +12,9 @@ Please read the [Getting Started](wiki/Getting-started) wiki page.
 
 Features
 --------
+
+This project is based on [jlong/sass-bootstrap](https://github.com/jlong/sass-bootstrap).
+It adds the following additions and changes:
 
 
 ### headlines
