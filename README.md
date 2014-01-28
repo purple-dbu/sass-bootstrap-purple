@@ -7,7 +7,7 @@ Purple theme for [Twitter Bootstrap](http://getbootstrap.com/).
 Usage
 -----
 
-Please read the [Getting Started](wiki/Getting-started) wiki page.
+Please read the [Getting Started](/purple-dbu/sass-bootstrap-purple/wiki/Getting-started) wiki page.
 
 
 Features
