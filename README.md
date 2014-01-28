@@ -7,8 +7,17 @@ This project is based on [jlong/sass-bootstrap](https://github.com/jlong/sass-bo
 It adds the following additions and changes:
 
 
-headlines
----------
+Usage
+-----
+
+Please read the [Getting Started](wiki/Getting-started) wiki page.
+
+
+Features
+--------
+
+
+### headlines
 
 Headlines have been modified to match the Purple web guideline.
 
@@ -33,8 +42,7 @@ Headlines have been modified to match the Purple web guideline.
 ```
 
 
-dividers
---------
+### dividers
 
 Horizontal lines have been modified to match the Purple web guideline.
 
@@ -51,8 +59,7 @@ Horizontal lines have been modified to match the Purple web guideline.
 ```
 
 
-colour palette
---------------
+### colour palette
 
 Colour palette has been modified to match the Purple web guideline.
 
@@ -79,8 +86,7 @@ Colour palette has been modified to match the Purple web guideline.
 <button type="button" class="btn btn-link">link</button>
 ```
 
-alerts
-------
+### alerts
 
 Alerts have been modified to match the Purple web guideline.
 
@@ -129,8 +135,7 @@ Alerts have been modified to match the Purple web guideline.
 ```
 
 
-tables
-------
+### tables
 
 Tables have been modified to match the Purple web guideline.
 
@@ -169,8 +174,7 @@ Tables have been modified to match the Purple web guideline.
 ```
 
 
-global navigation
------------------
+### global navigation
 
 Bootstrap's nav bar has been modified to match the Purple guideline's global
 navigation.
@@ -211,8 +215,7 @@ navigation.
 ```
 
 
-local navigation
-----------------
+### local navigation
 
 Bootstrap's inverted nav bar has been modified to match the Purple guideline's
 local navigation.
@@ -247,8 +250,7 @@ local navigation.
 ```
 
 
-pagination
-----------
+### pagination
 
 Bootstrap's pagination has been modified to match the Purple guideline.
 
@@ -271,8 +273,7 @@ Bootstrap's pagination has been modified to match the Purple guideline.
 ```
 
 
-breadcrumbs
------------
+### breadcrumbs
 
 Bootstrap's breadcrumbs have been modified to match the Purple guideline.
 
@@ -289,8 +290,7 @@ Bootstrap's breadcrumbs have been modified to match the Purple guideline.
 ```
 
 
-tabs
-----
+### tabs
 
 Bootstrap's tabs have been modified to match the Purple guideline.
 
@@ -337,8 +337,7 @@ Bootstrap's tabs have been modified to match the Purple guideline.
 ```
 
 
-stacked
--------
+### stacked
 
 Stacked navs have been modified to match the Purple web guideline.
 
@@ -354,8 +353,7 @@ Stacked navs have been modified to match the Purple web guideline.
 ```
 
 
-steps
------
+### steps
 
 Added steps according to Purple guideline.
 
@@ -372,8 +370,7 @@ Added steps according to Purple guideline.
 ```
 
 
-footer
-------
+### footer
 
 Added footer according to Purple guideline.
 
