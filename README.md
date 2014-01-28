@@ -30,10 +30,10 @@ Headlines have been modified to match the Purple web guideline.
 ![Headlines](docs/images/headlines.png)
 
 ```html
-<div class="row">
-  <img class="col-lg-1  col-md-1  col-sm-1" src="images/purple-logo.png"/>
-  <h1  class="col-lg-11 col-md-11 col-sm-11">h1 - title</h1>
-</div>
+<h1>
+  <img src="../../dist/images/purple-logo.png" class="logo"/>
+  search
+</h1>
 
 <h2>h2 - large headlines</h2>
 <h3>h3 - medium headlines</h3>
