@@ -191,7 +191,7 @@ navigation.
 ![Global navigation](docs/images/global-navigation.png)
 
 ```html
-<nav class="navbar navbar-fixed navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
 
     <div class="navbar-header">
