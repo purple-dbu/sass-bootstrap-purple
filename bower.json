@@ -1,7 +1,7 @@
 {
   "name": "sass-bootstrap-purple",
   "description": "Purple theme for Twitter Bootstrap 3 (Sass)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "keywords": ["bootstrap", "css", "sass", "theme", "purple"],
   "homepage": "http://purple-dbu.github.io/sass-bootstrap-purple/",
   "author": "Purple DBU",
@@ -25,9 +25,9 @@
     "**/.*"
   ],
   "dependencies": {
-    "jquery": "1.10.2",
-    "sass-bootstrap": "3.0.2"
+    "jquery": "1.10.2"
   },
   "devDependencies": {
+    "sass-bootstrap": "3.0.2"
   }
 }
