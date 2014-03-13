@@ -22,21 +22,24 @@
 // }
 
 .breadcrumb {
+  @extend .clearfix;
   list-style: none;
   padding-left: 0;
 
   > li {
     float: left;
-    margin-top: 20px;
+
     > a,
     > a:hover,
     > a:focus,
     > span {
+      display: block;
       color: $breadcrumb-default-color;
       background: $breadcrumb-default-bg;
       padding: $breadcrumb-padding-vertical $breadcrumb-padding-horizontal;
       position: relative;
       padding-left: ($breadcrumb-padding-horizontal + $breadcrumb-border-width-horizontal);
+      line-height: $line-height-computed;
 
       &:before,
       &:after {
@@ -59,30 +62,6 @@
     }
 
     margin-left: $breadcrumb-margin;
-
-    &:first-child {
-      margin-left: 0;
-      > a,
-      > a:hover,
-      > a:focus,
-      > span {
-        padding-left: $breadcrumb-padding-horizontal;
-        &:before {
-          content: none;
-        }
-      }
-    }
-
-    &:last-child {
-      > a,
-      > a:hover,
-      > a:focus,
-      > span {
-        &:after {
-          content: none;
-        }
-      }
-    }
   }
 
   > .active {
@@ -110,5 +89,35 @@
         border-left-color: $breadcrumb-disabled-bg;
       }
     }
+  }
+}
+
+.breadcrumb-finite {
+  > li {
+
+    &:first-child {
+      margin-left: 0;
+      > a,
+      > a:hover,
+      > a:focus,
+      > span {
+        padding-left: $breadcrumb-padding-horizontal;
+        &:before {
+          content: none;
+        }
+      }
+    }
+
+    &:last-child {
+      > a,
+      > a:hover,
+      > a:focus,
+      > span {
+        &:after {
+          content: none;
+        }
+      }
+    }
+
   }
 }

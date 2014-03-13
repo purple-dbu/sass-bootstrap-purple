@@ -439,7 +439,7 @@ $breadcrumb-disabled-color:          #333 !default;
 $breadcrumb-disabled-bg:             #ccc !default;
 $breadcrumb-padding-horizontal:      $padding-base-horizontal !default;
 $breadcrumb-padding-vertical:        $padding-base-vertical !default;
-$breadcrumb-border-width-vertical:   $font-size-base;
+$breadcrumb-border-width-vertical:   $padding-base-vertical + ($line-height-computed / 2);
 $breadcrumb-border-width-horizontal: round($font-size-base / 2);
 $breadcrumb-margin:                  2px;
 
